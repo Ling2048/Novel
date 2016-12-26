@@ -3,3 +3,18 @@
 ################################################################################
 
 /NovelAPP/Model/bin/Debug
+/NovelAPP/Model/bin/Release
+/NovelAPP/Model/obj/Debug
+/NovelAPP/Model/obj/Release
+/NovelAPP/NovelAPP/bin/Debug
+/NovelAPP/NovelAPP/bin/Release
+/NovelAPP/NovelAPP/obj
+/NovelAPP/NovelWebSite/bin
+/NovelAPP/NovelWebSite/obj
+/NovelAPP/NSoup/bin/Debug
+/NovelAPP/NSoup/obj
+/NovelAPP/NSoup2/bin
+/NovelAPP/NSoup2/obj
+/NovelAPP/packages
+/NovelAPP/Test/bin
+/NovelAPP/Test/obj
