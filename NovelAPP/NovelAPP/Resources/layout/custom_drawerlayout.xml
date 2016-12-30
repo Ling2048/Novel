@@ -25,19 +25,6 @@
           android:layout_width="match_parent"
           android:layout_height="match_parent" />
     </android.support.v4.widget.SwipeRefreshLayout>
-    <Button
-        android:id="@+id/MyButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Hello" />
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/image1" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Hello" />
   </LinearLayout>
   <!--侧滑菜单-->
   <LinearLayout
@@ -51,6 +38,7 @@
         android:layout_height="match_parent"
         android:divider="@null"
         android:text="DrawerLayout" />-->
+    
     <ListView
         android:id="@+id/lv_left_menu"
         android:layout_width="match_parent"

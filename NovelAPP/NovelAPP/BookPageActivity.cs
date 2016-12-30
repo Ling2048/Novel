@@ -45,6 +45,9 @@ namespace NovelAPP
 
             chapterListView = this.FindViewById<ListView>(Resource.Id.ChapterList);
             chapterListView.ItemClick += new EventHandler<AdapterView.ItemClickEventArgs>(ListView_ItemClick);
+            chapterListView.NestedScrollingEnabled = true;
+            chapterListView.ScrollTo(0, 0);
+
             refreshLayout = this.FindViewById<SwipeRefreshLayout>(Resource.Id.swipeRefreshLayout);
             refreshLayout.SetColorSchemeColors(Color.Red, Color.Green, Color.Blue, Color.Yellow);
             refreshLayout.Refresh += (sender, e) =>

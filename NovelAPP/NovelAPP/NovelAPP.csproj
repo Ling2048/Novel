@@ -59,6 +59,9 @@
     <AndroidSupportedAbis>armeabi-v7a,arm64-v8a</AndroidSupportedAbis>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BottomNavigationBar">
+      <HintPath>E:\Work\ZhihuFind-master\packages\BottomNavigationBar.1.4.0.3\lib\MonoAndroid403\BottomNavigationBar.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />

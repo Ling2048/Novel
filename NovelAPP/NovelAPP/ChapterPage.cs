@@ -40,7 +40,7 @@ namespace NovelAPP
             var progressbar = this.FindViewById<ProgressBar>(Resource.Id.progressBar3);
             progressbar.Visibility = ViewStates.Visible;
             contentView = this.FindViewById<TextView>(Resource.Id.ChapterContent);
-            contentView.MovementMethod = Android.Text.Method.ScrollingMovementMethod.Instance;
+            //contentView.MovementMethod = Android.Text.Method.ScrollingMovementMethod.Instance;
             contentView.ScrollTo(0, 0);
             contentView.Clickable = false;
             contentView.LongClickable = false;

@@ -16,6 +16,7 @@ using NovelWebSite;
 using Android.Database;
 using Android.Support.V7.App;
 using V7Widget = Android.Support.V7.Widget;
+using BottomNavigationBar;
 
 namespace NovelAPP
 {
@@ -141,7 +142,6 @@ namespace NovelAPP
 
             Init();
 
-
             mDrawerToggle.SyncState();
             mDrawerLayout.AddDrawerListener(mDrawerToggle);
 
@@ -192,11 +192,12 @@ namespace NovelAPP
                 TextView NewChapter = (TextView)convertView.FindViewById(Resource.Id.NewChapter);
                 img.SetImageBitmap((list[position] as JavaDictionary<string, object>)["img"] as Bitmap);
                 title.Text = (list[position] as JavaDictionary<string, object>)["title"].ToString();
-                info.Text = (list[position] as JavaDictionary<string, object>)["info"].ToString();
+                info.Text = Android.Text.Html.FromHtml((list[position] as JavaDictionary<string, object>)["info"].ToString()).ToString();
                 Date.Text = (list[position] as JavaDictionary<string, object>)["Date"].ToString();
                 NewChapter.Text = (list[position] as JavaDictionary<string, object>)["NewChapter"].ToString();
             });
             listview.Adapter = adapter;
+
             footBtn = new Button(this);
             footBtn.Text = "加载更多";
             footBtn.Click += (sender, e) => {
@@ -317,6 +318,37 @@ namespace NovelAPP
                     break;
             }
             return base.OnOptionsItemSelected(item);
+        }
+
+        bool isExit = true;
+
+        public override bool OnKeyDown([GeneratedEnum] Keycode keyCode, KeyEvent e)
+        {
+            if (keyCode == Keycode.Back)
+            {
+                if (isExit)
+                {
+                    isExit = false;
+                    System.ComponentModel.BackgroundWorker bw = new System.ComponentModel.BackgroundWorker();
+                    Toast.MakeText(this, "再按一次退出程序", ToastLength.Long).Show();
+                    bw.DoWork += (sender, ex) =>
+                    {
+                        Thread.Sleep(2000);
+                        isExit = true;
+                    };
+                }
+                else
+                {
+                    Finish();
+                    JavaSystem.Exit(0);
+                }
+            }
+            return false;
+        }
+
+        private void Bw_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void Init()
