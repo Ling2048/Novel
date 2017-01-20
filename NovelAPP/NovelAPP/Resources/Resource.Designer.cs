@@ -26,1737 +26,6 @@ namespace NovelAPP
 		
 		public static void UpdateIdValues()
 		{
-			global::BottomNavigationBar.Resource.Animation.abc_fade_in = global::NovelAPP.Resource.Animation.abc_fade_in;
-			global::BottomNavigationBar.Resource.Animation.abc_fade_out = global::NovelAPP.Resource.Animation.abc_fade_out;
-			global::BottomNavigationBar.Resource.Animation.abc_grow_fade_in_from_bottom = global::NovelAPP.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_popup_enter = global::NovelAPP.Resource.Animation.abc_popup_enter;
-			global::BottomNavigationBar.Resource.Animation.abc_popup_exit = global::NovelAPP.Resource.Animation.abc_popup_exit;
-			global::BottomNavigationBar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::NovelAPP.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_in_bottom = global::NovelAPP.Resource.Animation.abc_slide_in_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_in_top = global::NovelAPP.Resource.Animation.abc_slide_in_top;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_out_bottom = global::NovelAPP.Resource.Animation.abc_slide_out_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_out_top = global::NovelAPP.Resource.Animation.abc_slide_out_top;
-			global::BottomNavigationBar.Resource.Animation.design_appbar_state_list_animator = global::NovelAPP.Resource.Animation.design_appbar_state_list_animator;
-			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_in = global::NovelAPP.Resource.Animation.design_bottom_sheet_slide_in;
-			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_out = global::NovelAPP.Resource.Animation.design_bottom_sheet_slide_out;
-			global::BottomNavigationBar.Resource.Animation.design_fab_in = global::NovelAPP.Resource.Animation.design_fab_in;
-			global::BottomNavigationBar.Resource.Animation.design_fab_out = global::NovelAPP.Resource.Animation.design_fab_out;
-			global::BottomNavigationBar.Resource.Animation.design_snackbar_in = global::NovelAPP.Resource.Animation.design_snackbar_in;
-			global::BottomNavigationBar.Resource.Animation.design_snackbar_out = global::NovelAPP.Resource.Animation.design_snackbar_out;
-			global::BottomNavigationBar.Resource.Attribute.actionBarDivider = global::NovelAPP.Resource.Attribute.actionBarDivider;
-			global::BottomNavigationBar.Resource.Attribute.actionBarItemBackground = global::NovelAPP.Resource.Attribute.actionBarItemBackground;
-			global::BottomNavigationBar.Resource.Attribute.actionBarPopupTheme = global::NovelAPP.Resource.Attribute.actionBarPopupTheme;
-			global::BottomNavigationBar.Resource.Attribute.actionBarSize = global::NovelAPP.Resource.Attribute.actionBarSize;
-			global::BottomNavigationBar.Resource.Attribute.actionBarSplitStyle = global::NovelAPP.Resource.Attribute.actionBarSplitStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarStyle = global::NovelAPP.Resource.Attribute.actionBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTabBarStyle = global::NovelAPP.Resource.Attribute.actionBarTabBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTabStyle = global::NovelAPP.Resource.Attribute.actionBarTabStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTabTextStyle = global::NovelAPP.Resource.Attribute.actionBarTabTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTheme = global::NovelAPP.Resource.Attribute.actionBarTheme;
-			global::BottomNavigationBar.Resource.Attribute.actionBarWidgetTheme = global::NovelAPP.Resource.Attribute.actionBarWidgetTheme;
-			global::BottomNavigationBar.Resource.Attribute.actionButtonStyle = global::NovelAPP.Resource.Attribute.actionButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionDropDownStyle = global::NovelAPP.Resource.Attribute.actionDropDownStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionLayout = global::NovelAPP.Resource.Attribute.actionLayout;
-			global::BottomNavigationBar.Resource.Attribute.actionMenuTextAppearance = global::NovelAPP.Resource.Attribute.actionMenuTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.actionMenuTextColor = global::NovelAPP.Resource.Attribute.actionMenuTextColor;
-			global::BottomNavigationBar.Resource.Attribute.actionModeBackground = global::NovelAPP.Resource.Attribute.actionModeBackground;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCloseButtonStyle = global::NovelAPP.Resource.Attribute.actionModeCloseButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCloseDrawable = global::NovelAPP.Resource.Attribute.actionModeCloseDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCopyDrawable = global::NovelAPP.Resource.Attribute.actionModeCopyDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCutDrawable = global::NovelAPP.Resource.Attribute.actionModeCutDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeFindDrawable = global::NovelAPP.Resource.Attribute.actionModeFindDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModePasteDrawable = global::NovelAPP.Resource.Attribute.actionModePasteDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModePopupWindowStyle = global::NovelAPP.Resource.Attribute.actionModePopupWindowStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionModeSelectAllDrawable = global::NovelAPP.Resource.Attribute.actionModeSelectAllDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeShareDrawable = global::NovelAPP.Resource.Attribute.actionModeShareDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeSplitBackground = global::NovelAPP.Resource.Attribute.actionModeSplitBackground;
-			global::BottomNavigationBar.Resource.Attribute.actionModeStyle = global::NovelAPP.Resource.Attribute.actionModeStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionModeWebSearchDrawable = global::NovelAPP.Resource.Attribute.actionModeWebSearchDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionOverflowButtonStyle = global::NovelAPP.Resource.Attribute.actionOverflowButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionOverflowMenuStyle = global::NovelAPP.Resource.Attribute.actionOverflowMenuStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionProviderClass = global::NovelAPP.Resource.Attribute.actionProviderClass;
-			global::BottomNavigationBar.Resource.Attribute.actionViewClass = global::NovelAPP.Resource.Attribute.actionViewClass;
-			global::BottomNavigationBar.Resource.Attribute.activityChooserViewStyle = global::NovelAPP.Resource.Attribute.activityChooserViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogButtonGroupStyle = global::NovelAPP.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogCenterButtons = global::NovelAPP.Resource.Attribute.alertDialogCenterButtons;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogStyle = global::NovelAPP.Resource.Attribute.alertDialogStyle;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogTheme = global::NovelAPP.Resource.Attribute.alertDialogTheme;
-			global::BottomNavigationBar.Resource.Attribute.allowStacking = global::NovelAPP.Resource.Attribute.allowStacking;
-			global::BottomNavigationBar.Resource.Attribute.alpha = global::NovelAPP.Resource.Attribute.alpha;
-			global::BottomNavigationBar.Resource.Attribute.arrowHeadLength = global::NovelAPP.Resource.Attribute.arrowHeadLength;
-			global::BottomNavigationBar.Resource.Attribute.arrowShaftLength = global::NovelAPP.Resource.Attribute.arrowShaftLength;
-			global::BottomNavigationBar.Resource.Attribute.autoCompleteTextViewStyle = global::NovelAPP.Resource.Attribute.autoCompleteTextViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.background = global::NovelAPP.Resource.Attribute.background;
-			global::BottomNavigationBar.Resource.Attribute.backgroundSplit = global::NovelAPP.Resource.Attribute.backgroundSplit;
-			global::BottomNavigationBar.Resource.Attribute.backgroundStacked = global::NovelAPP.Resource.Attribute.backgroundStacked;
-			global::BottomNavigationBar.Resource.Attribute.backgroundTint = global::NovelAPP.Resource.Attribute.backgroundTint;
-			global::BottomNavigationBar.Resource.Attribute.backgroundTintMode = global::NovelAPP.Resource.Attribute.backgroundTintMode;
-			global::BottomNavigationBar.Resource.Attribute.barLength = global::NovelAPP.Resource.Attribute.barLength;
-			global::BottomNavigationBar.Resource.Attribute.behavior_autoHide = global::NovelAPP.Resource.Attribute.behavior_autoHide;
-			global::BottomNavigationBar.Resource.Attribute.behavior_hideable = global::NovelAPP.Resource.Attribute.behavior_hideable;
-			global::BottomNavigationBar.Resource.Attribute.behavior_overlapTop = global::NovelAPP.Resource.Attribute.behavior_overlapTop;
-			global::BottomNavigationBar.Resource.Attribute.behavior_peekHeight = global::NovelAPP.Resource.Attribute.behavior_peekHeight;
-			global::BottomNavigationBar.Resource.Attribute.behavior_skipCollapsed = global::NovelAPP.Resource.Attribute.behavior_skipCollapsed;
-			global::BottomNavigationBar.Resource.Attribute.borderWidth = global::NovelAPP.Resource.Attribute.borderWidth;
-			global::BottomNavigationBar.Resource.Attribute.borderlessButtonStyle = global::NovelAPP.Resource.Attribute.borderlessButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.bottomSheetDialogTheme = global::NovelAPP.Resource.Attribute.bottomSheetDialogTheme;
-			global::BottomNavigationBar.Resource.Attribute.bottomSheetStyle = global::NovelAPP.Resource.Attribute.bottomSheetStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarButtonStyle = global::NovelAPP.Resource.Attribute.buttonBarButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarNegativeButtonStyle = global::NovelAPP.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarNeutralButtonStyle = global::NovelAPP.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarPositiveButtonStyle = global::NovelAPP.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarStyle = global::NovelAPP.Resource.Attribute.buttonBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonGravity = global::NovelAPP.Resource.Attribute.buttonGravity;
-			global::BottomNavigationBar.Resource.Attribute.buttonPanelSideLayout = global::NovelAPP.Resource.Attribute.buttonPanelSideLayout;
-			global::BottomNavigationBar.Resource.Attribute.buttonStyle = global::NovelAPP.Resource.Attribute.buttonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonStyleSmall = global::NovelAPP.Resource.Attribute.buttonStyleSmall;
-			global::BottomNavigationBar.Resource.Attribute.buttonTint = global::NovelAPP.Resource.Attribute.buttonTint;
-			global::BottomNavigationBar.Resource.Attribute.buttonTintMode = global::NovelAPP.Resource.Attribute.buttonTintMode;
-			global::BottomNavigationBar.Resource.Attribute.checkboxStyle = global::NovelAPP.Resource.Attribute.checkboxStyle;
-			global::BottomNavigationBar.Resource.Attribute.checkedTextViewStyle = global::NovelAPP.Resource.Attribute.checkedTextViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.closeIcon = global::NovelAPP.Resource.Attribute.closeIcon;
-			global::BottomNavigationBar.Resource.Attribute.closeItemLayout = global::NovelAPP.Resource.Attribute.closeItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.collapseContentDescription = global::NovelAPP.Resource.Attribute.collapseContentDescription;
-			global::BottomNavigationBar.Resource.Attribute.collapseIcon = global::NovelAPP.Resource.Attribute.collapseIcon;
-			global::BottomNavigationBar.Resource.Attribute.collapsedTitleGravity = global::NovelAPP.Resource.Attribute.collapsedTitleGravity;
-			global::BottomNavigationBar.Resource.Attribute.collapsedTitleTextAppearance = global::NovelAPP.Resource.Attribute.collapsedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.color = global::NovelAPP.Resource.Attribute.color;
-			global::BottomNavigationBar.Resource.Attribute.colorAccent = global::NovelAPP.Resource.Attribute.colorAccent;
-			global::BottomNavigationBar.Resource.Attribute.colorBackgroundFloating = global::NovelAPP.Resource.Attribute.colorBackgroundFloating;
-			global::BottomNavigationBar.Resource.Attribute.colorButtonNormal = global::NovelAPP.Resource.Attribute.colorButtonNormal;
-			global::BottomNavigationBar.Resource.Attribute.colorControlActivated = global::NovelAPP.Resource.Attribute.colorControlActivated;
-			global::BottomNavigationBar.Resource.Attribute.colorControlHighlight = global::NovelAPP.Resource.Attribute.colorControlHighlight;
-			global::BottomNavigationBar.Resource.Attribute.colorControlNormal = global::NovelAPP.Resource.Attribute.colorControlNormal;
-			global::BottomNavigationBar.Resource.Attribute.colorPrimary = global::NovelAPP.Resource.Attribute.colorPrimary;
-			global::BottomNavigationBar.Resource.Attribute.colorPrimaryDark = global::NovelAPP.Resource.Attribute.colorPrimaryDark;
-			global::BottomNavigationBar.Resource.Attribute.colorSwitchThumbNormal = global::NovelAPP.Resource.Attribute.colorSwitchThumbNormal;
-			global::BottomNavigationBar.Resource.Attribute.commitIcon = global::NovelAPP.Resource.Attribute.commitIcon;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetEnd = global::NovelAPP.Resource.Attribute.contentInsetEnd;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetEndWithActions = global::NovelAPP.Resource.Attribute.contentInsetEndWithActions;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetLeft = global::NovelAPP.Resource.Attribute.contentInsetLeft;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetRight = global::NovelAPP.Resource.Attribute.contentInsetRight;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetStart = global::NovelAPP.Resource.Attribute.contentInsetStart;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetStartWithNavigation = global::NovelAPP.Resource.Attribute.contentInsetStartWithNavigation;
-			global::BottomNavigationBar.Resource.Attribute.contentScrim = global::NovelAPP.Resource.Attribute.contentScrim;
-			global::BottomNavigationBar.Resource.Attribute.controlBackground = global::NovelAPP.Resource.Attribute.controlBackground;
-			global::BottomNavigationBar.Resource.Attribute.counterEnabled = global::NovelAPP.Resource.Attribute.counterEnabled;
-			global::BottomNavigationBar.Resource.Attribute.counterMaxLength = global::NovelAPP.Resource.Attribute.counterMaxLength;
-			global::BottomNavigationBar.Resource.Attribute.counterOverflowTextAppearance = global::NovelAPP.Resource.Attribute.counterOverflowTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.counterTextAppearance = global::NovelAPP.Resource.Attribute.counterTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.customNavigationLayout = global::NovelAPP.Resource.Attribute.customNavigationLayout;
-			global::BottomNavigationBar.Resource.Attribute.defaultQueryHint = global::NovelAPP.Resource.Attribute.defaultQueryHint;
-			global::BottomNavigationBar.Resource.Attribute.dialogPreferredPadding = global::NovelAPP.Resource.Attribute.dialogPreferredPadding;
-			global::BottomNavigationBar.Resource.Attribute.dialogTheme = global::NovelAPP.Resource.Attribute.dialogTheme;
-			global::BottomNavigationBar.Resource.Attribute.displayOptions = global::NovelAPP.Resource.Attribute.displayOptions;
-			global::BottomNavigationBar.Resource.Attribute.divider = global::NovelAPP.Resource.Attribute.divider;
-			global::BottomNavigationBar.Resource.Attribute.dividerHorizontal = global::NovelAPP.Resource.Attribute.dividerHorizontal;
-			global::BottomNavigationBar.Resource.Attribute.dividerPadding = global::NovelAPP.Resource.Attribute.dividerPadding;
-			global::BottomNavigationBar.Resource.Attribute.dividerVertical = global::NovelAPP.Resource.Attribute.dividerVertical;
-			global::BottomNavigationBar.Resource.Attribute.drawableSize = global::NovelAPP.Resource.Attribute.drawableSize;
-			global::BottomNavigationBar.Resource.Attribute.drawerArrowStyle = global::NovelAPP.Resource.Attribute.drawerArrowStyle;
-			global::BottomNavigationBar.Resource.Attribute.dropDownListViewStyle = global::NovelAPP.Resource.Attribute.dropDownListViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.dropdownListPreferredItemHeight = global::NovelAPP.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Attribute.editTextBackground = global::NovelAPP.Resource.Attribute.editTextBackground;
-			global::BottomNavigationBar.Resource.Attribute.editTextColor = global::NovelAPP.Resource.Attribute.editTextColor;
-			global::BottomNavigationBar.Resource.Attribute.editTextStyle = global::NovelAPP.Resource.Attribute.editTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.elevation = global::NovelAPP.Resource.Attribute.elevation;
-			global::BottomNavigationBar.Resource.Attribute.errorEnabled = global::NovelAPP.Resource.Attribute.errorEnabled;
-			global::BottomNavigationBar.Resource.Attribute.errorTextAppearance = global::NovelAPP.Resource.Attribute.errorTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NovelAPP.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::BottomNavigationBar.Resource.Attribute.expanded = global::NovelAPP.Resource.Attribute.expanded;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleGravity = global::NovelAPP.Resource.Attribute.expandedTitleGravity;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMargin = global::NovelAPP.Resource.Attribute.expandedTitleMargin;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginBottom = global::NovelAPP.Resource.Attribute.expandedTitleMarginBottom;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginEnd = global::NovelAPP.Resource.Attribute.expandedTitleMarginEnd;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginStart = global::NovelAPP.Resource.Attribute.expandedTitleMarginStart;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginTop = global::NovelAPP.Resource.Attribute.expandedTitleMarginTop;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleTextAppearance = global::NovelAPP.Resource.Attribute.expandedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.fabSize = global::NovelAPP.Resource.Attribute.fabSize;
-			global::BottomNavigationBar.Resource.Attribute.foregroundInsidePadding = global::NovelAPP.Resource.Attribute.foregroundInsidePadding;
-			global::BottomNavigationBar.Resource.Attribute.gapBetweenBars = global::NovelAPP.Resource.Attribute.gapBetweenBars;
-			global::BottomNavigationBar.Resource.Attribute.goIcon = global::NovelAPP.Resource.Attribute.goIcon;
-			global::BottomNavigationBar.Resource.Attribute.headerLayout = global::NovelAPP.Resource.Attribute.headerLayout;
-			global::BottomNavigationBar.Resource.Attribute.height = global::NovelAPP.Resource.Attribute.height;
-			global::BottomNavigationBar.Resource.Attribute.hideOnContentScroll = global::NovelAPP.Resource.Attribute.hideOnContentScroll;
-			global::BottomNavigationBar.Resource.Attribute.hintAnimationEnabled = global::NovelAPP.Resource.Attribute.hintAnimationEnabled;
-			global::BottomNavigationBar.Resource.Attribute.hintEnabled = global::NovelAPP.Resource.Attribute.hintEnabled;
-			global::BottomNavigationBar.Resource.Attribute.hintTextAppearance = global::NovelAPP.Resource.Attribute.hintTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.homeAsUpIndicator = global::NovelAPP.Resource.Attribute.homeAsUpIndicator;
-			global::BottomNavigationBar.Resource.Attribute.homeLayout = global::NovelAPP.Resource.Attribute.homeLayout;
-			global::BottomNavigationBar.Resource.Attribute.icon = global::NovelAPP.Resource.Attribute.icon;
-			global::BottomNavigationBar.Resource.Attribute.iconifiedByDefault = global::NovelAPP.Resource.Attribute.iconifiedByDefault;
-			global::BottomNavigationBar.Resource.Attribute.imageButtonStyle = global::NovelAPP.Resource.Attribute.imageButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.indeterminateProgressStyle = global::NovelAPP.Resource.Attribute.indeterminateProgressStyle;
-			global::BottomNavigationBar.Resource.Attribute.initialActivityCount = global::NovelAPP.Resource.Attribute.initialActivityCount;
-			global::BottomNavigationBar.Resource.Attribute.insetForeground = global::NovelAPP.Resource.Attribute.insetForeground;
-			global::BottomNavigationBar.Resource.Attribute.isLightTheme = global::NovelAPP.Resource.Attribute.isLightTheme;
-			global::BottomNavigationBar.Resource.Attribute.itemBackground = global::NovelAPP.Resource.Attribute.itemBackground;
-			global::BottomNavigationBar.Resource.Attribute.itemIconTint = global::NovelAPP.Resource.Attribute.itemIconTint;
-			global::BottomNavigationBar.Resource.Attribute.itemPadding = global::NovelAPP.Resource.Attribute.itemPadding;
-			global::BottomNavigationBar.Resource.Attribute.itemTextAppearance = global::NovelAPP.Resource.Attribute.itemTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.itemTextColor = global::NovelAPP.Resource.Attribute.itemTextColor;
-			global::BottomNavigationBar.Resource.Attribute.keylines = global::NovelAPP.Resource.Attribute.keylines;
-			global::BottomNavigationBar.Resource.Attribute.layout = global::NovelAPP.Resource.Attribute.layout;
-			global::BottomNavigationBar.Resource.Attribute.layoutManager = global::NovelAPP.Resource.Attribute.layoutManager;
-			global::BottomNavigationBar.Resource.Attribute.layout_anchor = global::NovelAPP.Resource.Attribute.layout_anchor;
-			global::BottomNavigationBar.Resource.Attribute.layout_anchorGravity = global::NovelAPP.Resource.Attribute.layout_anchorGravity;
-			global::BottomNavigationBar.Resource.Attribute.layout_behavior = global::NovelAPP.Resource.Attribute.layout_behavior;
-			global::BottomNavigationBar.Resource.Attribute.layout_collapseMode = global::NovelAPP.Resource.Attribute.layout_collapseMode;
-			global::BottomNavigationBar.Resource.Attribute.layout_collapseParallaxMultiplier = global::NovelAPP.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::BottomNavigationBar.Resource.Attribute.layout_dodgeInsetEdges = global::NovelAPP.Resource.Attribute.layout_dodgeInsetEdges;
-			global::BottomNavigationBar.Resource.Attribute.layout_insetEdge = global::NovelAPP.Resource.Attribute.layout_insetEdge;
-			global::BottomNavigationBar.Resource.Attribute.layout_keyline = global::NovelAPP.Resource.Attribute.layout_keyline;
-			global::BottomNavigationBar.Resource.Attribute.layout_scrollFlags = global::NovelAPP.Resource.Attribute.layout_scrollFlags;
-			global::BottomNavigationBar.Resource.Attribute.layout_scrollInterpolator = global::NovelAPP.Resource.Attribute.layout_scrollInterpolator;
-			global::BottomNavigationBar.Resource.Attribute.listChoiceBackgroundIndicator = global::NovelAPP.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::BottomNavigationBar.Resource.Attribute.listDividerAlertDialog = global::NovelAPP.Resource.Attribute.listDividerAlertDialog;
-			global::BottomNavigationBar.Resource.Attribute.listItemLayout = global::NovelAPP.Resource.Attribute.listItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.listLayout = global::NovelAPP.Resource.Attribute.listLayout;
-			global::BottomNavigationBar.Resource.Attribute.listMenuViewStyle = global::NovelAPP.Resource.Attribute.listMenuViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.listPopupWindowStyle = global::NovelAPP.Resource.Attribute.listPopupWindowStyle;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeight = global::NovelAPP.Resource.Attribute.listPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightLarge = global::NovelAPP.Resource.Attribute.listPreferredItemHeightLarge;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightSmall = global::NovelAPP.Resource.Attribute.listPreferredItemHeightSmall;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingLeft = global::NovelAPP.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingRight = global::NovelAPP.Resource.Attribute.listPreferredItemPaddingRight;
-			global::BottomNavigationBar.Resource.Attribute.logo = global::NovelAPP.Resource.Attribute.logo;
-			global::BottomNavigationBar.Resource.Attribute.logoDescription = global::NovelAPP.Resource.Attribute.logoDescription;
-			global::BottomNavigationBar.Resource.Attribute.maxActionInlineWidth = global::NovelAPP.Resource.Attribute.maxActionInlineWidth;
-			global::BottomNavigationBar.Resource.Attribute.maxButtonHeight = global::NovelAPP.Resource.Attribute.maxButtonHeight;
-			global::BottomNavigationBar.Resource.Attribute.measureWithLargestChild = global::NovelAPP.Resource.Attribute.measureWithLargestChild;
-			global::BottomNavigationBar.Resource.Attribute.menu = global::NovelAPP.Resource.Attribute.menu;
-			global::BottomNavigationBar.Resource.Attribute.multiChoiceItemLayout = global::NovelAPP.Resource.Attribute.multiChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.navigationContentDescription = global::NovelAPP.Resource.Attribute.navigationContentDescription;
-			global::BottomNavigationBar.Resource.Attribute.navigationIcon = global::NovelAPP.Resource.Attribute.navigationIcon;
-			global::BottomNavigationBar.Resource.Attribute.navigationMode = global::NovelAPP.Resource.Attribute.navigationMode;
-			global::BottomNavigationBar.Resource.Attribute.overlapAnchor = global::NovelAPP.Resource.Attribute.overlapAnchor;
-			global::BottomNavigationBar.Resource.Attribute.paddingEnd = global::NovelAPP.Resource.Attribute.paddingEnd;
-			global::BottomNavigationBar.Resource.Attribute.paddingStart = global::NovelAPP.Resource.Attribute.paddingStart;
-			global::BottomNavigationBar.Resource.Attribute.panelBackground = global::NovelAPP.Resource.Attribute.panelBackground;
-			global::BottomNavigationBar.Resource.Attribute.panelMenuListTheme = global::NovelAPP.Resource.Attribute.panelMenuListTheme;
-			global::BottomNavigationBar.Resource.Attribute.panelMenuListWidth = global::NovelAPP.Resource.Attribute.panelMenuListWidth;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleContentDescription = global::NovelAPP.Resource.Attribute.passwordToggleContentDescription;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleDrawable = global::NovelAPP.Resource.Attribute.passwordToggleDrawable;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleEnabled = global::NovelAPP.Resource.Attribute.passwordToggleEnabled;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleTint = global::NovelAPP.Resource.Attribute.passwordToggleTint;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleTintMode = global::NovelAPP.Resource.Attribute.passwordToggleTintMode;
-			global::BottomNavigationBar.Resource.Attribute.popupMenuStyle = global::NovelAPP.Resource.Attribute.popupMenuStyle;
-			global::BottomNavigationBar.Resource.Attribute.popupTheme = global::NovelAPP.Resource.Attribute.popupTheme;
-			global::BottomNavigationBar.Resource.Attribute.popupWindowStyle = global::NovelAPP.Resource.Attribute.popupWindowStyle;
-			global::BottomNavigationBar.Resource.Attribute.preserveIconSpacing = global::NovelAPP.Resource.Attribute.preserveIconSpacing;
-			global::BottomNavigationBar.Resource.Attribute.pressedTranslationZ = global::NovelAPP.Resource.Attribute.pressedTranslationZ;
-			global::BottomNavigationBar.Resource.Attribute.progressBarPadding = global::NovelAPP.Resource.Attribute.progressBarPadding;
-			global::BottomNavigationBar.Resource.Attribute.progressBarStyle = global::NovelAPP.Resource.Attribute.progressBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.queryBackground = global::NovelAPP.Resource.Attribute.queryBackground;
-			global::BottomNavigationBar.Resource.Attribute.queryHint = global::NovelAPP.Resource.Attribute.queryHint;
-			global::BottomNavigationBar.Resource.Attribute.radioButtonStyle = global::NovelAPP.Resource.Attribute.radioButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.ratingBarStyle = global::NovelAPP.Resource.Attribute.ratingBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleIndicator = global::NovelAPP.Resource.Attribute.ratingBarStyleIndicator;
-			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleSmall = global::NovelAPP.Resource.Attribute.ratingBarStyleSmall;
-			global::BottomNavigationBar.Resource.Attribute.reverseLayout = global::NovelAPP.Resource.Attribute.reverseLayout;
-			global::BottomNavigationBar.Resource.Attribute.rippleColor = global::NovelAPP.Resource.Attribute.rippleColor;
-			global::BottomNavigationBar.Resource.Attribute.scrimAnimationDuration = global::NovelAPP.Resource.Attribute.scrimAnimationDuration;
-			global::BottomNavigationBar.Resource.Attribute.scrimVisibleHeightTrigger = global::NovelAPP.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::BottomNavigationBar.Resource.Attribute.searchHintIcon = global::NovelAPP.Resource.Attribute.searchHintIcon;
-			global::BottomNavigationBar.Resource.Attribute.searchIcon = global::NovelAPP.Resource.Attribute.searchIcon;
-			global::BottomNavigationBar.Resource.Attribute.searchViewStyle = global::NovelAPP.Resource.Attribute.searchViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.seekBarStyle = global::NovelAPP.Resource.Attribute.seekBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.selectableItemBackground = global::NovelAPP.Resource.Attribute.selectableItemBackground;
-			global::BottomNavigationBar.Resource.Attribute.selectableItemBackgroundBorderless = global::NovelAPP.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::BottomNavigationBar.Resource.Attribute.showAsAction = global::NovelAPP.Resource.Attribute.showAsAction;
-			global::BottomNavigationBar.Resource.Attribute.showDividers = global::NovelAPP.Resource.Attribute.showDividers;
-			global::BottomNavigationBar.Resource.Attribute.showText = global::NovelAPP.Resource.Attribute.showText;
-			global::BottomNavigationBar.Resource.Attribute.singleChoiceItemLayout = global::NovelAPP.Resource.Attribute.singleChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.spanCount = global::NovelAPP.Resource.Attribute.spanCount;
-			global::BottomNavigationBar.Resource.Attribute.spinBars = global::NovelAPP.Resource.Attribute.spinBars;
-			global::BottomNavigationBar.Resource.Attribute.spinnerDropDownItemStyle = global::NovelAPP.Resource.Attribute.spinnerDropDownItemStyle;
-			global::BottomNavigationBar.Resource.Attribute.spinnerStyle = global::NovelAPP.Resource.Attribute.spinnerStyle;
-			global::BottomNavigationBar.Resource.Attribute.splitTrack = global::NovelAPP.Resource.Attribute.splitTrack;
-			global::BottomNavigationBar.Resource.Attribute.srcCompat = global::NovelAPP.Resource.Attribute.srcCompat;
-			global::BottomNavigationBar.Resource.Attribute.stackFromEnd = global::NovelAPP.Resource.Attribute.stackFromEnd;
-			global::BottomNavigationBar.Resource.Attribute.state_above_anchor = global::NovelAPP.Resource.Attribute.state_above_anchor;
-			global::BottomNavigationBar.Resource.Attribute.state_collapsed = global::NovelAPP.Resource.Attribute.state_collapsed;
-			global::BottomNavigationBar.Resource.Attribute.state_collapsible = global::NovelAPP.Resource.Attribute.state_collapsible;
-			global::BottomNavigationBar.Resource.Attribute.statusBarBackground = global::NovelAPP.Resource.Attribute.statusBarBackground;
-			global::BottomNavigationBar.Resource.Attribute.statusBarScrim = global::NovelAPP.Resource.Attribute.statusBarScrim;
-			global::BottomNavigationBar.Resource.Attribute.subMenuArrow = global::NovelAPP.Resource.Attribute.subMenuArrow;
-			global::BottomNavigationBar.Resource.Attribute.submitBackground = global::NovelAPP.Resource.Attribute.submitBackground;
-			global::BottomNavigationBar.Resource.Attribute.subtitle = global::NovelAPP.Resource.Attribute.subtitle;
-			global::BottomNavigationBar.Resource.Attribute.subtitleTextAppearance = global::NovelAPP.Resource.Attribute.subtitleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.subtitleTextColor = global::NovelAPP.Resource.Attribute.subtitleTextColor;
-			global::BottomNavigationBar.Resource.Attribute.subtitleTextStyle = global::NovelAPP.Resource.Attribute.subtitleTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.suggestionRowLayout = global::NovelAPP.Resource.Attribute.suggestionRowLayout;
-			global::BottomNavigationBar.Resource.Attribute.switchMinWidth = global::NovelAPP.Resource.Attribute.switchMinWidth;
-			global::BottomNavigationBar.Resource.Attribute.switchPadding = global::NovelAPP.Resource.Attribute.switchPadding;
-			global::BottomNavigationBar.Resource.Attribute.switchStyle = global::NovelAPP.Resource.Attribute.switchStyle;
-			global::BottomNavigationBar.Resource.Attribute.switchTextAppearance = global::NovelAPP.Resource.Attribute.switchTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.tabBackground = global::NovelAPP.Resource.Attribute.tabBackground;
-			global::BottomNavigationBar.Resource.Attribute.tabContentStart = global::NovelAPP.Resource.Attribute.tabContentStart;
-			global::BottomNavigationBar.Resource.Attribute.tabGravity = global::NovelAPP.Resource.Attribute.tabGravity;
-			global::BottomNavigationBar.Resource.Attribute.tabIndicatorColor = global::NovelAPP.Resource.Attribute.tabIndicatorColor;
-			global::BottomNavigationBar.Resource.Attribute.tabIndicatorHeight = global::NovelAPP.Resource.Attribute.tabIndicatorHeight;
-			global::BottomNavigationBar.Resource.Attribute.tabMaxWidth = global::NovelAPP.Resource.Attribute.tabMaxWidth;
-			global::BottomNavigationBar.Resource.Attribute.tabMinWidth = global::NovelAPP.Resource.Attribute.tabMinWidth;
-			global::BottomNavigationBar.Resource.Attribute.tabMode = global::NovelAPP.Resource.Attribute.tabMode;
-			global::BottomNavigationBar.Resource.Attribute.tabPadding = global::NovelAPP.Resource.Attribute.tabPadding;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingBottom = global::NovelAPP.Resource.Attribute.tabPaddingBottom;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingEnd = global::NovelAPP.Resource.Attribute.tabPaddingEnd;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingStart = global::NovelAPP.Resource.Attribute.tabPaddingStart;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingTop = global::NovelAPP.Resource.Attribute.tabPaddingTop;
-			global::BottomNavigationBar.Resource.Attribute.tabSelectedTextColor = global::NovelAPP.Resource.Attribute.tabSelectedTextColor;
-			global::BottomNavigationBar.Resource.Attribute.tabTextAppearance = global::NovelAPP.Resource.Attribute.tabTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.tabTextColor = global::NovelAPP.Resource.Attribute.tabTextColor;
-			global::BottomNavigationBar.Resource.Attribute.textAllCaps = global::NovelAPP.Resource.Attribute.textAllCaps;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceLargePopupMenu = global::NovelAPP.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItem = global::NovelAPP.Resource.Attribute.textAppearanceListItem;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItemSmall = global::NovelAPP.Resource.Attribute.textAppearanceListItemSmall;
-			global::BottomNavigationBar.Resource.Attribute.textAppearancePopupMenuHeader = global::NovelAPP.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::NovelAPP.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultTitle = global::NovelAPP.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceSmallPopupMenu = global::NovelAPP.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::BottomNavigationBar.Resource.Attribute.textColorAlertDialogListItem = global::NovelAPP.Resource.Attribute.textColorAlertDialogListItem;
-			global::BottomNavigationBar.Resource.Attribute.textColorError = global::NovelAPP.Resource.Attribute.textColorError;
-			global::BottomNavigationBar.Resource.Attribute.textColorSearchUrl = global::NovelAPP.Resource.Attribute.textColorSearchUrl;
-			global::BottomNavigationBar.Resource.Attribute.theme = global::NovelAPP.Resource.Attribute.theme;
-			global::BottomNavigationBar.Resource.Attribute.thickness = global::NovelAPP.Resource.Attribute.thickness;
-			global::BottomNavigationBar.Resource.Attribute.thumbTextPadding = global::NovelAPP.Resource.Attribute.thumbTextPadding;
-			global::BottomNavigationBar.Resource.Attribute.thumbTint = global::NovelAPP.Resource.Attribute.thumbTint;
-			global::BottomNavigationBar.Resource.Attribute.thumbTintMode = global::NovelAPP.Resource.Attribute.thumbTintMode;
-			global::BottomNavigationBar.Resource.Attribute.tickMark = global::NovelAPP.Resource.Attribute.tickMark;
-			global::BottomNavigationBar.Resource.Attribute.tickMarkTint = global::NovelAPP.Resource.Attribute.tickMarkTint;
-			global::BottomNavigationBar.Resource.Attribute.tickMarkTintMode = global::NovelAPP.Resource.Attribute.tickMarkTintMode;
-			global::BottomNavigationBar.Resource.Attribute.title = global::NovelAPP.Resource.Attribute.title;
-			global::BottomNavigationBar.Resource.Attribute.titleEnabled = global::NovelAPP.Resource.Attribute.titleEnabled;
-			global::BottomNavigationBar.Resource.Attribute.titleMargin = global::NovelAPP.Resource.Attribute.titleMargin;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginBottom = global::NovelAPP.Resource.Attribute.titleMarginBottom;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginEnd = global::NovelAPP.Resource.Attribute.titleMarginEnd;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginStart = global::NovelAPP.Resource.Attribute.titleMarginStart;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginTop = global::NovelAPP.Resource.Attribute.titleMarginTop;
-			global::BottomNavigationBar.Resource.Attribute.titleMargins = global::NovelAPP.Resource.Attribute.titleMargins;
-			global::BottomNavigationBar.Resource.Attribute.titleTextAppearance = global::NovelAPP.Resource.Attribute.titleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.titleTextColor = global::NovelAPP.Resource.Attribute.titleTextColor;
-			global::BottomNavigationBar.Resource.Attribute.titleTextStyle = global::NovelAPP.Resource.Attribute.titleTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.toolbarId = global::NovelAPP.Resource.Attribute.toolbarId;
-			global::BottomNavigationBar.Resource.Attribute.toolbarNavigationButtonStyle = global::NovelAPP.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.toolbarStyle = global::NovelAPP.Resource.Attribute.toolbarStyle;
-			global::BottomNavigationBar.Resource.Attribute.track = global::NovelAPP.Resource.Attribute.track;
-			global::BottomNavigationBar.Resource.Attribute.trackTint = global::NovelAPP.Resource.Attribute.trackTint;
-			global::BottomNavigationBar.Resource.Attribute.trackTintMode = global::NovelAPP.Resource.Attribute.trackTintMode;
-			global::BottomNavigationBar.Resource.Attribute.useCompatPadding = global::NovelAPP.Resource.Attribute.useCompatPadding;
-			global::BottomNavigationBar.Resource.Attribute.voiceIcon = global::NovelAPP.Resource.Attribute.voiceIcon;
-			global::BottomNavigationBar.Resource.Attribute.windowActionBar = global::NovelAPP.Resource.Attribute.windowActionBar;
-			global::BottomNavigationBar.Resource.Attribute.windowActionBarOverlay = global::NovelAPP.Resource.Attribute.windowActionBarOverlay;
-			global::BottomNavigationBar.Resource.Attribute.windowActionModeOverlay = global::NovelAPP.Resource.Attribute.windowActionModeOverlay;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMajor = global::NovelAPP.Resource.Attribute.windowFixedHeightMajor;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMinor = global::NovelAPP.Resource.Attribute.windowFixedHeightMinor;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMajor = global::NovelAPP.Resource.Attribute.windowFixedWidthMajor;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMinor = global::NovelAPP.Resource.Attribute.windowFixedWidthMinor;
-			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMajor = global::NovelAPP.Resource.Attribute.windowMinWidthMajor;
-			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMinor = global::NovelAPP.Resource.Attribute.windowMinWidthMinor;
-			global::BottomNavigationBar.Resource.Attribute.windowNoTitle = global::NovelAPP.Resource.Attribute.windowNoTitle;
-			global::BottomNavigationBar.Resource.Boolean.abc_action_bar_embed_tabs = global::NovelAPP.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::BottomNavigationBar.Resource.Boolean.abc_allow_stacked_button_bar = global::NovelAPP.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::BottomNavigationBar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NovelAPP.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::BottomNavigationBar.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::NovelAPP.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::BottomNavigationBar.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::NovelAPP.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::BottomNavigationBar.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::NovelAPP.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
-			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::NovelAPP.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_light = global::NovelAPP.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_btn_colored_borderless_text_material = global::NovelAPP.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::BottomNavigationBar.Resource.Color.abc_color_highlight_material = global::NovelAPP.Resource.Color.abc_color_highlight_material;
-			global::BottomNavigationBar.Resource.Color.abc_input_method_navigation_guard = global::NovelAPP.Resource.Color.abc_input_method_navigation_guard;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_dark = global::NovelAPP.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_light = global::NovelAPP.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_dark = global::NovelAPP.Resource.Color.abc_primary_text_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_light = global::NovelAPP.Resource.Color.abc_primary_text_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text = global::NovelAPP.Resource.Color.abc_search_url_text;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text_normal = global::NovelAPP.Resource.Color.abc_search_url_text_normal;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text_pressed = global::NovelAPP.Resource.Color.abc_search_url_text_pressed;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text_selected = global::NovelAPP.Resource.Color.abc_search_url_text_selected;
-			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_dark = global::NovelAPP.Resource.Color.abc_secondary_text_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_light = global::NovelAPP.Resource.Color.abc_secondary_text_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_tint_btn_checkable = global::NovelAPP.Resource.Color.abc_tint_btn_checkable;
-			global::BottomNavigationBar.Resource.Color.abc_tint_default = global::NovelAPP.Resource.Color.abc_tint_default;
-			global::BottomNavigationBar.Resource.Color.abc_tint_edittext = global::NovelAPP.Resource.Color.abc_tint_edittext;
-			global::BottomNavigationBar.Resource.Color.abc_tint_seek_thumb = global::NovelAPP.Resource.Color.abc_tint_seek_thumb;
-			global::BottomNavigationBar.Resource.Color.abc_tint_spinner = global::NovelAPP.Resource.Color.abc_tint_spinner;
-			global::BottomNavigationBar.Resource.Color.abc_tint_switch_thumb = global::NovelAPP.Resource.Color.abc_tint_switch_thumb;
-			global::BottomNavigationBar.Resource.Color.abc_tint_switch_track = global::NovelAPP.Resource.Color.abc_tint_switch_track;
-			global::BottomNavigationBar.Resource.Color.accent_material_dark = global::NovelAPP.Resource.Color.accent_material_dark;
-			global::BottomNavigationBar.Resource.Color.accent_material_light = global::NovelAPP.Resource.Color.accent_material_light;
-			global::BottomNavigationBar.Resource.Color.background_floating_material_dark = global::NovelAPP.Resource.Color.background_floating_material_dark;
-			global::BottomNavigationBar.Resource.Color.background_floating_material_light = global::NovelAPP.Resource.Color.background_floating_material_light;
-			global::BottomNavigationBar.Resource.Color.background_material_dark = global::NovelAPP.Resource.Color.background_material_dark;
-			global::BottomNavigationBar.Resource.Color.background_material_light = global::NovelAPP.Resource.Color.background_material_light;
-			global::BottomNavigationBar.Resource.Color.bb_darkBackgroundColor = global::NovelAPP.Resource.Color.bb_darkBackgroundColor;
-			global::BottomNavigationBar.Resource.Color.bb_darkInActiveBottomBarItemColor = global::NovelAPP.Resource.Color.bb_darkInActiveBottomBarItemColor;
-			global::BottomNavigationBar.Resource.Color.bb_inActiveBottomBarItemColor = global::NovelAPP.Resource.Color.bb_inActiveBottomBarItemColor;
-			global::BottomNavigationBar.Resource.Color.bb_tabletRightBorderDark = global::NovelAPP.Resource.Color.bb_tabletRightBorderDark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_dark = global::NovelAPP.Resource.Color.bright_foreground_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_light = global::NovelAPP.Resource.Color.bright_foreground_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_dark = global::NovelAPP.Resource.Color.bright_foreground_inverse_material_dark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_light = global::NovelAPP.Resource.Color.bright_foreground_inverse_material_light;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_material_dark = global::NovelAPP.Resource.Color.bright_foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_material_light = global::NovelAPP.Resource.Color.bright_foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.button_material_dark = global::NovelAPP.Resource.Color.button_material_dark;
-			global::BottomNavigationBar.Resource.Color.button_material_light = global::NovelAPP.Resource.Color.button_material_light;
-			global::BottomNavigationBar.Resource.Color.design_error = global::NovelAPP.Resource.Color.design_error;
-			global::BottomNavigationBar.Resource.Color.design_fab_shadow_end_color = global::NovelAPP.Resource.Color.design_fab_shadow_end_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_shadow_mid_color = global::NovelAPP.Resource.Color.design_fab_shadow_mid_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_shadow_start_color = global::NovelAPP.Resource.Color.design_fab_shadow_start_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_inner_color = global::NovelAPP.Resource.Color.design_fab_stroke_end_inner_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_outer_color = global::NovelAPP.Resource.Color.design_fab_stroke_end_outer_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_inner_color = global::NovelAPP.Resource.Color.design_fab_stroke_top_inner_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_outer_color = global::NovelAPP.Resource.Color.design_fab_stroke_top_outer_color;
-			global::BottomNavigationBar.Resource.Color.design_snackbar_background_color = global::NovelAPP.Resource.Color.design_snackbar_background_color;
-			global::BottomNavigationBar.Resource.Color.design_textinput_error_color_dark = global::NovelAPP.Resource.Color.design_textinput_error_color_dark;
-			global::BottomNavigationBar.Resource.Color.design_textinput_error_color_light = global::NovelAPP.Resource.Color.design_textinput_error_color_light;
-			global::BottomNavigationBar.Resource.Color.design_tint_password_toggle = global::NovelAPP.Resource.Color.design_tint_password_toggle;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_dark = global::NovelAPP.Resource.Color.dim_foreground_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_light = global::NovelAPP.Resource.Color.dim_foreground_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_material_dark = global::NovelAPP.Resource.Color.dim_foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_material_light = global::NovelAPP.Resource.Color.dim_foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.foreground_material_dark = global::NovelAPP.Resource.Color.foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.foreground_material_light = global::NovelAPP.Resource.Color.foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.highlighted_text_material_dark = global::NovelAPP.Resource.Color.highlighted_text_material_dark;
-			global::BottomNavigationBar.Resource.Color.highlighted_text_material_light = global::NovelAPP.Resource.Color.highlighted_text_material_light;
-			global::BottomNavigationBar.Resource.Color.hint_foreground_material_dark = global::NovelAPP.Resource.Color.hint_foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.hint_foreground_material_light = global::NovelAPP.Resource.Color.hint_foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.material_blue_grey_800 = global::NovelAPP.Resource.Color.material_blue_grey_800;
-			global::BottomNavigationBar.Resource.Color.material_blue_grey_900 = global::NovelAPP.Resource.Color.material_blue_grey_900;
-			global::BottomNavigationBar.Resource.Color.material_blue_grey_950 = global::NovelAPP.Resource.Color.material_blue_grey_950;
-			global::BottomNavigationBar.Resource.Color.material_deep_teal_200 = global::NovelAPP.Resource.Color.material_deep_teal_200;
-			global::BottomNavigationBar.Resource.Color.material_deep_teal_500 = global::NovelAPP.Resource.Color.material_deep_teal_500;
-			global::BottomNavigationBar.Resource.Color.material_grey_100 = global::NovelAPP.Resource.Color.material_grey_100;
-			global::BottomNavigationBar.Resource.Color.material_grey_300 = global::NovelAPP.Resource.Color.material_grey_300;
-			global::BottomNavigationBar.Resource.Color.material_grey_50 = global::NovelAPP.Resource.Color.material_grey_50;
-			global::BottomNavigationBar.Resource.Color.material_grey_600 = global::NovelAPP.Resource.Color.material_grey_600;
-			global::BottomNavigationBar.Resource.Color.material_grey_800 = global::NovelAPP.Resource.Color.material_grey_800;
-			global::BottomNavigationBar.Resource.Color.material_grey_850 = global::NovelAPP.Resource.Color.material_grey_850;
-			global::BottomNavigationBar.Resource.Color.material_grey_900 = global::NovelAPP.Resource.Color.material_grey_900;
-			global::BottomNavigationBar.Resource.Color.primary_dark_material_dark = global::NovelAPP.Resource.Color.primary_dark_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_dark_material_light = global::NovelAPP.Resource.Color.primary_dark_material_light;
-			global::BottomNavigationBar.Resource.Color.primary_material_dark = global::NovelAPP.Resource.Color.primary_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_material_light = global::NovelAPP.Resource.Color.primary_material_light;
-			global::BottomNavigationBar.Resource.Color.primary_text_default_material_dark = global::NovelAPP.Resource.Color.primary_text_default_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_text_default_material_light = global::NovelAPP.Resource.Color.primary_text_default_material_light;
-			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_dark = global::NovelAPP.Resource.Color.primary_text_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_light = global::NovelAPP.Resource.Color.primary_text_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.ripple_material_dark = global::NovelAPP.Resource.Color.ripple_material_dark;
-			global::BottomNavigationBar.Resource.Color.ripple_material_light = global::NovelAPP.Resource.Color.ripple_material_light;
-			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_dark = global::NovelAPP.Resource.Color.secondary_text_default_material_dark;
-			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_light = global::NovelAPP.Resource.Color.secondary_text_default_material_light;
-			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_dark = global::NovelAPP.Resource.Color.secondary_text_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_light = global::NovelAPP.Resource.Color.secondary_text_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_dark = global::NovelAPP.Resource.Color.switch_thumb_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_light = global::NovelAPP.Resource.Color.switch_thumb_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_material_dark = global::NovelAPP.Resource.Color.switch_thumb_material_dark;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_material_light = global::NovelAPP.Resource.Color.switch_thumb_material_light;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_dark = global::NovelAPP.Resource.Color.switch_thumb_normal_material_dark;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_light = global::NovelAPP.Resource.Color.switch_thumb_normal_material_light;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_material = global::NovelAPP.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::NovelAPP.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_height_material = global::NovelAPP.Resource.Dimension.abc_action_bar_default_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::NovelAPP.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::NovelAPP.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_elevation_material = global::NovelAPP.Resource.Dimension.abc_action_bar_elevation_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::NovelAPP.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::NovelAPP.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::NovelAPP.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_progress_bar_size = global::NovelAPP.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_max_height = global::NovelAPP.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::NovelAPP.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::NovelAPP.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::NovelAPP.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_height_material = global::NovelAPP.Resource.Dimension.abc_action_button_min_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_material = global::NovelAPP.Resource.Dimension.abc_action_button_min_width_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::NovelAPP.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::NovelAPP.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_horizontal_material = global::NovelAPP.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_vertical_material = global::NovelAPP.Resource.Dimension.abc_button_inset_vertical_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_horizontal_material = global::NovelAPP.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_vertical_material = global::NovelAPP.Resource.Dimension.abc_button_padding_vertical_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::NovelAPP.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_config_prefDialogWidth = global::NovelAPP.Resource.Dimension.abc_config_prefDialogWidth;
-			global::BottomNavigationBar.Resource.Dimension.abc_control_corner_material = global::NovelAPP.Resource.Dimension.abc_control_corner_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_control_inset_material = global::NovelAPP.Resource.Dimension.abc_control_inset_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_control_padding_material = global::NovelAPP.Resource.Dimension.abc_control_padding_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_major = global::NovelAPP.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_minor = global::NovelAPP.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_major = global::NovelAPP.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_minor = global::NovelAPP.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::NovelAPP.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_major = global::NovelAPP.Resource.Dimension.abc_dialog_min_width_major;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_minor = global::NovelAPP.Resource.Dimension.abc_dialog_min_width_minor;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_material = global::NovelAPP.Resource.Dimension.abc_dialog_padding_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_top_material = global::NovelAPP.Resource.Dimension.abc_dialog_padding_top_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_dark = global::NovelAPP.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_light = global::NovelAPP.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_icon_width = global::NovelAPP.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::NovelAPP.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::NovelAPP.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::NovelAPP.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::NovelAPP.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_top_material = global::NovelAPP.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_floating_window_z = global::NovelAPP.Resource.Dimension.abc_floating_window_z;
-			global::BottomNavigationBar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::NovelAPP.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_panel_menu_list_width = global::NovelAPP.Resource.Dimension.abc_panel_menu_list_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_progress_bar_height_material = global::NovelAPP.Resource.Dimension.abc_progress_bar_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_height = global::NovelAPP.Resource.Dimension.abc_search_view_preferred_height;
-			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_width = global::NovelAPP.Resource.Dimension.abc_search_view_preferred_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_background_height_material = global::NovelAPP.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::NovelAPP.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_select_dialog_padding_start_material = global::NovelAPP.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_switch_padding = global::NovelAPP.Resource.Dimension.abc_switch_padding;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_1_material = global::NovelAPP.Resource.Dimension.abc_text_size_body_1_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_2_material = global::NovelAPP.Resource.Dimension.abc_text_size_body_2_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_button_material = global::NovelAPP.Resource.Dimension.abc_text_size_button_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_caption_material = global::NovelAPP.Resource.Dimension.abc_text_size_caption_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_1_material = global::NovelAPP.Resource.Dimension.abc_text_size_display_1_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_2_material = global::NovelAPP.Resource.Dimension.abc_text_size_display_2_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_3_material = global::NovelAPP.Resource.Dimension.abc_text_size_display_3_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_4_material = global::NovelAPP.Resource.Dimension.abc_text_size_display_4_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_headline_material = global::NovelAPP.Resource.Dimension.abc_text_size_headline_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_large_material = global::NovelAPP.Resource.Dimension.abc_text_size_large_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_medium_material = global::NovelAPP.Resource.Dimension.abc_text_size_medium_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_header_material = global::NovelAPP.Resource.Dimension.abc_text_size_menu_header_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_material = global::NovelAPP.Resource.Dimension.abc_text_size_menu_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_small_material = global::NovelAPP.Resource.Dimension.abc_text_size_small_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subhead_material = global::NovelAPP.Resource.Dimension.abc_text_size_subhead_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NovelAPP.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material = global::NovelAPP.Resource.Dimension.abc_text_size_title_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material_toolbar = global::NovelAPP.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::BottomNavigationBar.Resource.Dimension.activity_horizontal_margin = global::NovelAPP.Resource.Dimension.activity_horizontal_margin;
-			global::BottomNavigationBar.Resource.Dimension.activity_vertical_margin = global::NovelAPP.Resource.Dimension.activity_vertical_margin;
-			global::BottomNavigationBar.Resource.Dimension.bb_height = global::NovelAPP.Resource.Dimension.bb_height;
-			global::BottomNavigationBar.Resource.Dimension.bottom_bar_elevation = global::NovelAPP.Resource.Dimension.bottom_bar_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_appbar_elevation = global::NovelAPP.Resource.Dimension.design_appbar_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::NovelAPP.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_active_text_size = global::NovelAPP.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_height = global::NovelAPP.Resource.Dimension.design_bottom_navigation_height;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_item_max_width = global::NovelAPP.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_margin = global::NovelAPP.Resource.Dimension.design_bottom_navigation_margin;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_text_size = global::NovelAPP.Resource.Dimension.design_bottom_navigation_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::NovelAPP.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::NovelAPP.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_border_width = global::NovelAPP.Resource.Dimension.design_fab_border_width;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_elevation = global::NovelAPP.Resource.Dimension.design_fab_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_image_size = global::NovelAPP.Resource.Dimension.design_fab_image_size;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_size_mini = global::NovelAPP.Resource.Dimension.design_fab_size_mini;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_size_normal = global::NovelAPP.Resource.Dimension.design_fab_size_normal;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_translation_z_pressed = global::NovelAPP.Resource.Dimension.design_fab_translation_z_pressed;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_elevation = global::NovelAPP.Resource.Dimension.design_navigation_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_padding = global::NovelAPP.Resource.Dimension.design_navigation_icon_padding;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_size = global::NovelAPP.Resource.Dimension.design_navigation_icon_size;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_max_width = global::NovelAPP.Resource.Dimension.design_navigation_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_padding_bottom = global::NovelAPP.Resource.Dimension.design_navigation_padding_bottom;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_separator_vertical_padding = global::NovelAPP.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_action_inline_max_width = global::NovelAPP.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_background_corner_radius = global::NovelAPP.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_elevation = global::NovelAPP.Resource.Dimension.design_snackbar_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::NovelAPP.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_max_width = global::NovelAPP.Resource.Dimension.design_snackbar_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_min_width = global::NovelAPP.Resource.Dimension.design_snackbar_min_width;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_horizontal = global::NovelAPP.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical = global::NovelAPP.Resource.Dimension.design_snackbar_padding_vertical;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::NovelAPP.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_text_size = global::NovelAPP.Resource.Dimension.design_snackbar_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_max_width = global::NovelAPP.Resource.Dimension.design_tab_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_scrollable_min_width = global::NovelAPP.Resource.Dimension.design_tab_scrollable_min_width;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size = global::NovelAPP.Resource.Dimension.design_tab_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size_2line = global::NovelAPP.Resource.Dimension.design_tab_text_size_2line;
-			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_dark = global::NovelAPP.Resource.Dimension.disabled_alpha_material_dark;
-			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_light = global::NovelAPP.Resource.Dimension.disabled_alpha_material_light;
-			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_colored = global::NovelAPP.Resource.Dimension.highlight_alpha_material_colored;
-			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_dark = global::NovelAPP.Resource.Dimension.highlight_alpha_material_dark;
-			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_light = global::NovelAPP.Resource.Dimension.highlight_alpha_material_light;
-			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NovelAPP.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NovelAPP.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NovelAPP.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_height = global::NovelAPP.Resource.Dimension.notification_large_icon_height;
-			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_width = global::NovelAPP.Resource.Dimension.notification_large_icon_width;
-			global::BottomNavigationBar.Resource.Dimension.notification_subtext_size = global::NovelAPP.Resource.Dimension.notification_subtext_size;
-			global::BottomNavigationBar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_action_bar_item_background_material = global::NovelAPP.Resource.Drawable.abc_action_bar_item_background_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_borderless_material = global::NovelAPP.Resource.Drawable.abc_btn_borderless_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_material = global::NovelAPP.Resource.Drawable.abc_btn_check_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::NovelAPP.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::NovelAPP.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_colored_material = global::NovelAPP.Resource.Drawable.abc_btn_colored_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_default_mtrl_shape = global::NovelAPP.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_material = global::NovelAPP.Resource.Drawable.abc_btn_radio_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::NovelAPP.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::NovelAPP.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::NovelAPP.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::NovelAPP.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_internal_bg = global::NovelAPP.Resource.Drawable.abc_cab_background_internal_bg;
-			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_material = global::NovelAPP.Resource.Drawable.abc_cab_background_top_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_control_background_material = global::NovelAPP.Resource.Drawable.abc_control_background_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_dialog_material_background = global::NovelAPP.Resource.Drawable.abc_dialog_material_background;
-			global::BottomNavigationBar.Resource.Drawable.abc_edit_text_material = global::NovelAPP.Resource.Drawable.abc_edit_text_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_ab_back_material = global::NovelAPP.Resource.Drawable.abc_ic_ab_back_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::NovelAPP.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_clear_material = global::NovelAPP.Resource.Drawable.abc_ic_clear_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_go_search_api_material = global::NovelAPP.Resource.Drawable.abc_ic_go_search_api_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::NovelAPP.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_overflow_material = global::NovelAPP.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::NovelAPP.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_search_api_material = global::NovelAPP.Resource.Drawable.abc_ic_search_api_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_16dp = global::NovelAPP.Resource.Drawable.abc_ic_star_black_16dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_36dp = global::NovelAPP.Resource.Drawable.abc_ic_star_black_36dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_48dp = global::NovelAPP.Resource.Drawable.abc_ic_star_black_48dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_16dp = global::NovelAPP.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_36dp = global::NovelAPP.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_48dp = global::NovelAPP.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_voice_search_api_material = global::NovelAPP.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_dark = global::NovelAPP.Resource.Drawable.abc_item_background_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_light = global::NovelAPP.Resource.Drawable.abc_item_background_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_focused_holo = global::NovelAPP.Resource.Drawable.abc_list_focused_holo;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_longpressed_holo = global::NovelAPP.Resource.Drawable.abc_list_longpressed_holo;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_dark = global::NovelAPP.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_light = global::NovelAPP.Resource.Drawable.abc_list_pressed_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::NovelAPP.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::NovelAPP.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::NovelAPP.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::NovelAPP.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_dark = global::NovelAPP.Resource.Drawable.abc_list_selector_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_light = global::NovelAPP.Resource.Drawable.abc_list_selector_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::NovelAPP.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::BottomNavigationBar.Resource.Drawable.abc_popup_background_mtrl_mult = global::NovelAPP.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_indicator_material = global::NovelAPP.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_material = global::NovelAPP.Resource.Drawable.abc_ratingbar_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_small_material = global::NovelAPP.Resource.Drawable.abc_ratingbar_small_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::NovelAPP.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::NovelAPP.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_thumb_material = global::NovelAPP.Resource.Drawable.abc_seekbar_thumb_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_tick_mark_material = global::NovelAPP.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_track_material = global::NovelAPP.Resource.Drawable.abc_seekbar_track_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::NovelAPP.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_spinner_textfield_background_material = global::NovelAPP.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_switch_thumb_material = global::NovelAPP.Resource.Drawable.abc_switch_thumb_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_material = global::NovelAPP.Resource.Drawable.abc_tab_indicator_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_cursor_material = global::NovelAPP.Resource.Drawable.abc_text_cursor_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::NovelAPP.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::NovelAPP.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::NovelAPP.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::NovelAPP.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::NovelAPP.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::NovelAPP.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::NovelAPP.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_material = global::NovelAPP.Resource.Drawable.abc_textfield_search_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_vector_test = global::NovelAPP.Resource.Drawable.abc_vector_test;
-			global::BottomNavigationBar.Resource.Drawable.bb_bottom_bar_top_shadow = global::NovelAPP.Resource.Drawable.bb_bottom_bar_top_shadow;
-			global::BottomNavigationBar.Resource.Drawable.design_fab_background = global::NovelAPP.Resource.Drawable.design_fab_background;
-			global::BottomNavigationBar.Resource.Drawable.design_ic_visibility = global::NovelAPP.Resource.Drawable.design_ic_visibility;
-			global::BottomNavigationBar.Resource.Drawable.design_snackbar_background = global::NovelAPP.Resource.Drawable.design_snackbar_background;
-			global::BottomNavigationBar.Resource.Drawable.navigation_empty_icon = global::NovelAPP.Resource.Drawable.navigation_empty_icon;
-			global::BottomNavigationBar.Resource.Drawable.notification_template_icon_bg = global::NovelAPP.Resource.Drawable.notification_template_icon_bg;
-			global::BottomNavigationBar.Resource.Id.action0 = global::NovelAPP.Resource.Id.action0;
-			global::BottomNavigationBar.Resource.Id.action_bar = global::NovelAPP.Resource.Id.action_bar;
-			global::BottomNavigationBar.Resource.Id.action_bar_activity_content = global::NovelAPP.Resource.Id.action_bar_activity_content;
-			global::BottomNavigationBar.Resource.Id.action_bar_container = global::NovelAPP.Resource.Id.action_bar_container;
-			global::BottomNavigationBar.Resource.Id.action_bar_root = global::NovelAPP.Resource.Id.action_bar_root;
-			global::BottomNavigationBar.Resource.Id.action_bar_spinner = global::NovelAPP.Resource.Id.action_bar_spinner;
-			global::BottomNavigationBar.Resource.Id.action_bar_subtitle = global::NovelAPP.Resource.Id.action_bar_subtitle;
-			global::BottomNavigationBar.Resource.Id.action_bar_title = global::NovelAPP.Resource.Id.action_bar_title;
-			global::BottomNavigationBar.Resource.Id.action_context_bar = global::NovelAPP.Resource.Id.action_context_bar;
-			global::BottomNavigationBar.Resource.Id.action_divider = global::NovelAPP.Resource.Id.action_divider;
-			global::BottomNavigationBar.Resource.Id.action_menu_divider = global::NovelAPP.Resource.Id.action_menu_divider;
-			global::BottomNavigationBar.Resource.Id.action_menu_presenter = global::NovelAPP.Resource.Id.action_menu_presenter;
-			global::BottomNavigationBar.Resource.Id.action_mode_bar = global::NovelAPP.Resource.Id.action_mode_bar;
-			global::BottomNavigationBar.Resource.Id.action_mode_bar_stub = global::NovelAPP.Resource.Id.action_mode_bar_stub;
-			global::BottomNavigationBar.Resource.Id.action_mode_close_button = global::NovelAPP.Resource.Id.action_mode_close_button;
-			global::BottomNavigationBar.Resource.Id.activity_chooser_view_content = global::NovelAPP.Resource.Id.activity_chooser_view_content;
-			global::BottomNavigationBar.Resource.Id.add = global::NovelAPP.Resource.Id.add;
-			global::BottomNavigationBar.Resource.Id.alertTitle = global::NovelAPP.Resource.Id.alertTitle;
-			global::BottomNavigationBar.Resource.Id.all = global::NovelAPP.Resource.Id.all;
-			global::BottomNavigationBar.Resource.Id.always = global::NovelAPP.Resource.Id.always;
-			global::BottomNavigationBar.Resource.Id.auto = global::NovelAPP.Resource.Id.auto;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_overlay = global::NovelAPP.Resource.Id.bb_bottom_bar_background_overlay;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_view = global::NovelAPP.Resource.Id.bb_bottom_bar_background_view;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_icon = global::NovelAPP.Resource.Id.bb_bottom_bar_icon;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_item_container = global::NovelAPP.Resource.Id.bb_bottom_bar_item_container;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_outer_container = global::NovelAPP.Resource.Id.bb_bottom_bar_outer_container;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_shadow = global::NovelAPP.Resource.Id.bb_bottom_bar_shadow;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_title = global::NovelAPP.Resource.Id.bb_bottom_bar_title;
-			global::BottomNavigationBar.Resource.Id.bb_tablet_right_border = global::NovelAPP.Resource.Id.bb_tablet_right_border;
-			global::BottomNavigationBar.Resource.Id.bb_user_content_container = global::NovelAPP.Resource.Id.bb_user_content_container;
-			global::BottomNavigationBar.Resource.Id.beginning = global::NovelAPP.Resource.Id.beginning;
-			global::BottomNavigationBar.Resource.Id.bottom = global::NovelAPP.Resource.Id.bottom;
-			global::BottomNavigationBar.Resource.Id.buttonPanel = global::NovelAPP.Resource.Id.buttonPanel;
-			global::BottomNavigationBar.Resource.Id.cancel_action = global::NovelAPP.Resource.Id.cancel_action;
-			global::BottomNavigationBar.Resource.Id.center = global::NovelAPP.Resource.Id.center;
-			global::BottomNavigationBar.Resource.Id.center_horizontal = global::NovelAPP.Resource.Id.center_horizontal;
-			global::BottomNavigationBar.Resource.Id.center_vertical = global::NovelAPP.Resource.Id.center_vertical;
-			global::BottomNavigationBar.Resource.Id.checkbox = global::NovelAPP.Resource.Id.checkbox;
-			global::BottomNavigationBar.Resource.Id.chronometer = global::NovelAPP.Resource.Id.chronometer;
-			global::BottomNavigationBar.Resource.Id.clip_horizontal = global::NovelAPP.Resource.Id.clip_horizontal;
-			global::BottomNavigationBar.Resource.Id.clip_vertical = global::NovelAPP.Resource.Id.clip_vertical;
-			global::BottomNavigationBar.Resource.Id.collapseActionView = global::NovelAPP.Resource.Id.collapseActionView;
-			global::BottomNavigationBar.Resource.Id.contentPanel = global::NovelAPP.Resource.Id.contentPanel;
-			global::BottomNavigationBar.Resource.Id.custom = global::NovelAPP.Resource.Id.custom;
-			global::BottomNavigationBar.Resource.Id.customPanel = global::NovelAPP.Resource.Id.customPanel;
-			global::BottomNavigationBar.Resource.Id.decor_content_parent = global::NovelAPP.Resource.Id.decor_content_parent;
-			global::BottomNavigationBar.Resource.Id.default_activity_button = global::NovelAPP.Resource.Id.default_activity_button;
-			global::BottomNavigationBar.Resource.Id.design_bottom_sheet = global::NovelAPP.Resource.Id.design_bottom_sheet;
-			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area = global::NovelAPP.Resource.Id.design_menu_item_action_area;
-			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area_stub = global::NovelAPP.Resource.Id.design_menu_item_action_area_stub;
-			global::BottomNavigationBar.Resource.Id.design_menu_item_text = global::NovelAPP.Resource.Id.design_menu_item_text;
-			global::BottomNavigationBar.Resource.Id.design_navigation_view = global::NovelAPP.Resource.Id.design_navigation_view;
-			global::BottomNavigationBar.Resource.Id.disableHome = global::NovelAPP.Resource.Id.disableHome;
-			global::BottomNavigationBar.Resource.Id.edit_query = global::NovelAPP.Resource.Id.edit_query;
-			global::BottomNavigationBar.Resource.Id.end = global::NovelAPP.Resource.Id.end;
-			global::BottomNavigationBar.Resource.Id.end_padder = global::NovelAPP.Resource.Id.end_padder;
-			global::BottomNavigationBar.Resource.Id.enterAlways = global::NovelAPP.Resource.Id.enterAlways;
-			global::BottomNavigationBar.Resource.Id.enterAlwaysCollapsed = global::NovelAPP.Resource.Id.enterAlwaysCollapsed;
-			global::BottomNavigationBar.Resource.Id.exitUntilCollapsed = global::NovelAPP.Resource.Id.exitUntilCollapsed;
-			global::BottomNavigationBar.Resource.Id.expand_activities_button = global::NovelAPP.Resource.Id.expand_activities_button;
-			global::BottomNavigationBar.Resource.Id.expanded_menu = global::NovelAPP.Resource.Id.expanded_menu;
-			global::BottomNavigationBar.Resource.Id.fill = global::NovelAPP.Resource.Id.fill;
-			global::BottomNavigationBar.Resource.Id.fill_horizontal = global::NovelAPP.Resource.Id.fill_horizontal;
-			global::BottomNavigationBar.Resource.Id.fill_vertical = global::NovelAPP.Resource.Id.fill_vertical;
-			global::BottomNavigationBar.Resource.Id.@fixed = global::NovelAPP.Resource.Id.@fixed;
-			global::BottomNavigationBar.Resource.Id.home = global::NovelAPP.Resource.Id.home;
-			global::BottomNavigationBar.Resource.Id.homeAsUp = global::NovelAPP.Resource.Id.homeAsUp;
-			global::BottomNavigationBar.Resource.Id.icon = global::NovelAPP.Resource.Id.icon;
-			global::BottomNavigationBar.Resource.Id.ifRoom = global::NovelAPP.Resource.Id.ifRoom;
-			global::BottomNavigationBar.Resource.Id.image = global::NovelAPP.Resource.Id.image;
-			global::BottomNavigationBar.Resource.Id.info = global::NovelAPP.Resource.Id.info;
-			global::BottomNavigationBar.Resource.Id.item_touch_helper_previous_elevation = global::NovelAPP.Resource.Id.item_touch_helper_previous_elevation;
-			global::BottomNavigationBar.Resource.Id.left = global::NovelAPP.Resource.Id.left;
-			global::BottomNavigationBar.Resource.Id.line1 = global::NovelAPP.Resource.Id.line1;
-			global::BottomNavigationBar.Resource.Id.line3 = global::NovelAPP.Resource.Id.line3;
-			global::BottomNavigationBar.Resource.Id.listMode = global::NovelAPP.Resource.Id.listMode;
-			global::BottomNavigationBar.Resource.Id.list_item = global::NovelAPP.Resource.Id.list_item;
-			global::BottomNavigationBar.Resource.Id.media_actions = global::NovelAPP.Resource.Id.media_actions;
-			global::BottomNavigationBar.Resource.Id.middle = global::NovelAPP.Resource.Id.middle;
-			global::BottomNavigationBar.Resource.Id.mini = global::NovelAPP.Resource.Id.mini;
-			global::BottomNavigationBar.Resource.Id.multiply = global::NovelAPP.Resource.Id.multiply;
-			global::BottomNavigationBar.Resource.Id.navigation_header_container = global::NovelAPP.Resource.Id.navigation_header_container;
-			global::BottomNavigationBar.Resource.Id.never = global::NovelAPP.Resource.Id.never;
-			global::BottomNavigationBar.Resource.Id.none = global::NovelAPP.Resource.Id.none;
-			global::BottomNavigationBar.Resource.Id.normal = global::NovelAPP.Resource.Id.normal;
-			global::BottomNavigationBar.Resource.Id.parallax = global::NovelAPP.Resource.Id.parallax;
-			global::BottomNavigationBar.Resource.Id.parentPanel = global::NovelAPP.Resource.Id.parentPanel;
-			global::BottomNavigationBar.Resource.Id.pin = global::NovelAPP.Resource.Id.pin;
-			global::BottomNavigationBar.Resource.Id.progress_circular = global::NovelAPP.Resource.Id.progress_circular;
-			global::BottomNavigationBar.Resource.Id.progress_horizontal = global::NovelAPP.Resource.Id.progress_horizontal;
-			global::BottomNavigationBar.Resource.Id.radio = global::NovelAPP.Resource.Id.radio;
-			global::BottomNavigationBar.Resource.Id.right = global::NovelAPP.Resource.Id.right;
-			global::BottomNavigationBar.Resource.Id.screen = global::NovelAPP.Resource.Id.screen;
-			global::BottomNavigationBar.Resource.Id.scroll = global::NovelAPP.Resource.Id.scroll;
-			global::BottomNavigationBar.Resource.Id.scrollIndicatorDown = global::NovelAPP.Resource.Id.scrollIndicatorDown;
-			global::BottomNavigationBar.Resource.Id.scrollIndicatorUp = global::NovelAPP.Resource.Id.scrollIndicatorUp;
-			global::BottomNavigationBar.Resource.Id.scrollView = global::NovelAPP.Resource.Id.scrollView;
-			global::BottomNavigationBar.Resource.Id.scrollable = global::NovelAPP.Resource.Id.scrollable;
-			global::BottomNavigationBar.Resource.Id.search_badge = global::NovelAPP.Resource.Id.search_badge;
-			global::BottomNavigationBar.Resource.Id.search_bar = global::NovelAPP.Resource.Id.search_bar;
-			global::BottomNavigationBar.Resource.Id.search_button = global::NovelAPP.Resource.Id.search_button;
-			global::BottomNavigationBar.Resource.Id.search_close_btn = global::NovelAPP.Resource.Id.search_close_btn;
-			global::BottomNavigationBar.Resource.Id.search_edit_frame = global::NovelAPP.Resource.Id.search_edit_frame;
-			global::BottomNavigationBar.Resource.Id.search_go_btn = global::NovelAPP.Resource.Id.search_go_btn;
-			global::BottomNavigationBar.Resource.Id.search_mag_icon = global::NovelAPP.Resource.Id.search_mag_icon;
-			global::BottomNavigationBar.Resource.Id.search_plate = global::NovelAPP.Resource.Id.search_plate;
-			global::BottomNavigationBar.Resource.Id.search_src_text = global::NovelAPP.Resource.Id.search_src_text;
-			global::BottomNavigationBar.Resource.Id.search_voice_btn = global::NovelAPP.Resource.Id.search_voice_btn;
-			global::BottomNavigationBar.Resource.Id.select_dialog_listview = global::NovelAPP.Resource.Id.select_dialog_listview;
-			global::BottomNavigationBar.Resource.Id.shortcut = global::NovelAPP.Resource.Id.shortcut;
-			global::BottomNavigationBar.Resource.Id.showCustom = global::NovelAPP.Resource.Id.showCustom;
-			global::BottomNavigationBar.Resource.Id.showHome = global::NovelAPP.Resource.Id.showHome;
-			global::BottomNavigationBar.Resource.Id.showTitle = global::NovelAPP.Resource.Id.showTitle;
-			global::BottomNavigationBar.Resource.Id.snackbar_action = global::NovelAPP.Resource.Id.snackbar_action;
-			global::BottomNavigationBar.Resource.Id.snackbar_text = global::NovelAPP.Resource.Id.snackbar_text;
-			global::BottomNavigationBar.Resource.Id.snap = global::NovelAPP.Resource.Id.snap;
-			global::BottomNavigationBar.Resource.Id.spacer = global::NovelAPP.Resource.Id.spacer;
-			global::BottomNavigationBar.Resource.Id.split_action_bar = global::NovelAPP.Resource.Id.split_action_bar;
-			global::BottomNavigationBar.Resource.Id.src_atop = global::NovelAPP.Resource.Id.src_atop;
-			global::BottomNavigationBar.Resource.Id.src_in = global::NovelAPP.Resource.Id.src_in;
-			global::BottomNavigationBar.Resource.Id.src_over = global::NovelAPP.Resource.Id.src_over;
-			global::BottomNavigationBar.Resource.Id.start = global::NovelAPP.Resource.Id.start;
-			global::BottomNavigationBar.Resource.Id.status_bar_latest_event_content = global::NovelAPP.Resource.Id.status_bar_latest_event_content;
-			global::BottomNavigationBar.Resource.Id.submenuarrow = global::NovelAPP.Resource.Id.submenuarrow;
-			global::BottomNavigationBar.Resource.Id.submit_area = global::NovelAPP.Resource.Id.submit_area;
-			global::BottomNavigationBar.Resource.Id.tabMode = global::NovelAPP.Resource.Id.tabMode;
-			global::BottomNavigationBar.Resource.Id.text = global::NovelAPP.Resource.Id.text;
-			global::BottomNavigationBar.Resource.Id.text2 = global::NovelAPP.Resource.Id.text2;
-			global::BottomNavigationBar.Resource.Id.textSpacerNoButtons = global::NovelAPP.Resource.Id.textSpacerNoButtons;
-			global::BottomNavigationBar.Resource.Id.text_input_password_toggle = global::NovelAPP.Resource.Id.text_input_password_toggle;
-			global::BottomNavigationBar.Resource.Id.time = global::NovelAPP.Resource.Id.time;
-			global::BottomNavigationBar.Resource.Id.title = global::NovelAPP.Resource.Id.title;
-			global::BottomNavigationBar.Resource.Id.title_template = global::NovelAPP.Resource.Id.title_template;
-			global::BottomNavigationBar.Resource.Id.top = global::NovelAPP.Resource.Id.top;
-			global::BottomNavigationBar.Resource.Id.topPanel = global::NovelAPP.Resource.Id.topPanel;
-			global::BottomNavigationBar.Resource.Id.touch_outside = global::NovelAPP.Resource.Id.touch_outside;
-			global::BottomNavigationBar.Resource.Id.up = global::NovelAPP.Resource.Id.up;
-			global::BottomNavigationBar.Resource.Id.useLogo = global::NovelAPP.Resource.Id.useLogo;
-			global::BottomNavigationBar.Resource.Id.view_offset_helper = global::NovelAPP.Resource.Id.view_offset_helper;
-			global::BottomNavigationBar.Resource.Id.withText = global::NovelAPP.Resource.Id.withText;
-			global::BottomNavigationBar.Resource.Id.wrap_content = global::NovelAPP.Resource.Id.wrap_content;
-			global::BottomNavigationBar.Resource.Integer.abc_config_activityDefaultDur = global::NovelAPP.Resource.Integer.abc_config_activityDefaultDur;
-			global::BottomNavigationBar.Resource.Integer.abc_config_activityShortDur = global::NovelAPP.Resource.Integer.abc_config_activityShortDur;
-			global::BottomNavigationBar.Resource.Integer.app_bar_elevation_anim_duration = global::NovelAPP.Resource.Integer.app_bar_elevation_anim_duration;
-			global::BottomNavigationBar.Resource.Integer.bottom_sheet_slide_duration = global::NovelAPP.Resource.Integer.bottom_sheet_slide_duration;
-			global::BottomNavigationBar.Resource.Integer.cancel_button_image_alpha = global::NovelAPP.Resource.Integer.cancel_button_image_alpha;
-			global::BottomNavigationBar.Resource.Integer.design_snackbar_text_max_lines = global::NovelAPP.Resource.Integer.design_snackbar_text_max_lines;
-			global::BottomNavigationBar.Resource.Integer.status_bar_notification_info_maxnum = global::NovelAPP.Resource.Integer.status_bar_notification_info_maxnum;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_title_item = global::NovelAPP.Resource.Layout.abc_action_bar_title_item;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_up_container = global::NovelAPP.Resource.Layout.abc_action_bar_up_container;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_view_list_nav_layout = global::NovelAPP.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_action_menu_item_layout = global::NovelAPP.Resource.Layout.abc_action_menu_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_action_menu_layout = global::NovelAPP.Resource.Layout.abc_action_menu_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_action_mode_bar = global::NovelAPP.Resource.Layout.abc_action_mode_bar;
-			global::BottomNavigationBar.Resource.Layout.abc_action_mode_close_item_material = global::NovelAPP.Resource.Layout.abc_action_mode_close_item_material;
-			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view = global::NovelAPP.Resource.Layout.abc_activity_chooser_view;
-			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view_list_item = global::NovelAPP.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_button_bar_material = global::NovelAPP.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_material = global::NovelAPP.Resource.Layout.abc_alert_dialog_material;
-			global::BottomNavigationBar.Resource.Layout.abc_dialog_title_material = global::NovelAPP.Resource.Layout.abc_dialog_title_material;
-			global::BottomNavigationBar.Resource.Layout.abc_expanded_menu_layout = global::NovelAPP.Resource.Layout.abc_expanded_menu_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_checkbox = global::NovelAPP.Resource.Layout.abc_list_menu_item_checkbox;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_icon = global::NovelAPP.Resource.Layout.abc_list_menu_item_icon;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_layout = global::NovelAPP.Resource.Layout.abc_list_menu_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_radio = global::NovelAPP.Resource.Layout.abc_list_menu_item_radio;
-			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_header_item_layout = global::NovelAPP.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_item_layout = global::NovelAPP.Resource.Layout.abc_popup_menu_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_content_include = global::NovelAPP.Resource.Layout.abc_screen_content_include;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_simple = global::NovelAPP.Resource.Layout.abc_screen_simple;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::NovelAPP.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_toolbar = global::NovelAPP.Resource.Layout.abc_screen_toolbar;
-			global::BottomNavigationBar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::NovelAPP.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::BottomNavigationBar.Resource.Layout.abc_search_view = global::NovelAPP.Resource.Layout.abc_search_view;
-			global::BottomNavigationBar.Resource.Layout.abc_select_dialog_material = global::NovelAPP.Resource.Layout.abc_select_dialog_material;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container = global::NovelAPP.Resource.Layout.bb_bottom_bar_item_container;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container_tablet = global::NovelAPP.Resource.Layout.bb_bottom_bar_item_container_tablet;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed = global::NovelAPP.Resource.Layout.bb_bottom_bar_item_fixed;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed_tablet = global::NovelAPP.Resource.Layout.bb_bottom_bar_item_fixed_tablet;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_shifting = global::NovelAPP.Resource.Layout.bb_bottom_bar_item_shifting;
-			global::BottomNavigationBar.Resource.Layout.design_bottom_sheet_dialog = global::NovelAPP.Resource.Layout.design_bottom_sheet_dialog;
-			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar = global::NovelAPP.Resource.Layout.design_layout_snackbar;
-			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar_include = global::NovelAPP.Resource.Layout.design_layout_snackbar_include;
-			global::BottomNavigationBar.Resource.Layout.design_layout_tab_icon = global::NovelAPP.Resource.Layout.design_layout_tab_icon;
-			global::BottomNavigationBar.Resource.Layout.design_layout_tab_text = global::NovelAPP.Resource.Layout.design_layout_tab_text;
-			global::BottomNavigationBar.Resource.Layout.design_menu_item_action_area = global::NovelAPP.Resource.Layout.design_menu_item_action_area;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item = global::NovelAPP.Resource.Layout.design_navigation_item;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item_header = global::NovelAPP.Resource.Layout.design_navigation_item_header;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item_separator = global::NovelAPP.Resource.Layout.design_navigation_item_separator;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item_subheader = global::NovelAPP.Resource.Layout.design_navigation_item_subheader;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_menu = global::NovelAPP.Resource.Layout.design_navigation_menu;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_menu_item = global::NovelAPP.Resource.Layout.design_navigation_menu_item;
-			global::BottomNavigationBar.Resource.Layout.design_text_input_password_icon = global::NovelAPP.Resource.Layout.design_text_input_password_icon;
-			global::BottomNavigationBar.Resource.Layout.notification_media_action = global::NovelAPP.Resource.Layout.notification_media_action;
-			global::BottomNavigationBar.Resource.Layout.notification_media_cancel_action = global::NovelAPP.Resource.Layout.notification_media_cancel_action;
-			global::BottomNavigationBar.Resource.Layout.notification_template_big_media = global::NovelAPP.Resource.Layout.notification_template_big_media;
-			global::BottomNavigationBar.Resource.Layout.notification_template_big_media_narrow = global::NovelAPP.Resource.Layout.notification_template_big_media_narrow;
-			global::BottomNavigationBar.Resource.Layout.notification_template_lines = global::NovelAPP.Resource.Layout.notification_template_lines;
-			global::BottomNavigationBar.Resource.Layout.notification_template_media = global::NovelAPP.Resource.Layout.notification_template_media;
-			global::BottomNavigationBar.Resource.Layout.notification_template_part_chronometer = global::NovelAPP.Resource.Layout.notification_template_part_chronometer;
-			global::BottomNavigationBar.Resource.Layout.notification_template_part_time = global::NovelAPP.Resource.Layout.notification_template_part_time;
-			global::BottomNavigationBar.Resource.Layout.select_dialog_item_material = global::NovelAPP.Resource.Layout.select_dialog_item_material;
-			global::BottomNavigationBar.Resource.Layout.select_dialog_multichoice_material = global::NovelAPP.Resource.Layout.select_dialog_multichoice_material;
-			global::BottomNavigationBar.Resource.Layout.select_dialog_singlechoice_material = global::NovelAPP.Resource.Layout.select_dialog_singlechoice_material;
-			global::BottomNavigationBar.Resource.Layout.support_simple_spinner_dropdown_item = global::NovelAPP.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description = global::NovelAPP.Resource.String.abc_action_bar_home_description;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description_format = global::NovelAPP.Resource.String.abc_action_bar_home_description_format;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_subtitle_description_format = global::NovelAPP.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_up_description = global::NovelAPP.Resource.String.abc_action_bar_up_description;
-			global::BottomNavigationBar.Resource.String.abc_action_menu_overflow_description = global::NovelAPP.Resource.String.abc_action_menu_overflow_description;
-			global::BottomNavigationBar.Resource.String.abc_action_mode_done = global::NovelAPP.Resource.String.abc_action_mode_done;
-			global::BottomNavigationBar.Resource.String.abc_activity_chooser_view_see_all = global::NovelAPP.Resource.String.abc_activity_chooser_view_see_all;
-			global::BottomNavigationBar.Resource.String.abc_activitychooserview_choose_application = global::NovelAPP.Resource.String.abc_activitychooserview_choose_application;
-			global::BottomNavigationBar.Resource.String.abc_capital_off = global::NovelAPP.Resource.String.abc_capital_off;
-			global::BottomNavigationBar.Resource.String.abc_capital_on = global::NovelAPP.Resource.String.abc_capital_on;
-			global::BottomNavigationBar.Resource.String.abc_font_family_body_1_material = global::NovelAPP.Resource.String.abc_font_family_body_1_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_body_2_material = global::NovelAPP.Resource.String.abc_font_family_body_2_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_button_material = global::NovelAPP.Resource.String.abc_font_family_button_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_caption_material = global::NovelAPP.Resource.String.abc_font_family_caption_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_1_material = global::NovelAPP.Resource.String.abc_font_family_display_1_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_2_material = global::NovelAPP.Resource.String.abc_font_family_display_2_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_3_material = global::NovelAPP.Resource.String.abc_font_family_display_3_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_4_material = global::NovelAPP.Resource.String.abc_font_family_display_4_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_headline_material = global::NovelAPP.Resource.String.abc_font_family_headline_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_menu_material = global::NovelAPP.Resource.String.abc_font_family_menu_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_subhead_material = global::NovelAPP.Resource.String.abc_font_family_subhead_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_title_material = global::NovelAPP.Resource.String.abc_font_family_title_material;
-			global::BottomNavigationBar.Resource.String.abc_search_hint = global::NovelAPP.Resource.String.abc_search_hint;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_clear = global::NovelAPP.Resource.String.abc_searchview_description_clear;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_query = global::NovelAPP.Resource.String.abc_searchview_description_query;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_search = global::NovelAPP.Resource.String.abc_searchview_description_search;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_submit = global::NovelAPP.Resource.String.abc_searchview_description_submit;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_voice = global::NovelAPP.Resource.String.abc_searchview_description_voice;
-			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with = global::NovelAPP.Resource.String.abc_shareactionprovider_share_with;
-			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with_application = global::NovelAPP.Resource.String.abc_shareactionprovider_share_with_application;
-			global::BottomNavigationBar.Resource.String.abc_toolbar_collapse_description = global::NovelAPP.Resource.String.abc_toolbar_collapse_description;
-			global::BottomNavigationBar.Resource.String.app_name = global::NovelAPP.Resource.String.app_name;
-			global::BottomNavigationBar.Resource.String.appbar_scrolling_view_behavior = global::NovelAPP.Resource.String.appbar_scrolling_view_behavior;
-			global::BottomNavigationBar.Resource.String.bottom_sheet_behavior = global::NovelAPP.Resource.String.bottom_sheet_behavior;
-			global::BottomNavigationBar.Resource.String.character_counter_pattern = global::NovelAPP.Resource.String.character_counter_pattern;
-			global::BottomNavigationBar.Resource.String.search_menu_title = global::NovelAPP.Resource.String.search_menu_title;
-			global::BottomNavigationBar.Resource.String.status_bar_notification_info_overflow = global::NovelAPP.Resource.String.status_bar_notification_info_overflow;
-			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat = global::NovelAPP.Resource.Style.AlertDialog_AppCompat;
-			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat_Light = global::NovelAPP.Resource.Style.AlertDialog_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_Dialog = global::NovelAPP.Resource.Style.Animation_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_DropDownUp = global::NovelAPP.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::BottomNavigationBar.Resource.Style.Animation_Design_BottomSheetDialog = global::NovelAPP.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarBadge_Text = global::NovelAPP.Resource.Style.BB_BottomBarBadge_Text;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem = global::NovelAPP.Resource.Style.BB_BottomBarItem;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed = global::NovelAPP.Resource.Style.BB_BottomBarItem_Fixed;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance = global::NovelAPP.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting = global::NovelAPP.Resource.Style.BB_BottomBarItem_Shifting;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance = global::NovelAPP.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Tablet = global::NovelAPP.Resource.Style.BB_BottomBarItem_Tablet;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_TitleStyle = global::NovelAPP.Resource.Style.BB_BottomBarItem_TitleStyle;
-			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat = global::NovelAPP.Resource.Style.Base_AlertDialog_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::NovelAPP.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::NovelAPP.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::NovelAPP.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::NovelAPP.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NovelAPP.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NovelAPP.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NovelAPP.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NovelAPP.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat = global::NovelAPP.Resource.Style.Base_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::NovelAPP.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NovelAPP.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::NovelAPP.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::NovelAPP.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::NovelAPP.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat = global::NovelAPP.Resource.Style.Base_V21_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::NovelAPP.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::NovelAPP.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat = global::NovelAPP.Resource.Style.Base_V22_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::NovelAPP.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat = global::NovelAPP.Resource.Style.Base_V23_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::NovelAPP.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat = global::NovelAPP.Resource.Style.Base_V7_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::NovelAPP.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::NovelAPP.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::NovelAPP.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::NovelAPP.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::NovelAPP.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_EditText = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NovelAPP.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_AppBarLayout = global::NovelAPP.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_TabLayout = global::NovelAPP.Resource.Style.Base_Widget_Design_TabLayout;
-			global::BottomNavigationBar.Resource.Style.Platform_AppCompat = global::NovelAPP.Resource.Style.Platform_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_AppCompat_Light = global::NovelAPP.Resource.Style.Platform_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::NovelAPP.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::NovelAPP.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::NovelAPP.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_V11_AppCompat = global::NovelAPP.Resource.Style.Platform_V11_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_V11_AppCompat_Light = global::NovelAPP.Resource.Style.Platform_V11_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_V14_AppCompat = global::NovelAPP.Resource.Style.Platform_V14_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_V14_AppCompat_Light = global::NovelAPP.Resource.Style.Platform_V14_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::NovelAPP.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::NovelAPP.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::NovelAPP.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::NovelAPP.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::NovelAPP.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat = global::NovelAPP.Resource.Style.TextAppearance_AppCompat;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body1 = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body2 = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Button = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Caption = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display1 = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display2 = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display3 = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display4 = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Headline = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Large;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Menu = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Small;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NovelAPP.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::NovelAPP.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter = global::NovelAPP.Resource.Style.TextAppearance_Design_Counter;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::NovelAPP.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Error = global::NovelAPP.Resource.Style.TextAppearance_Design_Error;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Hint = global::NovelAPP.Resource.Style.TextAppearance_Design_Hint;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::NovelAPP.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Tab = global::NovelAPP.Resource.Style.TextAppearance_Design_Tab;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent = global::NovelAPP.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::NovelAPP.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::NovelAPP.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::NovelAPP.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::NovelAPP.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NovelAPP.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NovelAPP.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::NovelAPP.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat = global::NovelAPP.Resource.Style.Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_CompactMenu = global::NovelAPP.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::NovelAPP.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog = global::NovelAPP.Resource.Style.Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::NovelAPP.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::NovelAPP.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NovelAPP.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light = global::NovelAPP.Resource.Style.Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NovelAPP.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog = global::NovelAPP.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::NovelAPP.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::NovelAPP.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::NovelAPP.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::NovelAPP.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_NoActionBar = global::NovelAPP.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_Design = global::NovelAPP.Resource.Style.Theme_Design;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_BottomSheetDialog = global::NovelAPP.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_Light = global::NovelAPP.Resource.Style.Theme_Design_Light;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::NovelAPP.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_NoActionBar = global::NovelAPP.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_NoActionBar = global::NovelAPP.Resource.Style.Theme_Design_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Light = global::NovelAPP.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionMode = global::NovelAPP.Resource.Style.Widget_AppCompat_ActionMode;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::NovelAPP.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::NovelAPP.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button = global::NovelAPP.Resource.Style.Widget_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless = global::NovelAPP.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::NovelAPP.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NovelAPP.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Colored = global::NovelAPP.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Small = global::NovelAPP.Resource.Style.Widget_AppCompat_Button_Small;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar = global::NovelAPP.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::NovelAPP.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::NovelAPP.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::NovelAPP.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::NovelAPP.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::NovelAPP.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::NovelAPP.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_EditText = global::NovelAPP.Resource.Style.Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ImageButton = global::NovelAPP.Resource.Style.Widget_AppCompat_ImageButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_SearchView = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::NovelAPP.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListMenuView = global::NovelAPP.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::NovelAPP.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView = global::NovelAPP.Resource.Style.Widget_AppCompat_ListView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::NovelAPP.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_Menu = global::NovelAPP.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu = global::NovelAPP.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::NovelAPP.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupWindow = global::NovelAPP.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar = global::NovelAPP.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::NovelAPP.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar = global::NovelAPP.Resource.Style.Widget_AppCompat_RatingBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::NovelAPP.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::NovelAPP.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView = global::NovelAPP.Resource.Style.Widget_AppCompat_SearchView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::NovelAPP.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar = global::NovelAPP.Resource.Style.Widget_AppCompat_SeekBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::NovelAPP.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner = global::NovelAPP.Resource.Style.Widget_AppCompat_Spinner;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::NovelAPP.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::NovelAPP.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::NovelAPP.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::NovelAPP.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar = global::NovelAPP.Resource.Style.Widget_AppCompat_Toolbar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::NovelAPP.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_AppBarLayout = global::NovelAPP.Resource.Style.Widget_Design_AppBarLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_BottomSheet_Modal = global::NovelAPP.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_CollapsingToolbar = global::NovelAPP.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_CoordinatorLayout = global::NovelAPP.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_FloatingActionButton = global::NovelAPP.Resource.Style.Widget_Design_FloatingActionButton;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_NavigationView = global::NovelAPP.Resource.Style.Widget_Design_NavigationView;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::NovelAPP.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_Snackbar = global::NovelAPP.Resource.Style.Widget_Design_Snackbar;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_TabLayout = global::NovelAPP.Resource.Style.Widget_Design_TabLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_TextInputLayout = global::NovelAPP.Resource.Style.Widget_Design_TextInputLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar = global::NovelAPP.Resource.Styleable.ActionBar;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_background = global::NovelAPP.Resource.Styleable.ActionBar_background;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundSplit = global::NovelAPP.Resource.Styleable.ActionBar_backgroundSplit;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundStacked = global::NovelAPP.Resource.Styleable.ActionBar_backgroundStacked;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEnd = global::NovelAPP.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::NovelAPP.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetLeft = global::NovelAPP.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetRight = global::NovelAPP.Resource.Styleable.ActionBar_contentInsetRight;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStart = global::NovelAPP.Resource.Styleable.ActionBar_contentInsetStart;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::NovelAPP.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_customNavigationLayout = global::NovelAPP.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_displayOptions = global::NovelAPP.Resource.Styleable.ActionBar_displayOptions;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_divider = global::NovelAPP.Resource.Styleable.ActionBar_divider;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_elevation = global::NovelAPP.Resource.Styleable.ActionBar_elevation;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_height = global::NovelAPP.Resource.Styleable.ActionBar_height;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_hideOnContentScroll = global::NovelAPP.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::NovelAPP.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeLayout = global::NovelAPP.Resource.Styleable.ActionBar_homeLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_icon = global::NovelAPP.Resource.Styleable.ActionBar_icon;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::NovelAPP.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_itemPadding = global::NovelAPP.Resource.Styleable.ActionBar_itemPadding;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_logo = global::NovelAPP.Resource.Styleable.ActionBar_logo;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_navigationMode = global::NovelAPP.Resource.Styleable.ActionBar_navigationMode;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_popupTheme = global::NovelAPP.Resource.Styleable.ActionBar_popupTheme;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarPadding = global::NovelAPP.Resource.Styleable.ActionBar_progressBarPadding;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarStyle = global::NovelAPP.Resource.Styleable.ActionBar_progressBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitle = global::NovelAPP.Resource.Styleable.ActionBar_subtitle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitleTextStyle = global::NovelAPP.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_title = global::NovelAPP.Resource.Styleable.ActionBar_title;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_titleTextStyle = global::NovelAPP.Resource.Styleable.ActionBar_titleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout = global::NovelAPP.Resource.Styleable.ActionBarLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::NovelAPP.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView = global::NovelAPP.Resource.Styleable.ActionMenuItemView;
-			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::NovelAPP.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::BottomNavigationBar.Resource.Styleable.ActionMenuView = global::NovelAPP.Resource.Styleable.ActionMenuView;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode = global::NovelAPP.Resource.Styleable.ActionMode;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_background = global::NovelAPP.Resource.Styleable.ActionMode_background;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_backgroundSplit = global::NovelAPP.Resource.Styleable.ActionMode_backgroundSplit;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_closeItemLayout = global::NovelAPP.Resource.Styleable.ActionMode_closeItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_height = global::NovelAPP.Resource.Styleable.ActionMode_height;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_subtitleTextStyle = global::NovelAPP.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_titleTextStyle = global::NovelAPP.Resource.Styleable.ActionMode_titleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView = global::NovelAPP.Resource.Styleable.ActivityChooserView;
-			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::NovelAPP.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::NovelAPP.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog = global::NovelAPP.Resource.Styleable.AlertDialog;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_android_layout = global::NovelAPP.Resource.Styleable.AlertDialog_android_layout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::NovelAPP.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listItemLayout = global::NovelAPP.Resource.Styleable.AlertDialog_listItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listLayout = global::NovelAPP.Resource.Styleable.AlertDialog_listLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::NovelAPP.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::NovelAPP.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout = global::NovelAPP.Resource.Styleable.AppBarLayout;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_android_background = global::NovelAPP.Resource.Styleable.AppBarLayout_android_background;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_elevation = global::NovelAPP.Resource.Styleable.AppBarLayout_elevation;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_expanded = global::NovelAPP.Resource.Styleable.AppBarLayout_expanded;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates = global::NovelAPP.Resource.Styleable.AppBarLayoutStates;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::NovelAPP.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::NovelAPP.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout = global::NovelAPP.Resource.Styleable.AppBarLayout_Layout;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::NovelAPP.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::NovelAPP.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView = global::NovelAPP.Resource.Styleable.AppCompatImageView;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_android_src = global::NovelAPP.Resource.Styleable.AppCompatImageView_android_src;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_srcCompat = global::NovelAPP.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar = global::NovelAPP.Resource.Styleable.AppCompatSeekBar;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::NovelAPP.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMark = global::NovelAPP.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::NovelAPP.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::NovelAPP.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper = global::NovelAPP.Resource.Styleable.AppCompatTextHelper;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::NovelAPP.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView = global::NovelAPP.Resource.Styleable.AppCompatTextView;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::NovelAPP.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_textAllCaps = global::NovelAPP.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSize = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::NovelAPP.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::NovelAPP.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::NovelAPP.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorAccent = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimary = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::NovelAPP.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_controlBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::NovelAPP.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::NovelAPP.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerVertical = global::NovelAPP.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::NovelAPP.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextColor = global::NovelAPP.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::NovelAPP.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::NovelAPP.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::NovelAPP.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::NovelAPP.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::NovelAPP.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::NovelAPP.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::NovelAPP.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::NovelAPP.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::NovelAPP.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::NovelAPP.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::NovelAPP.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::NovelAPP.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::NovelAPP.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::NovelAPP.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_switchStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::NovelAPP.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::NovelAPP.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::NovelAPP.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::NovelAPP.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBar = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::NovelAPP.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout = global::NovelAPP.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::NovelAPP.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::NovelAPP.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::NovelAPP.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout = global::NovelAPP.Resource.Styleable.ButtonBarLayout;
-			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout_allowStacking = global::NovelAPP.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_title = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::NovelAPP.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem = global::NovelAPP.Resource.Styleable.ColorStateListItem;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_alpha = global::NovelAPP.Resource.Styleable.ColorStateListItem_alpha;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_android_alpha = global::NovelAPP.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_android_color = global::NovelAPP.Resource.Styleable.ColorStateListItem_android_color;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton = global::NovelAPP.Resource.Styleable.CompoundButton;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton_android_button = global::NovelAPP.Resource.Styleable.CompoundButton_android_button;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTint = global::NovelAPP.Resource.Styleable.CompoundButton_buttonTint;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTintMode = global::NovelAPP.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout = global::NovelAPP.Resource.Styleable.CoordinatorLayout;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_keylines = global::NovelAPP.Resource.Styleable.CoordinatorLayout_keylines;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::NovelAPP.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::NovelAPP.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme = global::NovelAPP.Resource.Styleable.DesignTheme;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::NovelAPP.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetStyle = global::NovelAPP.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme_textColorError = global::NovelAPP.Resource.Styleable.DesignTheme_textColorError;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle = global::NovelAPP.Resource.Styleable.DrawerArrowToggle;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_barLength = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_color = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_color;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_spinBars = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_thickness = global::NovelAPP.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton = global::NovelAPP.Resource.Styleable.FloatingActionButton;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTint = global::NovelAPP.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::NovelAPP.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_borderWidth = global::NovelAPP.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_elevation = global::NovelAPP.Resource.Styleable.FloatingActionButton_elevation;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_fabSize = global::NovelAPP.Resource.Styleable.FloatingActionButton_fabSize;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::NovelAPP.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_rippleColor = global::NovelAPP.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::NovelAPP.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::NovelAPP.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::NovelAPP.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout = global::NovelAPP.Resource.Styleable.ForegroundLinearLayout;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::NovelAPP.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::NovelAPP.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::NovelAPP.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat = global::NovelAPP.Resource.Styleable.LinearLayoutCompat;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_divider = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_divider;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_showDividers = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::NovelAPP.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow = global::NovelAPP.Resource.Styleable.ListPopupWindow;
-			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NovelAPP.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NovelAPP.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup = global::NovelAPP.Resource.Styleable.MenuGroup;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NovelAPP.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_enabled = global::NovelAPP.Resource.Styleable.MenuGroup_android_enabled;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_id = global::NovelAPP.Resource.Styleable.MenuGroup_android_id;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_menuCategory = global::NovelAPP.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_orderInCategory = global::NovelAPP.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_visible = global::NovelAPP.Resource.Styleable.MenuGroup_android_visible;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem = global::NovelAPP.Resource.Styleable.MenuItem;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionLayout = global::NovelAPP.Resource.Styleable.MenuItem_actionLayout;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionProviderClass = global::NovelAPP.Resource.Styleable.MenuItem_actionProviderClass;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionViewClass = global::NovelAPP.Resource.Styleable.MenuItem_actionViewClass;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::NovelAPP.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checkable = global::NovelAPP.Resource.Styleable.MenuItem_android_checkable;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checked = global::NovelAPP.Resource.Styleable.MenuItem_android_checked;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_enabled = global::NovelAPP.Resource.Styleable.MenuItem_android_enabled;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_icon = global::NovelAPP.Resource.Styleable.MenuItem_android_icon;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_id = global::NovelAPP.Resource.Styleable.MenuItem_android_id;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_menuCategory = global::NovelAPP.Resource.Styleable.MenuItem_android_menuCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_numericShortcut = global::NovelAPP.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_onClick = global::NovelAPP.Resource.Styleable.MenuItem_android_onClick;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_orderInCategory = global::NovelAPP.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_title = global::NovelAPP.Resource.Styleable.MenuItem_android_title;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_titleCondensed = global::NovelAPP.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_visible = global::NovelAPP.Resource.Styleable.MenuItem_android_visible;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_showAsAction = global::NovelAPP.Resource.Styleable.MenuItem_showAsAction;
-			global::BottomNavigationBar.Resource.Styleable.MenuView = global::NovelAPP.Resource.Styleable.MenuView;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_headerBackground = global::NovelAPP.Resource.Styleable.MenuView_android_headerBackground;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_horizontalDivider = global::NovelAPP.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemBackground = global::NovelAPP.Resource.Styleable.MenuView_android_itemBackground;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::NovelAPP.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemTextAppearance = global::NovelAPP.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_verticalDivider = global::NovelAPP.Resource.Styleable.MenuView_android_verticalDivider;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::NovelAPP.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_preserveIconSpacing = global::NovelAPP.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_subMenuArrow = global::NovelAPP.Resource.Styleable.MenuView_subMenuArrow;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView = global::NovelAPP.Resource.Styleable.NavigationView;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_background = global::NovelAPP.Resource.Styleable.NavigationView_android_background;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::NovelAPP.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_maxWidth = global::NovelAPP.Resource.Styleable.NavigationView_android_maxWidth;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_elevation = global::NovelAPP.Resource.Styleable.NavigationView_elevation;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_headerLayout = global::NovelAPP.Resource.Styleable.NavigationView_headerLayout;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemBackground = global::NovelAPP.Resource.Styleable.NavigationView_itemBackground;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemIconTint = global::NovelAPP.Resource.Styleable.NavigationView_itemIconTint;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextAppearance = global::NovelAPP.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextColor = global::NovelAPP.Resource.Styleable.NavigationView_itemTextColor;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_menu = global::NovelAPP.Resource.Styleable.NavigationView_menu;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow = global::NovelAPP.Resource.Styleable.PopupWindow;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::NovelAPP.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupBackground = global::NovelAPP.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow_overlapAnchor = global::NovelAPP.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState = global::NovelAPP.Resource.Styleable.PopupWindowBackgroundState;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::NovelAPP.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView = global::NovelAPP.Resource.Styleable.RecyclerView;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::NovelAPP.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_orientation = global::NovelAPP.Resource.Styleable.RecyclerView_android_orientation;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_layoutManager = global::NovelAPP.Resource.Styleable.RecyclerView_layoutManager;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_reverseLayout = global::NovelAPP.Resource.Styleable.RecyclerView_reverseLayout;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_spanCount = global::NovelAPP.Resource.Styleable.RecyclerView_spanCount;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_stackFromEnd = global::NovelAPP.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout = global::NovelAPP.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::NovelAPP.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::BottomNavigationBar.Resource.Styleable.ScrollingViewBehavior_Layout = global::NovelAPP.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::BottomNavigationBar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::NovelAPP.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::BottomNavigationBar.Resource.Styleable.SearchView = global::NovelAPP.Resource.Styleable.SearchView;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_focusable = global::NovelAPP.Resource.Styleable.SearchView_android_focusable;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_imeOptions = global::NovelAPP.Resource.Styleable.SearchView_android_imeOptions;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_inputType = global::NovelAPP.Resource.Styleable.SearchView_android_inputType;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_maxWidth = global::NovelAPP.Resource.Styleable.SearchView_android_maxWidth;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_closeIcon = global::NovelAPP.Resource.Styleable.SearchView_closeIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_commitIcon = global::NovelAPP.Resource.Styleable.SearchView_commitIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_defaultQueryHint = global::NovelAPP.Resource.Styleable.SearchView_defaultQueryHint;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_goIcon = global::NovelAPP.Resource.Styleable.SearchView_goIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_iconifiedByDefault = global::NovelAPP.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_layout = global::NovelAPP.Resource.Styleable.SearchView_layout;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_queryBackground = global::NovelAPP.Resource.Styleable.SearchView_queryBackground;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_queryHint = global::NovelAPP.Resource.Styleable.SearchView_queryHint;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_searchHintIcon = global::NovelAPP.Resource.Styleable.SearchView_searchHintIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_searchIcon = global::NovelAPP.Resource.Styleable.SearchView_searchIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_submitBackground = global::NovelAPP.Resource.Styleable.SearchView_submitBackground;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_suggestionRowLayout = global::NovelAPP.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_voiceIcon = global::NovelAPP.Resource.Styleable.SearchView_voiceIcon;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout = global::NovelAPP.Resource.Styleable.SnackbarLayout;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::NovelAPP.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_elevation = global::NovelAPP.Resource.Styleable.SnackbarLayout_elevation;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::NovelAPP.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::BottomNavigationBar.Resource.Styleable.Spinner = global::NovelAPP.Resource.Styleable.Spinner;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_dropDownWidth = global::NovelAPP.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_entries = global::NovelAPP.Resource.Styleable.Spinner_android_entries;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_popupBackground = global::NovelAPP.Resource.Styleable.Spinner_android_popupBackground;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_prompt = global::NovelAPP.Resource.Styleable.Spinner_android_prompt;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_popupTheme = global::NovelAPP.Resource.Styleable.Spinner_popupTheme;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat = global::NovelAPP.Resource.Styleable.SwitchCompat;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOff = global::NovelAPP.Resource.Styleable.SwitchCompat_android_textOff;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOn = global::NovelAPP.Resource.Styleable.SwitchCompat_android_textOn;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_thumb = global::NovelAPP.Resource.Styleable.SwitchCompat_android_thumb;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_showText = global::NovelAPP.Resource.Styleable.SwitchCompat_showText;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_splitTrack = global::NovelAPP.Resource.Styleable.SwitchCompat_splitTrack;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchMinWidth = global::NovelAPP.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchPadding = global::NovelAPP.Resource.Styleable.SwitchCompat_switchPadding;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::NovelAPP.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::NovelAPP.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTint = global::NovelAPP.Resource.Styleable.SwitchCompat_thumbTint;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTintMode = global::NovelAPP.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_track = global::NovelAPP.Resource.Styleable.SwitchCompat_track;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_trackTint = global::NovelAPP.Resource.Styleable.SwitchCompat_trackTint;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_trackTintMode = global::NovelAPP.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::BottomNavigationBar.Resource.Styleable.TabItem = global::NovelAPP.Resource.Styleable.TabItem;
-			global::BottomNavigationBar.Resource.Styleable.TabItem_android_icon = global::NovelAPP.Resource.Styleable.TabItem_android_icon;
-			global::BottomNavigationBar.Resource.Styleable.TabItem_android_layout = global::NovelAPP.Resource.Styleable.TabItem_android_layout;
-			global::BottomNavigationBar.Resource.Styleable.TabItem_android_text = global::NovelAPP.Resource.Styleable.TabItem_android_text;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout = global::NovelAPP.Resource.Styleable.TabLayout;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabBackground = global::NovelAPP.Resource.Styleable.TabLayout_tabBackground;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabContentStart = global::NovelAPP.Resource.Styleable.TabLayout_tabContentStart;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabGravity = global::NovelAPP.Resource.Styleable.TabLayout_tabGravity;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorColor = global::NovelAPP.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::NovelAPP.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMaxWidth = global::NovelAPP.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMinWidth = global::NovelAPP.Resource.Styleable.TabLayout_tabMinWidth;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMode = global::NovelAPP.Resource.Styleable.TabLayout_tabMode;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPadding = global::NovelAPP.Resource.Styleable.TabLayout_tabPadding;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingBottom = global::NovelAPP.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingEnd = global::NovelAPP.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingStart = global::NovelAPP.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingTop = global::NovelAPP.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::NovelAPP.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextAppearance = global::NovelAPP.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextColor = global::NovelAPP.Resource.Styleable.TabLayout_tabTextColor;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance = global::NovelAPP.Resource.Styleable.TextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowColor = global::NovelAPP.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDx = global::NovelAPP.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDy = global::NovelAPP.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowRadius = global::NovelAPP.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textColor = global::NovelAPP.Resource.Styleable.TextAppearance_android_textColor;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textSize = global::NovelAPP.Resource.Styleable.TextAppearance_android_textSize;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textStyle = global::NovelAPP.Resource.Styleable.TextAppearance_android_textStyle;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_typeface = global::NovelAPP.Resource.Styleable.TextAppearance_android_typeface;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_textAllCaps = global::NovelAPP.Resource.Styleable.TextAppearance_textAllCaps;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout = global::NovelAPP.Resource.Styleable.TextInputLayout;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_hint = global::NovelAPP.Resource.Styleable.TextInputLayout_android_hint;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_textColorHint = global::NovelAPP.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterEnabled = global::NovelAPP.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterMaxLength = global::NovelAPP.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::NovelAPP.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::NovelAPP.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorEnabled = global::NovelAPP.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::NovelAPP.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::NovelAPP.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintEnabled = global::NovelAPP.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::NovelAPP.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::NovelAPP.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::NovelAPP.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::NovelAPP.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::NovelAPP.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::NovelAPP.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar = global::NovelAPP.Resource.Styleable.Toolbar;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_gravity = global::NovelAPP.Resource.Styleable.Toolbar_android_gravity;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_minHeight = global::NovelAPP.Resource.Styleable.Toolbar_android_minHeight;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_buttonGravity = global::NovelAPP.Resource.Styleable.Toolbar_buttonGravity;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseContentDescription = global::NovelAPP.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseIcon = global::NovelAPP.Resource.Styleable.Toolbar_collapseIcon;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEnd = global::NovelAPP.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::NovelAPP.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetLeft = global::NovelAPP.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetRight = global::NovelAPP.Resource.Styleable.Toolbar_contentInsetRight;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStart = global::NovelAPP.Resource.Styleable.Toolbar_contentInsetStart;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::NovelAPP.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_logo = global::NovelAPP.Resource.Styleable.Toolbar_logo;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_logoDescription = global::NovelAPP.Resource.Styleable.Toolbar_logoDescription;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_maxButtonHeight = global::NovelAPP.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationContentDescription = global::NovelAPP.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationIcon = global::NovelAPP.Resource.Styleable.Toolbar_navigationIcon;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_popupTheme = global::NovelAPP.Resource.Styleable.Toolbar_popupTheme;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitle = global::NovelAPP.Resource.Styleable.Toolbar_subtitle;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::NovelAPP.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextColor = global::NovelAPP.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_title = global::NovelAPP.Resource.Styleable.Toolbar_title;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargin = global::NovelAPP.Resource.Styleable.Toolbar_titleMargin;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginBottom = global::NovelAPP.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginEnd = global::NovelAPP.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginStart = global::NovelAPP.Resource.Styleable.Toolbar_titleMarginStart;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginTop = global::NovelAPP.Resource.Styleable.Toolbar_titleMarginTop;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargins = global::NovelAPP.Resource.Styleable.Toolbar_titleMargins;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextAppearance = global::NovelAPP.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextColor = global::NovelAPP.Resource.Styleable.Toolbar_titleTextColor;
-			global::BottomNavigationBar.Resource.Styleable.View = global::NovelAPP.Resource.Styleable.View;
-			global::BottomNavigationBar.Resource.Styleable.View_android_focusable = global::NovelAPP.Resource.Styleable.View_android_focusable;
-			global::BottomNavigationBar.Resource.Styleable.View_android_theme = global::NovelAPP.Resource.Styleable.View_android_theme;
-			global::BottomNavigationBar.Resource.Styleable.View_paddingEnd = global::NovelAPP.Resource.Styleable.View_paddingEnd;
-			global::BottomNavigationBar.Resource.Styleable.View_paddingStart = global::NovelAPP.Resource.Styleable.View_paddingStart;
-			global::BottomNavigationBar.Resource.Styleable.View_theme = global::NovelAPP.Resource.Styleable.View_theme;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper = global::NovelAPP.Resource.Styleable.ViewBackgroundHelper;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_android_background = global::NovelAPP.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::NovelAPP.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::NovelAPP.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat = global::NovelAPP.Resource.Styleable.ViewStubCompat;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_id = global::NovelAPP.Resource.Styleable.ViewStubCompat_android_id;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NovelAPP.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_layout = global::NovelAPP.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -2706,9 +975,6 @@ namespace NovelAPP
 			// aapt resource value: 0x7f080007
 			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131230727;
 			
-			// aapt resource value: 0x7f080008
-			public const int bb_bottom_bar_is_tablet_mode = 2131230728;
-			
 			static Boolean()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2722,32 +988,32 @@ namespace NovelAPP
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0052
-			public const int abc_background_cache_hint_selector_material_dark = 2131427410;
+			// aapt resource value: 0x7f0b004e
+			public const int abc_background_cache_hint_selector_material_dark = 2131427406;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int abc_background_cache_hint_selector_material_light = 2131427411;
+			// aapt resource value: 0x7f0b004f
+			public const int abc_background_cache_hint_selector_material_light = 2131427407;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int abc_color_highlight_material = 2131427412;
+			// aapt resource value: 0x7f0b0050
+			public const int abc_color_highlight_material = 2131427408;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
+			// aapt resource value: 0x7f0b0051
+			public const int abc_primary_text_disable_only_material_dark = 2131427409;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int abc_primary_text_disable_only_material_light = 2131427410;
+			
+			// aapt resource value: 0x7f0b0053
+			public const int abc_primary_text_material_dark = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int abc_primary_text_material_light = 2131427412;
+			
 			// aapt resource value: 0x7f0b0055
-			public const int abc_primary_text_disable_only_material_dark = 2131427413;
-			
-			// aapt resource value: 0x7f0b0056
-			public const int abc_primary_text_disable_only_material_light = 2131427414;
-			
-			// aapt resource value: 0x7f0b0057
-			public const int abc_primary_text_material_dark = 2131427415;
-			
-			// aapt resource value: 0x7f0b0058
-			public const int abc_primary_text_material_light = 2131427416;
-			
-			// aapt resource value: 0x7f0b0059
-			public const int abc_search_url_text = 2131427417;
+			public const int abc_search_url_text = 2131427413;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -2758,11 +1024,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int abc_secondary_text_material_dark = 2131427418;
+			// aapt resource value: 0x7f0b0056
+			public const int abc_secondary_text_material_dark = 2131427414;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int abc_secondary_text_material_light = 2131427419;
+			// aapt resource value: 0x7f0b0057
+			public const int abc_secondary_text_material_light = 2131427415;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int accent_material_dark = 2131427332;
@@ -2782,29 +1048,17 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0009
 			public const int background_material_light = 2131427337;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int bb_darkBackgroundColor = 2131427398;
-			
-			// aapt resource value: 0x7f0b0045
-			public const int bb_darkInActiveBottomBarItemColor = 2131427397;
-			
 			// aapt resource value: 0x7f0b0044
-			public const int bb_inActiveBottomBarItemColor = 2131427396;
+			public const int bg_black = 2131427396;
 			
 			// aapt resource value: 0x7f0b0047
-			public const int bb_tabletRightBorderDark = 2131427399;
+			public const int bg_gray = 2131427399;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int bg_black = 2131427400;
+			// aapt resource value: 0x7f0b0046
+			public const int bg_topbar = 2131427398;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int bg_gray = 2131427403;
-			
-			// aapt resource value: 0x7f0b004a
-			public const int bg_topbar = 2131427402;
-			
-			// aapt resource value: 0x7f0b0049
-			public const int bg_white = 2131427401;
+			// aapt resource value: 0x7f0b0045
+			public const int bg_white = 2131427397;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int bright_foreground_disabled_material_dark = 2131427338;
@@ -2872,8 +1126,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0015
 			public const int dim_foreground_material_light = 2131427349;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int div_white = 2131427409;
+			// aapt resource value: 0x7f0b004d
+			public const int div_white = 2131427405;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int foreground_material_dark = 2131427350;
@@ -2977,11 +1231,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0037
 			public const int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int switch_thumb_material_dark = 2131427420;
+			// aapt resource value: 0x7f0b0058
+			public const int switch_thumb_material_dark = 2131427416;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int switch_thumb_material_light = 2131427421;
+			// aapt resource value: 0x7f0b0059
+			public const int switch_thumb_material_light = 2131427417;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_normal_material_dark = 2131427384;
@@ -2989,20 +1243,20 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_light = 2131427385;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int text_gray = 2131427405;
-			
-			// aapt resource value: 0x7f0b0050
-			public const int text_topbar = 2131427408;
-			
-			// aapt resource value: 0x7f0b004e
-			public const int text_white = 2131427406;
-			
-			// aapt resource value: 0x7f0b004f
-			public const int text_yellow = 2131427407;
+			// aapt resource value: 0x7f0b0049
+			public const int text_gray = 2131427401;
 			
 			// aapt resource value: 0x7f0b004c
-			public const int transparent = 2131427404;
+			public const int text_topbar = 2131427404;
+			
+			// aapt resource value: 0x7f0b004a
+			public const int text_white = 2131427402;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int text_yellow = 2131427403;
+			
+			// aapt resource value: 0x7f0b0048
+			public const int transparent = 2131427400;
 			
 			static Color()
 			{
@@ -3218,18 +1472,6 @@ namespace NovelAPP
 			// aapt resource value: 0x7f050007
 			public const int abc_text_size_title_material_toolbar = 2131034119;
 			
-			// aapt resource value: 0x7f05006b
-			public const int activity_horizontal_margin = 2131034219;
-			
-			// aapt resource value: 0x7f05006c
-			public const int activity_vertical_margin = 2131034220;
-			
-			// aapt resource value: 0x7f05006e
-			public const int bb_height = 2131034222;
-			
-			// aapt resource value: 0x7f05006d
-			public const int bottom_bar_elevation = 2131034221;
-			
 			// aapt resource value: 0x7f050056
 			public const int design_appbar_elevation = 2131034198;
 			
@@ -3341,8 +1583,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f050002
 			public const int item_touch_helper_swipe_escape_velocity = 2131034114;
 			
-			// aapt resource value: 0x7f050071
-			public const int newchapter_size = 2131034225;
+			// aapt resource value: 0x7f05006d
+			public const int newchapter_size = 2131034221;
 			
 			// aapt resource value: 0x7f05004b
 			public const int notification_large_icon_height = 2131034187;
@@ -3353,11 +1595,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f05004d
 			public const int notification_subtext_size = 2131034189;
 			
-			// aapt resource value: 0x7f050070
-			public const int profiles_size = 2131034224;
+			// aapt resource value: 0x7f05006c
+			public const int profiles_size = 2131034220;
 			
-			// aapt resource value: 0x7f05006f
-			public const int title_size = 2131034223;
+			// aapt resource value: 0x7f05006b
+			public const int title_size = 2131034219;
 			
 			static Dimension()
 			{
@@ -3598,40 +1840,37 @@ namespace NovelAPP
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int bb_bottom_bar_top_shadow = 2130837579;
+			public const int design_fab_background = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int design_fab_background = 2130837580;
+			public const int design_snackbar_background = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int design_snackbar_background = 2130837581;
+			public const int ic_action_content_create = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_action_content_create = 2130837582;
+			public const int ic_action_content_save = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_action_content_save = 2130837583;
+			public const int ic_menu_copy_holo_dark = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_menu_copy_holo_dark = 2130837584;
+			public const int ic_menu_cut_holo_dark = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_menu_cut_holo_dark = 2130837585;
+			public const int ic_menu_paste_holo_dark = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_menu_paste_holo_dark = 2130837586;
+			public const int ic_menu_search_holo_dark = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_menu_search_holo_dark = 2130837587;
-			
-			// aapt resource value: 0x7f020054
-			public const int Icon = 2130837588;
-			
-			// aapt resource value: 0x7f020056
-			public const int notification_template_icon_bg = 2130837590;
+			public const int Icon = 2130837587;
 			
 			// aapt resource value: 0x7f020055
-			public const int wave = 2130837589;
+			public const int notification_template_icon_bg = 2130837589;
+			
+			// aapt resource value: 0x7f020054
+			public const int wave = 2130837588;
 			
 			static Drawable()
 			{
@@ -3646,23 +1885,23 @@ namespace NovelAPP
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060080
-			public const int BookList = 2131099776;
+			// aapt resource value: 0x7f060077
+			public const int BookList = 2131099767;
 			
-			// aapt resource value: 0x7f06007b
-			public const int ChapterContent = 2131099771;
+			// aapt resource value: 0x7f060072
+			public const int ChapterContent = 2131099762;
 			
-			// aapt resource value: 0x7f060076
-			public const int ChapterList = 2131099766;
+			// aapt resource value: 0x7f06006d
+			public const int ChapterList = 2131099757;
 			
-			// aapt resource value: 0x7f06008d
-			public const int Date = 2131099789;
+			// aapt resource value: 0x7f060084
+			public const int Date = 2131099780;
 			
-			// aapt resource value: 0x7f06008e
-			public const int NewChapter = 2131099790;
+			// aapt resource value: 0x7f060085
+			public const int NewChapter = 2131099781;
 			
-			// aapt resource value: 0x7f06008f
-			public const int action0 = 2131099791;
+			// aapt resource value: 0x7f060086
+			public const int action0 = 2131099782;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -3688,8 +1927,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f060093
-			public const int action_divider = 2131099795;
+			// aapt resource value: 0x7f06008a
+			public const int action_divider = 2131099786;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -3715,47 +1954,20 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06001e
 			public const int always = 2131099678;
 			
-			// aapt resource value: 0x7f06006d
-			public const int bb_bottom_bar_background_overlay = 2131099757;
-			
-			// aapt resource value: 0x7f06006c
-			public const int bb_bottom_bar_background_view = 2131099756;
-			
-			// aapt resource value: 0x7f060070
-			public const int bb_bottom_bar_icon = 2131099760;
-			
-			// aapt resource value: 0x7f06006e
-			public const int bb_bottom_bar_item_container = 2131099758;
-			
-			// aapt resource value: 0x7f06006a
-			public const int bb_bottom_bar_outer_container = 2131099754;
-			
-			// aapt resource value: 0x7f06006b
-			public const int bb_bottom_bar_shadow = 2131099755;
-			
-			// aapt resource value: 0x7f060071
-			public const int bb_bottom_bar_title = 2131099761;
-			
-			// aapt resource value: 0x7f06006f
-			public const int bb_tablet_right_border = 2131099759;
-			
-			// aapt resource value: 0x7f060069
-			public const int bb_user_content_container = 2131099753;
-			
 			// aapt resource value: 0x7f06001b
 			public const int beginning = 2131099675;
 			
 			// aapt resource value: 0x7f06002a
 			public const int bottom = 2131099690;
 			
-			// aapt resource value: 0x7f06007f
-			public const int btnaddnewmech = 2131099775;
+			// aapt resource value: 0x7f060076
+			public const int btnaddnewmech = 2131099766;
 			
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
 			
-			// aapt resource value: 0x7f060090
-			public const int cancel_action = 2131099792;
+			// aapt resource value: 0x7f060087
+			public const int cancel_action = 2131099783;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -3766,17 +1978,17 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06002d
 			public const int center_vertical = 2131099693;
 			
-			// aapt resource value: 0x7f060079
-			public const int chapter_ll = 2131099769;
+			// aapt resource value: 0x7f060070
+			public const int chapter_ll = 2131099760;
 			
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f06007c
-			public const int child_title = 2131099772;
+			// aapt resource value: 0x7f060073
+			public const int child_title = 2131099763;
 			
-			// aapt resource value: 0x7f060096
-			public const int chronometer = 2131099798;
+			// aapt resource value: 0x7f06008d
+			public const int chronometer = 2131099789;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -3790,8 +2002,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06004a
 			public const int contentPanel = 2131099722;
 			
-			// aapt resource value: 0x7f060072
-			public const int coordinatorLayout = 2131099762;
+			// aapt resource value: 0x7f060069
+			public const int coordinatorLayout = 2131099753;
 			
 			// aapt resource value: 0x7f060050
 			public const int custom = 2131099728;
@@ -3805,26 +2017,26 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060040
 			public const int default_activity_button = 2131099712;
 			
-			// aapt resource value: 0x7f060083
-			public const int design_bottom_sheet = 2131099779;
+			// aapt resource value: 0x7f06007a
+			public const int design_bottom_sheet = 2131099770;
 			
-			// aapt resource value: 0x7f06008a
-			public const int design_menu_item_action_area = 2131099786;
+			// aapt resource value: 0x7f060081
+			public const int design_menu_item_action_area = 2131099777;
 			
-			// aapt resource value: 0x7f060089
-			public const int design_menu_item_action_area_stub = 2131099785;
+			// aapt resource value: 0x7f060080
+			public const int design_menu_item_action_area_stub = 2131099776;
 			
-			// aapt resource value: 0x7f060088
-			public const int design_menu_item_text = 2131099784;
+			// aapt resource value: 0x7f06007f
+			public const int design_menu_item_text = 2131099775;
 			
-			// aapt resource value: 0x7f060087
-			public const int design_navigation_view = 2131099783;
+			// aapt resource value: 0x7f06007e
+			public const int design_navigation_view = 2131099774;
 			
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
 			
-			// aapt resource value: 0x7f06007d
-			public const int dl_left = 2131099773;
+			// aapt resource value: 0x7f060074
+			public const int dl_left = 2131099764;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -3832,8 +2044,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f06009a
-			public const int end_padder = 2131099802;
+			// aapt resource value: 0x7f060091
+			public const int end_padder = 2131099793;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -3877,11 +2089,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f06008b
-			public const int img = 2131099787;
+			// aapt resource value: 0x7f060082
+			public const int img = 2131099778;
 			
-			// aapt resource value: 0x7f06008c
-			public const int info = 2131099788;
+			// aapt resource value: 0x7f060083
+			public const int info = 2131099779;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -3889,11 +2101,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f060094
-			public const int line1 = 2131099796;
+			// aapt resource value: 0x7f06008b
+			public const int line1 = 2131099787;
 			
-			// aapt resource value: 0x7f060098
-			public const int line3 = 2131099800;
+			// aapt resource value: 0x7f06008f
+			public const int line3 = 2131099791;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
@@ -3901,20 +2113,20 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060041
 			public const int list_item = 2131099713;
 			
-			// aapt resource value: 0x7f060081
-			public const int lv_left_menu = 2131099777;
-			
-			// aapt resource value: 0x7f060092
-			public const int media_actions = 2131099794;
-			
-			// aapt resource value: 0x7f06009e
-			public const int menu_CS = 2131099806;
-			
 			// aapt resource value: 0x7f060078
-			public const int menu_Night = 2131099768;
+			public const int lv_left_menu = 2131099768;
 			
-			// aapt resource value: 0x7f060077
-			public const int menu_keep = 2131099767;
+			// aapt resource value: 0x7f060089
+			public const int media_actions = 2131099785;
+			
+			// aapt resource value: 0x7f060095
+			public const int menu_CS = 2131099797;
+			
+			// aapt resource value: 0x7f06006f
+			public const int menu_Night = 2131099759;
+			
+			// aapt resource value: 0x7f06006e
+			public const int menu_keep = 2131099758;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -3925,8 +2137,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060016
 			public const int multiply = 2131099670;
 			
-			// aapt resource value: 0x7f060086
-			public const int navigation_header_container = 2131099782;
+			// aapt resource value: 0x7f06007d
+			public const int navigation_header_container = 2131099773;
 			
 			// aapt resource value: 0x7f060021
 			public const int never = 2131099681;
@@ -3943,20 +2155,20 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060046
 			public const int parentPanel = 2131099718;
 			
-			// aapt resource value: 0x7f06009b
-			public const int parent_title = 2131099803;
+			// aapt resource value: 0x7f060092
+			public const int parent_title = 2131099794;
 			
 			// aapt resource value: 0x7f060029
 			public const int pin = 2131099689;
 			
-			// aapt resource value: 0x7f06007e
-			public const int progressBar1 = 2131099774;
+			// aapt resource value: 0x7f060075
+			public const int progressBar1 = 2131099765;
 			
-			// aapt resource value: 0x7f060074
-			public const int progressBar2 = 2131099764;
+			// aapt resource value: 0x7f06006b
+			public const int progressBar2 = 2131099755;
 			
-			// aapt resource value: 0x7f06007a
-			public const int progressBar3 = 2131099770;
+			// aapt resource value: 0x7f060071
+			public const int progressBar3 = 2131099761;
 			
 			// aapt resource value: 0x7f060006
 			public const int progress_circular = 2131099654;
@@ -3988,8 +2200,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060039
 			public const int scrollable = 2131099705;
 			
-			// aapt resource value: 0x7f06009d
-			public const int search = 2131099805;
+			// aapt resource value: 0x7f060094
+			public const int search = 2131099796;
 			
 			// aapt resource value: 0x7f06005e
 			public const int search_badge = 2131099742;
@@ -4036,11 +2248,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060013
 			public const int showTitle = 2131099667;
 			
-			// aapt resource value: 0x7f060085
-			public const int snackbar_action = 2131099781;
+			// aapt resource value: 0x7f06007c
+			public const int snackbar_action = 2131099772;
 			
-			// aapt resource value: 0x7f060084
-			public const int snackbar_text = 2131099780;
+			// aapt resource value: 0x7f06007b
+			public const int snackbar_text = 2131099771;
 			
 			// aapt resource value: 0x7f060027
 			public const int snap = 2131099687;
@@ -4063,32 +2275,32 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f060091
-			public const int status_bar_latest_event_content = 2131099793;
+			// aapt resource value: 0x7f060088
+			public const int status_bar_latest_event_content = 2131099784;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
 			
-			// aapt resource value: 0x7f06009c
-			public const int suggestion_tview = 2131099804;
+			// aapt resource value: 0x7f060093
+			public const int suggestion_tview = 2131099795;
 			
-			// aapt resource value: 0x7f060075
-			public const int swipeRefreshLayout = 2131099765;
+			// aapt resource value: 0x7f06006c
+			public const int swipeRefreshLayout = 2131099756;
 			
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f060099
-			public const int text = 2131099801;
+			// aapt resource value: 0x7f060090
+			public const int text = 2131099792;
 			
-			// aapt resource value: 0x7f060097
-			public const int text2 = 2131099799;
+			// aapt resource value: 0x7f06008e
+			public const int text2 = 2131099790;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
 			
-			// aapt resource value: 0x7f060095
-			public const int time = 2131099797;
+			// aapt resource value: 0x7f06008c
+			public const int time = 2131099788;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
@@ -4096,8 +2308,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060048
 			public const int title_template = 2131099720;
 			
-			// aapt resource value: 0x7f060073
-			public const int toolbar = 2131099763;
+			// aapt resource value: 0x7f06006a
+			public const int toolbar = 2131099754;
 			
 			// aapt resource value: 0x7f060032
 			public const int top = 2131099698;
@@ -4105,8 +2317,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f060047
 			public const int topPanel = 2131099719;
 			
-			// aapt resource value: 0x7f060082
-			public const int touch_outside = 2131099778;
+			// aapt resource value: 0x7f060079
+			public const int touch_outside = 2131099769;
 			
 			// aapt resource value: 0x7f060009
 			public const int up = 2131099657;
@@ -4246,127 +2458,112 @@ namespace NovelAPP
 			public const int abc_select_dialog_material = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int bb_bottom_bar_item_container = 2130903065;
+			public const int BookPage = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int bb_bottom_bar_item_container_tablet = 2130903066;
+			public const int bookpage_top_menus = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int bb_bottom_bar_item_fixed = 2130903067;
+			public const int Chapter_top_menus = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int bb_bottom_bar_item_fixed_tablet = 2130903068;
+			public const int ChapterPage = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int bb_bottom_bar_item_shifting = 2130903069;
+			public const int child_item = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int BookPage = 2130903070;
+			public const int custom_drawerlayout = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int bookpage_top_menus = 2130903071;
+			public const int design_bottom_sheet_dialog = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int Chapter_top_menus = 2130903072;
+			public const int design_layout_snackbar = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int ChapterPage = 2130903073;
+			public const int design_layout_snackbar_include = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int child_item = 2130903074;
+			public const int design_layout_tab_icon = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int custom_drawerlayout = 2130903075;
+			public const int design_layout_tab_text = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_bottom_sheet_dialog = 2130903076;
+			public const int design_menu_item_action_area = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_layout_snackbar = 2130903077;
+			public const int design_navigation_item = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_layout_snackbar_include = 2130903078;
+			public const int design_navigation_item_header = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_layout_tab_icon = 2130903079;
+			public const int design_navigation_item_separator = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_layout_tab_text = 2130903080;
+			public const int design_navigation_item_subheader = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_menu_item_action_area = 2130903081;
+			public const int design_navigation_menu = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int design_navigation_item = 2130903082;
+			public const int design_navigation_menu_item = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int design_navigation_item_header = 2130903083;
+			public const int ListItem = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int design_navigation_item_separator = 2130903084;
+			public const int Main = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int design_navigation_item_subheader = 2130903085;
+			public const int notification_media_action = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int design_navigation_menu = 2130903086;
+			public const int notification_media_cancel_action = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int design_navigation_menu_item = 2130903087;
+			public const int notification_template_big_media = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int ListItem = 2130903088;
+			public const int notification_template_big_media_narrow = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int Main = 2130903089;
+			public const int notification_template_lines = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_media_action = 2130903090;
+			public const int notification_template_media = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_media_cancel_action = 2130903091;
+			public const int notification_template_part_chronometer = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media = 2130903092;
+			public const int notification_template_part_time = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_narrow = 2130903093;
+			public const int parent_item = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_lines = 2130903094;
+			public const int SearchView_Suggestions_ItemView = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_media = 2130903095;
+			public const int select_dialog_item_material = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_part_chronometer = 2130903096;
+			public const int select_dialog_multichoice_material = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_part_time = 2130903097;
+			public const int select_dialog_singlechoice_material = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int parent_item = 2130903098;
+			public const int support_simple_spinner_dropdown_item = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int SearchView_Suggestions_ItemView = 2130903099;
+			public const int toolbar = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int select_dialog_item_material = 2130903100;
-			
-			// aapt resource value: 0x7f03003d
-			public const int select_dialog_multichoice_material = 2130903101;
-			
-			// aapt resource value: 0x7f03003e
-			public const int select_dialog_singlechoice_material = 2130903102;
-			
-			// aapt resource value: 0x7f03003f
-			public const int support_simple_spinner_dropdown_item = 2130903103;
-			
-			// aapt resource value: 0x7f030040
-			public const int toolbar = 2130903104;
-			
-			// aapt resource value: 0x7f030041
-			public const int top_menus = 2130903105;
+			public const int top_menus = 2130903100;
 			
 			static Layout()
 			{
@@ -4381,11 +2578,11 @@ namespace NovelAPP
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070019
-			public const int ApplicationName = 2131165209;
-			
 			// aapt resource value: 0x7f070018
-			public const int Hello = 2131165208;
+			public const int ApplicationName = 2131165208;
+			
+			// aapt resource value: 0x7f070017
+			public const int Hello = 2131165207;
 			
 			// aapt resource value: 0x7f070000
 			public const int abc_action_bar_home_description = 2131165184;
@@ -4444,38 +2641,35 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070012
 			public const int abc_toolbar_collapse_description = 2131165202;
 			
-			// aapt resource value: 0x7f070017
-			public const int app_name = 2131165207;
-			
 			// aapt resource value: 0x7f070014
 			public const int appbar_scrolling_view_behavior = 2131165204;
 			
 			// aapt resource value: 0x7f070015
 			public const int bottom_sheet_behavior = 2131165205;
 			
-			// aapt resource value: 0x7f07001f
-			public const int chapter_night = 2131165215;
+			// aapt resource value: 0x7f07001e
+			public const int chapter_night = 2131165214;
 			
 			// aapt resource value: 0x7f070016
 			public const int character_counter_pattern = 2131165206;
 			
-			// aapt resource value: 0x7f07001d
-			public const int close = 2131165213;
-			
-			// aapt resource value: 0x7f07001e
-			public const int keep_book = 2131165214;
-			
 			// aapt resource value: 0x7f07001c
-			public const int open = 2131165212;
+			public const int close = 2131165212;
 			
-			// aapt resource value: 0x7f07001a
-			public const int search_title = 2131165210;
+			// aapt resource value: 0x7f07001d
+			public const int keep_book = 2131165213;
+			
+			// aapt resource value: 0x7f07001b
+			public const int open = 2131165211;
+			
+			// aapt resource value: 0x7f070019
+			public const int search_title = 2131165209;
 			
 			// aapt resource value: 0x7f070013
 			public const int status_bar_notification_info_overflow = 2131165203;
 			
-			// aapt resource value: 0x7f07001b
-			public const int toolbar_CS = 2131165211;
+			// aapt resource value: 0x7f07001a
+			public const int toolbar_CS = 2131165210;
 			
 			static String()
 			{
@@ -4505,32 +2699,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f09013f
 			public const int Animation_Design_BottomSheetDialog = 2131296575;
 			
-			// aapt resource value: 0x7f090163
-			public const int AppTheme_DrawerArrowToggle = 2131296611;
-			
-			// aapt resource value: 0x7f09015e
-			public const int BB_BottomBarBadge_Text = 2131296606;
-			
-			// aapt resource value: 0x7f090157
-			public const int BB_BottomBarItem = 2131296599;
-			
-			// aapt resource value: 0x7f090158
-			public const int BB_BottomBarItem_Fixed = 2131296600;
-			
-			// aapt resource value: 0x7f09015a
-			public const int BB_BottomBarItem_Fixed_TitleAppearance = 2131296602;
-			
 			// aapt resource value: 0x7f09015b
-			public const int BB_BottomBarItem_Shifting = 2131296603;
-			
-			// aapt resource value: 0x7f09015c
-			public const int BB_BottomBarItem_Shifting_TitleAppearance = 2131296604;
-			
-			// aapt resource value: 0x7f09015d
-			public const int BB_BottomBarItem_Tablet = 2131296605;
-			
-			// aapt resource value: 0x7f090159
-			public const int BB_BottomBarItem_TitleStyle = 2131296601;
+			public const int AppTheme_DrawerArrowToggle = 2131296603;
 			
 			// aapt resource value: 0x7f09008a
 			public const int Base_AlertDialog_AppCompat = 2131296394;
@@ -4961,17 +3131,17 @@ namespace NovelAPP
 			// aapt resource value: 0x7f090140
 			public const int Base_Widget_Design_TabLayout = 2131296576;
 			
-			// aapt resource value: 0x7f09015f
-			public const int MyTheme = 2131296607;
+			// aapt resource value: 0x7f090157
+			public const int MyTheme = 2131296599;
 			
-			// aapt resource value: 0x7f090160
-			public const int MyTheme_Base = 2131296608;
+			// aapt resource value: 0x7f090158
+			public const int MyTheme_Base = 2131296600;
 			
-			// aapt resource value: 0x7f090162
-			public const int MyTheme1 = 2131296610;
+			// aapt resource value: 0x7f09015a
+			public const int MyTheme1 = 2131296602;
 			
-			// aapt resource value: 0x7f090161
-			public const int MyTheme2 = 2131296609;
+			// aapt resource value: 0x7f090159
+			public const int MyTheme2 = 2131296601;
 			
 			// aapt resource value: 0x7f090017
 			public const int Platform_AppCompat = 2131296279;

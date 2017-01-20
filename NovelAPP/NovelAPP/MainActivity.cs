@@ -16,7 +16,6 @@ using NovelWebSite;
 using Android.Database;
 using Android.Support.V7.App;
 using V7Widget = Android.Support.V7.Widget;
-using BottomNavigationBar;
 
 namespace NovelAPP
 {
