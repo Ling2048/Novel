@@ -8,6 +8,7 @@ namespace Model
 {
     public class BookPageModel
     {
+        public string PicHref { get; set; }
         public string Review { get; set; }
         public string Title { get; set; }
         public IList<ChapterLink> ChapterList { get; set; }

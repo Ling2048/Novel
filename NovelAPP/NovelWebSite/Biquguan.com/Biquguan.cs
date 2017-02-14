@@ -73,6 +73,7 @@ namespace NovelWebSite.Biquguan.com
                 CallBack(null, e);
                 return;
             }
+            IList<string> picHrefList = NSoup2.Helper.Select("body > div.synopsisArea > div.synopsisArea_detail > img", "src", htmlString);
             IList<string> reviewList = NSoup2.Helper.Select("body > div.synopsisArea > p.review", htmlString);
             IList<string> titleList = NSoup2.Helper.Select("body > header > span", htmlString);
             IList<string> chapterNameList = NSoup2.Helper.Select("#chapterlist > p", htmlString);
@@ -93,7 +94,7 @@ namespace NovelWebSite.Biquguan.com
                 ChapterLink link = new ChapterLink() { Name = chapterNameList[i], URL = chapterHrefList[i] };
                 chapterList.Add(link);
             }
-            BookPageModel model = new BookPageModel() { Review = reviewList[0], ChapterList = chapterList, Title = titleList[0] };
+            BookPageModel model = new BookPageModel() { PicHref = picHrefList[0], Review = reviewList[0], ChapterList = chapterList, Title = titleList[0] };
             CallBack(model,null);
             //throw new NotImplementedException();
         }

@@ -7,7 +7,7 @@
   <ImageView android:id="@+id/img"
       android:layout_width="70dp"
       android:layout_height="80.0dp"
-      android:scaleType="centerInside"  />
+      android:scaleType="fitCenter"  />
 
     <RelativeLayout
         android:layout_width="fill_parent"

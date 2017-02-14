@@ -27,6 +27,7 @@ namespace NovelAPP
         ArrayAdapter adapter;
         string BookLink = "";
         IMenuItem keepItem;
+        ImageView Cover = null;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -68,6 +69,7 @@ namespace NovelAPP
                     }
                     adapter.NotifyDataSetChanged();
                     refreshLayout.Refreshing = false;
+
                 },0);
             };
 
@@ -110,6 +112,15 @@ namespace NovelAPP
                 chapterListView.Adapter = adapter;
                 chapterListView.AddFooterView(footBtn);
                 progressbar.Visibility = ViewStates.Gone;
+
+                NovelWebSite.BookHelper.GetImageBitmapFromUrl(model.PicHref, imageBytes =>
+                {
+                    Bitmap imageBitmap;
+                    imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+                    Cover = this.FindViewById<ImageView>(Resource.Id.cover);
+                    Cover.SetImageBitmap(imageBitmap);
+                });
+
             },0);
         }
 

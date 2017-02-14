@@ -14,7 +14,6 @@ namespace Model
         public string Date { get; set; }
         public string NewChapterHref { get; set; }
         public string PicHref { get; set; }
-
         public string BookLink { get; set; }
     }
 }

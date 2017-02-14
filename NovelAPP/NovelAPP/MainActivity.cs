@@ -128,6 +128,7 @@ namespace NovelAPP
             JavaDictionary<string, object> d = (JavaDictionary<string, object>)adapter.GetItem2(e.Position);
             b.PutString("href", d["BookLink"].ToString());
             b.PutString("title", d["title"].ToString());
+            b.PutString("cover", d["img"].ToString());
             Helper.IntentActivity(this, typeof(BookPageActivity), b);
         }
 
