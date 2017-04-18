@@ -111,6 +111,13 @@ namespace NovelAPP
                 adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleExpandableListItem1, getData(model.ChapterList));
                 chapterListView.Adapter = adapter;
                 chapterListView.AddFooterView(footBtn);
+                TextView tv = null;
+                tv = this.FindViewById<TextView>(Resource.Id.cover_author);
+                tv.Text = model.Author;
+                tv = this.FindViewById<TextView>(Resource.Id.cover_newDate);
+                tv.Text = model.NewDateTime;
+                tv = this.FindViewById<TextView>(Resource.Id.cover_newChepter);
+                tv.Text = model.NewChapterName;
                 progressbar.Visibility = ViewStates.Gone;
 
                 NovelWebSite.BookHelper.GetImageBitmapFromUrl(model.PicHref, imageBytes =>

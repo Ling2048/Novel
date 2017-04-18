@@ -40,12 +40,14 @@ namespace NovelAPP
             var progressbar = this.FindViewById<ProgressBar>(Resource.Id.progressBar3);
             progressbar.Visibility = ViewStates.Visible;
             contentView = this.FindViewById<TextView>(Resource.Id.ChapterContent);
-            //contentView.MovementMethod = Android.Text.Method.ScrollingMovementMethod.Instance;
+
             contentView.ScrollTo(0, 0);
             contentView.Clickable = false;
             contentView.LongClickable = false;
+            //contentView.SetTextColor()
 
             ll = this.FindViewById<LinearLayout>(Resource.Id.chapter_ll);
+            //Android.Support.V7.Util.
 
             BookHelper.NovelInstance.GetChapterPage(href, (m,ex) => 
             {

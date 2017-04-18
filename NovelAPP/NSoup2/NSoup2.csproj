@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NSoup2</RootNamespace>
     <AssemblyName>NSoup2</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,8 +32,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NSoup, Version=0.8.0.0, Culture=neutral, PublicKeyToken=6d44e53f0a65e802, processorArchitecture=MSIL">
-      <HintPath>..\packages\NSoup.0.8.0\lib\net40\NSoup.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\xamarin\NSoup-master\NSoup\bin\Debug\NSoup.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

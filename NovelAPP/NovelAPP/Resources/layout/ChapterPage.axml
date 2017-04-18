@@ -16,17 +16,16 @@
             android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:fitsSystemWindows="true">
-          <include
-              android:id="@+id/toolbar"
-              layout="@layout/toolbar" />
-
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
         </android.support.design.widget.AppBarLayout>
         <ProgressBar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
             android:id="@+id/progressBar3"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

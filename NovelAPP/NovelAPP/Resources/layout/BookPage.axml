@@ -25,41 +25,44 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginRight="20dp"
                     android:orientation="horizontal"
                     app:layout_collapseMode="parallax"
                     app:layout_collapseParallaxMultiplier="0.7">
                     <ImageView
                         android:id="@+id/cover"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:scaleType="fitCenter"
                         android:src="@color/bg_black"
-                        android:layout_weight="1"/>
-                  <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:layout_weight="2" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:background="#F00"
-                        android:layout_weight="2">
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
                         <TextView
+                            android:id="@+id/cover_author"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/text_gray"
                             android:textSize="@dimen/title_size"
-                            android:text="垃圾"/>
-                        <!--<TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/text_gray"
-                            android:textSize="@dimen/title_size" />
+                            android:layout_weight="1" />
                         <TextView
-                            android:id="@+id/bookNewChapter"
+                            android:id="@+id/cover_newDate"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/text_gray"
                             android:textSize="@dimen/title_size"
-                            android:layout_weight="1" />-->
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:id="@+id/cover_newChepter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/title_size"
+                            android:layout_weight="1"/>
                     </LinearLayout>
                 </LinearLayout>
             <!--<ImageView
