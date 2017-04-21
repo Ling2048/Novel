@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Java.Lang;
 
 namespace NovelAPP
 {
@@ -84,6 +85,32 @@ namespace NovelAPP
             ll.SetBackgroundColor(Android.Graphics.Color.Azure);
             contentView.SetTextColor(Android.Graphics.Color.Black);
             toolbar.SetBackgroundColor(Android.Graphics.Color.DodgerBlue);
+        }
+
+        //通过反射获取状态栏高度，默认25dp
+        public static int GetStatusBarHeight(Context context)
+        {
+            int statusBarHeight = dip2px(context, 25);
+            try
+            {
+                Java.Lang.Class clazz = Java.Lang.Class.ForName("com.android.internal.R$dimen");
+                var ob = clazz.NewInstance();
+                int height = Integer.ParseInt(clazz.GetField("status_bar_height")
+                        .Get(ob).ToString());
+                statusBarHeight = context.Resources.GetDimensionPixelSize(height);
+            }
+            catch (System.Exception e)
+            {
+                //e.StackTrace;
+            }
+            return statusBarHeight;
+        }
+
+        //根据手机的分辨率从 dp 的单位 转成为 px(像素)
+        public static int dip2px(Context context, float dpValue)
+        {
+            float scale = context.Resources.DisplayMetrics.Density;
+            return (int)(dpValue * scale + 0.5f);
         }
     }
 }

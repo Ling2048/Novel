@@ -38,6 +38,15 @@ namespace NovelAPP
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.Kitkat)
+            {
+                Window.AddFlags(WindowManagerFlags.TranslucentStatus);
+            }
+            else
+            {
+                Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
+            }
+
             Intent intent = this.Intent;
             String href = intent.GetBundleExtra("href").GetString("href");
             SupportActionBar.Title = intent.GetBundleExtra("href").GetString("title");

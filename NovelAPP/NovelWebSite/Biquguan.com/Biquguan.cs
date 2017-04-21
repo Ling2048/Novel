@@ -126,7 +126,7 @@ namespace NovelWebSite.Biquguan.com
                 CallBack(null, e);
                 return;
             }
-            ChapterModel model = new ChapterModel() { Content = chapterContentList[0] };
+            ChapterModel model = new ChapterModel() { Content = NSoup2.Helper.RemoveElement("p", chapterContentList[0]) };
             CallBack(model,null);
             //throw new NotImplementedException();
         }

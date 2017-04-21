@@ -12,6 +12,10 @@ using Android.Widget;
 using NovelWebSite;
 using Android.Support.V7.App;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
+using static Android.App.ActionBar;
+using Android.Graphics;
+using Android.Support.V4;
+using Android.Util;
 
 namespace NovelAPP
 {
@@ -23,9 +27,19 @@ namespace NovelAPP
         Toolbar toolbar;
         LinearLayout ll;
         bool IsBlack = false;
+        int baseHeight = 0;
+        int baseWidth = 0;
+        float touchX = 0;
+        float touchY = 0;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            // 隐藏状态栏
+            
+            Window.SetFlags(WindowManagerFlags.Fullscreen,
+                WindowManagerFlags.Fullscreen);
+
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ChapterPage);
             // Create your application here
@@ -42,12 +56,32 @@ namespace NovelAPP
             contentView = this.FindViewById<TextView>(Resource.Id.ChapterContent);
 
             contentView.ScrollTo(0, 0);
-            contentView.Clickable = false;
-            contentView.LongClickable = false;
+            DisplayMetrics dm = new DisplayMetrics();
+            WindowManager.DefaultDisplay.GetMetrics(dm);
+            baseWidth = dm.WidthPixels / 3;
+            baseHeight = dm.HeightPixels / 4;
+            //contentView.Touch += (s, e) => 
+            //{
+            //    touchX = e.Event.GetX();
+            //    touchY = e.Event.GetY();
+            //    Toast.MakeText(this, "TouchY:" + touchY + "|TouchX:" + touchX + "|" + widthPixels + "|" + heightPixels,
+            //                        ToastLength.Short).Show();
+            //};
+            contentView.Click += (s, e) => 
+            {
+                if ((touchY > baseHeight && touchY < (baseHeight * 2)) && (touchX > baseWidth && touchX < baseWidth * 3))
+                {
+                    Toast.MakeText(this, "点击了成功:TouchY:" + touchY + "|TouchX:" + touchX + "|" + baseHeight + "|" + baseWidth,
+                                    ToastLength.Short).Show();
+                }
+            };
+            //IList<View> list = contentView.Touchables;
+            //contentView.SetOnTouchListener(new Interface.MyOnTouchListener());
+            //contentView.Clickable = false;
+            //contentView.LongClickable = false;
             //contentView.SetTextColor()
 
             ll = this.FindViewById<LinearLayout>(Resource.Id.chapter_ll);
-            //Android.Support.V7.Util.
 
             BookHelper.NovelInstance.GetChapterPage(href, (m,ex) => 
             {
@@ -57,10 +91,12 @@ namespace NovelAPP
                     progressbar.Visibility = ViewStates.Gone;
                     return;
                 }
-                contentView.Text = Android.Text.Html.FromHtml(m.Content).ToString();
+                contentView.Text = Android.Text.Html.FromHtml(m.Content,Android.Text.FromHtmlOptions.OptionUseCssColors).ToString();
+                //contentView.Text = Android.Text.Html.EscapeHtml(m.Content);
                 progressbar.Visibility = ViewStates.Gone;
             });
         }
+
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
@@ -96,5 +132,11 @@ namespace NovelAPP
             return base.OnCreateOptionsMenu(menu);
         }
 
+        public override bool DispatchTouchEvent(MotionEvent ev)
+        {
+            touchX = ev.GetX();
+            touchY = ev.GetY();
+            return base.DispatchTouchEvent(ev);
+        }
     }
 }

@@ -34,6 +34,8 @@ namespace NovelAPP
             db.ExecSQL("CREATE TABLE SEARCHCACHE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,content TEXT NOT NULL)");
             //收藏表
             db.ExecSQL("CREATE TABLE KEEPBOOK(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,website TEXT NOT NULL,bookurl TEXT NOT NULL,bookname TEXT NOT NULL)");
+            //章节样式表
+            db.ExecSQL("CREATE TABLE CHAPTERSTYLE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,bgcolor TEXT NOT NULL,fontcolor TEXT NOT NULL,fontsize TEXT NOT NULL)");
             //throw new NotImplementedException();
         }
 

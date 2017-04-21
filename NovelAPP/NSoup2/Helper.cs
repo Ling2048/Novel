@@ -84,5 +84,18 @@ namespace NSoup2
             }
             return list;
         }
+
+        public static string RemoveElement(string SelectStr, string htmlString)
+        {
+            NSoup.Nodes.Document doc = NSoup.NSoupClient.Parse(htmlString);
+            NSoup.Select.Elements e = doc.Select(SelectStr);
+            doc.Select("body").First().Attr("background-color", "yellow");
+            string result = doc.Select("body").First().OuterHtml();
+            foreach (NSoup.Nodes.Element element in e)
+            {
+                result = result.Replace(element.ToString(), "");
+            }
+            return result.Replace("body","div");
+        }
     }
 }

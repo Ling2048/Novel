@@ -137,10 +137,21 @@ namespace NovelAPP
             base.OnCreate(bundle);
             Helper.Include();
 
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-
             Init();
+            //if (Build.VERSION.SdkInt >= BuildVersionCodes.Kitkat)
+            //{
+            //    Window.AddFlags(WindowManagerFlags.TranslucentStatus);
+            //    toolbar.SetPadding(0, Helper.GetStatusBarHeight(this), 0, 0);
+            //}
+            //else
+            //{
+            //    Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
+            //}
+
+
 
             mDrawerToggle.SyncState();
             mDrawerLayout.AddDrawerListener(mDrawerToggle);
@@ -192,7 +203,7 @@ namespace NovelAPP
                 TextView NewChapter = (TextView)convertView.FindViewById(Resource.Id.NewChapter);
                 img.SetImageBitmap((list[position] as JavaDictionary<string, object>)["img"] as Bitmap);
                 title.Text = (list[position] as JavaDictionary<string, object>)["title"].ToString();
-                info.Text = Android.Text.Html.FromHtml((list[position] as JavaDictionary<string, object>)["info"].ToString()).ToString();
+                info.Text = Android.Text.Html.FromHtml((list[position] as JavaDictionary<string, object>)["info"].ToString(),Android.Text.FromHtmlOptions.OptionUseCssColors).ToString();
                 Date.Text = (list[position] as JavaDictionary<string, object>)["Date"].ToString();
                 NewChapter.Text = (list[position] as JavaDictionary<string, object>)["NewChapter"].ToString();
             });
@@ -309,6 +320,7 @@ namespace NovelAPP
                         this.OnQueryTextSubmit(searchView.Query);
                     };
                     new Android.App.AlertDialog.Builder(this).SetTitle("选择源").SetItems(BookHelper.GetCSNameList().ToArray(), dialogInterface).Show();
+                    //new Android.App.AlertDialog.Builder(this).SetView(this.FindViewById<LinearLayout>(Resource.Layout.))
                     break;
                 case Resource.Id.search:
                     Toast.MakeText(this, "查询", ToastLength.Short).Show();
@@ -356,6 +368,7 @@ namespace NovelAPP
             //获取小说网站操作类
             BookHelper.NovelInstance = NovelWebSite.Factory.GetWebInterface(typeName, "NovelWebSite");
             toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            toolbar.SetPadding(0, Helper.GetStatusBarHeight(this), 0, 0);
             SetSupportActionBar(toolbar);
             SupportActionBar.Title = "Xamarin.Android";
             SupportActionBar.SetHomeButtonEnabled(true);

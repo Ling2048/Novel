@@ -12,10 +12,18 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            //NSoup2.Helper.RemoveElement("p", content);
+
             //Helper.Get();
             string url = "http://m.biquguan.com/bqg806/";
             //string url = "http://m.biquguan.com/bqg806/2349080.html";
             NovelWebSite.Biquguan.com.Biquguan novel = new NovelWebSite.Biquguan.com.Biquguan();
+
+            novel.GetChapterPage("/bqg806/2422035.html", (model, e) => 
+            {
+                Console.WriteLine("123");
+            });
+
             novel.GetSearchList("惊悚乐园", (list,e) => 
             {
                 string ss = list[0].Title;
