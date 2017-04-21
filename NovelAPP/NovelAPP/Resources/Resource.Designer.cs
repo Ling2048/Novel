@@ -3222,6 +3222,12 @@ namespace NovelAPP
 			// aapt resource value: 0x7f09015f
 			public const int Animation_Design_BottomSheetDialog = 2131296607;
 			
+			// aapt resource value: 0x7f09017d
+			public const int AppBaseTheme = 2131296637;
+			
+			// aapt resource value: 0x7f09017e
+			public const int AppTheme = 2131296638;
+			
 			// aapt resource value: 0x7f09017c
 			public const int AppTheme_DrawerArrowToggle = 2131296636;
 			
@@ -3686,6 +3692,9 @@ namespace NovelAPP
 			
 			// aapt resource value: 0x7f090161
 			public const int Base_Widget_Design_TabLayout = 2131296609;
+			
+			// aapt resource value: 0x7f090185
+			public const int Dialog = 2131296645;
 			
 			// aapt resource value: 0x7f090178
 			public const int MyTheme = 2131296632;
@@ -4349,6 +4358,24 @@ namespace NovelAPP
 			
 			// aapt resource value: 0x7f090177
 			public const int Widget_Design_TextInputLayout = 2131296631;
+			
+			// aapt resource value: 0x7f090182
+			public const int sdw_79351b = 2131296642;
+			
+			// aapt resource value: 0x7f090181
+			public const int sdw_white = 2131296641;
+			
+			// aapt resource value: 0x7f090184
+			public const int text_15_666666_sdw = 2131296644;
+			
+			// aapt resource value: 0x7f090183
+			public const int text_15_ffffff_sdw = 2131296643;
+			
+			// aapt resource value: 0x7f090180
+			public const int text_16_666666 = 2131296640;
+			
+			// aapt resource value: 0x7f09017f
+			public const int text_18_ffffff = 2131296639;
 			
 			static Style()
 			{
