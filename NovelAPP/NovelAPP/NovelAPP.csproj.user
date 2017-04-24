@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <ProjectView>ShowAllFiles</ProjectView>
-    <SelectedDevice>Androi6.0</SelectedDevice>
+    <SelectedDevice>Xiaomi MI 4S</SelectedDevice>
     <DefaultDevice>Androi6.0</DefaultDevice>
   </PropertyGroup>
 </Project>

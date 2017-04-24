@@ -259,7 +259,14 @@ namespace NovelAPP
                             b.PutString("title", list[which].BookName);
                             Helper.IntentActivity(this, typeof(BookPageActivity), b);
                         };
-                        new Android.App.AlertDialog.Builder(this).SetTitle("收藏列表").SetItems(source, dialogInterface).Show();
+                        View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
+
+                        PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
+                        mPopupWindow.Touchable = true;
+                        mPopupWindow.OutsideTouchable = true;
+                        mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
+                        //mPopupWindow.ShowAtLocation(FindViewById(Resource.Layout.Main), GravityFlags.Bottom, 0, 0);
+                        //new Android.App.AlertDialog.Builder(this).SetTitle("收藏列表").SetItems(source, dialogInterface).Show();
                     }
                     catch (System.Exception ex)
                     {
@@ -320,6 +327,8 @@ namespace NovelAPP
                         this.OnQueryTextSubmit(searchView.Query);
                     };
                     new Android.App.AlertDialog.Builder(this).SetTitle("选择源").SetItems(BookHelper.GetCSNameList().ToArray(), dialogInterface).Show();
+                    //new MyDialog.Builder(this).create().Show();
+                    //mPopupWindow.ShowAtLocation(FindViewById(Resource.Layout.Main), GravityFlags.Bottom, 0, 0);
                     //new Android.App.AlertDialog.Builder(this).SetView(this.FindViewById<LinearLayout>(Resource.Layout.))
                     break;
                 case Resource.Id.search:

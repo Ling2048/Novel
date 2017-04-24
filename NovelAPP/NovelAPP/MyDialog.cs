@@ -66,7 +66,7 @@ namespace NovelAPP
             public MyDialog create()
             {
                 int DialogId = Resource.Style.Dialog;
-                int dialog_normal_layoutId = 0;
+                int dialog_normal_layoutId = Resource.Layout.dialog_normal_layout;
                 int titleId = Resource.Id.title;
                 int positiveButtonId = 0;
                 int negativeButtonId = 0;
@@ -81,42 +81,42 @@ namespace NovelAPP
                 dialog.AddContentView(layout, new LayoutParams(
                         LayoutParams.FillParent, LayoutParams.WrapContent));
                 // set the dialog title  
-                ((TextView)layout.FindViewById(titleId)).Text = title;
-                if (positiveButtonText != null)
-                {
-                    ((Button)layout.FindViewById(positiveButtonId)).Text = positiveButtonText;
-                    //if (positiveButtonClickListener != null)
-                    //{
+                //((TextView)layout.FindViewById(titleId)).Text = title;
+                //if (positiveButtonText != null)
+                //{
+                //    ((Button)layout.FindViewById(positiveButtonId)).Text = positiveButtonText;
+                //    //if (positiveButtonClickListener != null)
+                //    //{
 
-                    //}
-                }
-                else
-                {
-                    // if no confirm button just set the visibility to GONE  
-                    layout.FindViewById(positiveButtonId).Visibility = ViewStates.Gone;
-                }
+                //    //}
+                //}
+                //else
+                //{
+                //    // if no confirm button just set the visibility to GONE  
+                //    layout.FindViewById(positiveButtonId).Visibility = ViewStates.Gone;
+                //}
 
-                if (negativeButtonText != null)
-                {
-                }
-                else
-                {
-                    // if no confirm button just set the visibility to GONE  
-                    layout.FindViewById(negativeButtonId).Visibility = ViewStates.Gone;
-                }
+                //if (negativeButtonText != null)
+                //{
+                //}
+                //else
+                //{
+                //    // if no confirm button just set the visibility to GONE  
+                //    layout.FindViewById(negativeButtonId).Visibility = ViewStates.Gone;
+                //}
 
-                if (message != null)
-                {
-                    ((TextView)layout.FindViewById(messageId)).Text = message;
-                }
-                else if (contentView != null)
-                {
-                    // if no message set  
-                    // add the contentView to the dialog body  
-                    ((LinearLayout)layout.FindViewById(contentId)).RemoveAllViews();
-                    ((LinearLayout)layout.FindViewById(contentId))
-                            .AddView(contentView, new LayoutParams(LayoutParams.MatchParent, LayoutParams.MatchParent));
-                }
+                //if (message != null)
+                //{
+                //    ((TextView)layout.FindViewById(messageId)).Text = message;
+                //}
+                //else if (contentView != null)
+                //{
+                //    // if no message set  
+                //    // add the contentView to the dialog body  
+                //    ((LinearLayout)layout.FindViewById(contentId)).RemoveAllViews();
+                //    ((LinearLayout)layout.FindViewById(contentId))
+                //            .AddView(contentView, new LayoutParams(LayoutParams.MatchParent, LayoutParams.MatchParent));
+                //}
                 dialog.SetContentView(layout);
                 return dialog;
             }

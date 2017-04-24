@@ -58,7 +58,7 @@ namespace NovelAPP
             contentView.ScrollTo(0, 0);
             DisplayMetrics dm = new DisplayMetrics();
             WindowManager.DefaultDisplay.GetMetrics(dm);
-            baseWidth = dm.WidthPixels / 3;
+            baseWidth = dm.WidthPixels / 4;
             baseHeight = dm.HeightPixels / 4;
             //contentView.Touch += (s, e) => 
             //{
@@ -69,10 +69,21 @@ namespace NovelAPP
             //};
             contentView.Click += (s, e) => 
             {
-                if ((touchY > baseHeight && touchY < (baseHeight * 2)) && (touchX > baseWidth && touchX < baseWidth * 3))
+                if ((touchY > baseHeight && touchY < (baseHeight * 3)) && (touchX > baseWidth && touchX < baseWidth * 3))
                 {
-                    Toast.MakeText(this, "点击了成功:TouchY:" + touchY + "|TouchX:" + touchX + "|" + baseHeight + "|" + baseWidth,
-                                    ToastLength.Short).Show();
+                    //Toast.MakeText(this, "点击了成功:TouchY:" + touchY + "|TouchX:" + touchX + "|" + baseHeight + "|" + baseWidth,
+                    //                ToastLength.Short).Show();
+                    //new MyDialog.Builder(this).create().Show();
+                    View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
+
+                    PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
+                    mPopupWindow.Touchable = true;
+                    mPopupWindow.OutsideTouchable = true;
+                    //设置PopupWindow动画
+                    mPopupWindow.AnimationStyle = Resource.Style.anim_menu_bottombar;
+                    //mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
+                    var rootView = LayoutInflater.From(this).Inflate(Resource.Layout.ChapterPage, null);
+                    mPopupWindow.ShowAtLocation(rootView, GravityFlags.Bottom, 0, 0);
                 }
             };
             //IList<View> list = contentView.Touchables;
