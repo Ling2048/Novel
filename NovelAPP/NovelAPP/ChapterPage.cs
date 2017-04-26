@@ -16,10 +16,11 @@ using static Android.App.ActionBar;
 using Android.Graphics;
 using Android.Support.V4;
 using Android.Util;
+using NovelAPP.Interface;
 
 namespace NovelAPP
 {
-    [Activity(Label = "ChapterPage")]
+    [Activity(Label = "ChapterPage",WindowSoftInputMode = SoftInput.AdjustUnspecified | SoftInput.StateHidden,ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation| Android.Content.PM.ConfigChanges.KeyboardHidden)]
     public class ChapterPage : AppCompatActivity
     {
         TextView contentView;
@@ -31,6 +32,7 @@ namespace NovelAPP
         int baseWidth = 0;
         float touchX = 0;
         float touchY = 0;
+        PopupWindow popupWindow;
 
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -60,30 +62,40 @@ namespace NovelAPP
             WindowManager.DefaultDisplay.GetMetrics(dm);
             baseWidth = dm.WidthPixels / 4;
             baseHeight = dm.HeightPixels / 4;
-            //contentView.Touch += (s, e) => 
-            //{
-            //    touchX = e.Event.GetX();
-            //    touchY = e.Event.GetY();
-            //    Toast.MakeText(this, "TouchY:" + touchY + "|TouchX:" + touchX + "|" + widthPixels + "|" + heightPixels,
-            //                        ToastLength.Short).Show();
-            //};
+            popupWindow = InitPopupWindow();
+
             contentView.Click += (s, e) => 
             {
-                if ((touchY > baseHeight && touchY < (baseHeight * 3)) && (touchX > baseWidth && touchX < baseWidth * 3))
+                if ((touchY > baseHeight && touchY < (baseHeight * 3)) && (touchX > baseWidth && touchX < baseWidth * 3) && !popupWindow.IsShowing)
                 {
-                    //Toast.MakeText(this, "点击了成功:TouchY:" + touchY + "|TouchX:" + touchX + "|" + baseHeight + "|" + baseWidth,
-                    //                ToastLength.Short).Show();
-                    //new MyDialog.Builder(this).create().Show();
-                    View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
-
-                    PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
-                    mPopupWindow.Touchable = true;
-                    mPopupWindow.OutsideTouchable = true;
-                    //设置PopupWindow动画
-                    mPopupWindow.AnimationStyle = Resource.Style.anim_menu_bottombar;
-                    //mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
                     var rootView = LayoutInflater.From(this).Inflate(Resource.Layout.ChapterPage, null);
-                    mPopupWindow.ShowAtLocation(rootView, GravityFlags.Bottom, 0, 0);
+                    popupWindow.ShowAtLocation(rootView, GravityFlags.Bottom, 0, 0);
+                    ////Toast.MakeText(this, "点击了成功:TouchY:" + touchY + "|TouchX:" + touchX + "|" + baseHeight + "|" + baseWidth,
+                    ////                ToastLength.Short).Show();
+                    ////new MyDialog.Builder(this).create().Show();
+                    //View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
+
+                    ////popupView.FindViewById<EditText>(Resource.Id.font_color).Touch += (s1, e1) =>
+                    ////{
+
+                    ////};
+
+                    //PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
+                    //mPopupWindow.Touchable = true;
+                    //mPopupWindow.OutsideTouchable = true;
+                    ////设置可以获取焦点，否则弹出菜单中的EditText是无法获取输入的
+                    //mPopupWindow.Focusable = true;
+                    ////这句是为了防止弹出菜单获取焦点之后，点击activity的其他组件没有响应
+                    //mPopupWindow.SetBackgroundDrawable(new Android.Graphics.Drawables.BitmapDrawable());
+                    //mPopupWindow.SoftInputMode = SoftInput.AdjustResize;// (WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
+                    //mPopupWindow.InputMethodMode = InputMethod.Needed;// (PopupWindow.INPUT_METHOD_NEEDED);
+
+
+                    ////设置PopupWindow动画
+                    //mPopupWindow.AnimationStyle = Resource.Style.anim_menu_bottombar;
+                    ////mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
+                    //var rootView = LayoutInflater.From(this).Inflate(Resource.Layout.ChapterPage, null);
+                    //mPopupWindow.ShowAtLocation(rootView, GravityFlags.Bottom, 0, 0);
                 }
             };
             //IList<View> list = contentView.Touchables;
@@ -148,6 +160,57 @@ namespace NovelAPP
             touchX = ev.GetX();
             touchY = ev.GetY();
             return base.DispatchTouchEvent(ev);
+        }
+
+        public PopupWindow InitPopupWindow()
+        {
+            View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
+
+
+
+            PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
+            mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).Click += (s, e) =>
+            {
+                Toast.MakeText(this, "字体颜色", ToastLength.Short).Show();
+            };
+
+            mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).Click += (s, e) =>
+            {
+                Toast.MakeText(this, "背景颜色", ToastLength.Short).Show();
+            };
+
+            mPopupWindow.ContentView.FindViewById<Button>(Resource.Id.positiveButton).Click += (s, e) =>
+            {
+                Toast.MakeText(this, "确定", ToastLength.Short).Show();
+            };
+
+            mPopupWindow.ContentView.FindViewById<Button>(Resource.Id.negativeButton).Click += (s, e) =>
+            {
+                Toast.MakeText(this, "取消", ToastLength.Short).Show();
+                popupWindow.Dismiss();
+            };
+
+            mPopupWindow.Touchable = true;
+            mPopupWindow.OutsideTouchable = true;
+            //设置可以获取焦点，否则弹出菜单中的EditText是无法获取输入的
+            mPopupWindow.Focusable = true;
+            //这句是为了防止弹出菜单获取焦点之后，点击activity的其他组件没有响应
+            mPopupWindow.SetBackgroundDrawable(new Android.Graphics.Drawables.BitmapDrawable());
+            mPopupWindow.SoftInputMode = SoftInput.AdjustResize;// (WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
+            mPopupWindow.InputMethodMode = InputMethod.Needed;// (PopupWindow.INPUT_METHOD_NEEDED);
+
+            MyIOnDismissListener dismissListener = new MyIOnDismissListener();
+            dismissListener.extentdMethod = () => 
+            {
+                Toast.MakeText(this, "PopupWindow消失", ToastLength.Short).Show();
+            };
+            mPopupWindow.SetOnDismissListener(dismissListener);
+
+            //设置PopupWindow动画
+            mPopupWindow.AnimationStyle = Resource.Style.anim_menu_bottombar;
+            //mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
+
+            return mPopupWindow;
         }
     }
 }

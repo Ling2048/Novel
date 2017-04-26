@@ -35,9 +35,12 @@
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
     <BundleAssemblies>False</BundleAssemblies>
     <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-    <AndroidSupportedAbis>armeabi-v7a,arm64-v8a</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi-v7a;arm64-v8a</AndroidSupportedAbis>
     <Debugger>.Net (Xamarin)</Debugger>
     <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <AotAssemblies>False</AotAssemblies>
+    <EnableLLVM>False</EnableLLVM>
+    <EnableProguard>False</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -122,6 +125,7 @@
     <Compile Include="ChapterPage.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="InterfaceInit\MyDialogInterface.cs" />
+    <Compile Include="Interface\MyIOnDismissListener.cs" />
     <Compile Include="Interface\MyOnTouchListener.cs" />
     <Compile Include="LocationSqliteOpenHelper.cs" />
     <Compile Include="MainActivity.cs" />
