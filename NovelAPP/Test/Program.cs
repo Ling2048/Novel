@@ -12,6 +12,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            string intStr = "ffffffff";
+            int i = intStr.Length;
             //NSoup2.Helper.RemoveElement("p", content);
 
             //Helper.Get();

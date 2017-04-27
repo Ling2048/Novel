@@ -17,10 +17,12 @@ using Android.Graphics;
 using Android.Support.V4;
 using Android.Util;
 using NovelAPP.Interface;
+using Android.Views.InputMethods;
+using Android.Database;
 
 namespace NovelAPP
 {
-    [Activity(Label = "ChapterPage",WindowSoftInputMode = SoftInput.AdjustUnspecified | SoftInput.StateHidden,ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation| Android.Content.PM.ConfigChanges.KeyboardHidden)]
+    [Activity(Label = "ChapterPage",WindowSoftInputMode = SoftInput.StateAlwaysHidden | SoftInput.StateHidden,ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation| Android.Content.PM.ConfigChanges.KeyboardHidden)]
     public class ChapterPage : AppCompatActivity
     {
         TextView contentView;
@@ -62,7 +64,10 @@ namespace NovelAPP
             WindowManager.DefaultDisplay.GetMetrics(dm);
             baseWidth = dm.WidthPixels / 4;
             baseHeight = dm.HeightPixels / 4;
-            popupWindow = InitPopupWindow();
+
+            ll = this.FindViewById<LinearLayout>(Resource.Id.chapter_ll);
+            
+            popupWindow = InitPopupWindow(InitStyle());
 
             contentView.Click += (s, e) => 
             {
@@ -103,8 +108,6 @@ namespace NovelAPP
             //contentView.Clickable = false;
             //contentView.LongClickable = false;
             //contentView.SetTextColor()
-
-            ll = this.FindViewById<LinearLayout>(Resource.Id.chapter_ll);
 
             BookHelper.NovelInstance.GetChapterPage(href, (m,ex) => 
             {
@@ -162,26 +165,61 @@ namespace NovelAPP
             return base.DispatchTouchEvent(ev);
         }
 
-        public PopupWindow InitPopupWindow()
+        public PopupWindow InitPopupWindow(List<Model.ChapterStyleModel> list)
         {
             View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
 
 
 
             PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
-            mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).Click += (s, e) =>
+            if (list != null)
             {
-                Toast.MakeText(this, "字体颜色", ToastLength.Short).Show();
-            };
+                mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_size).Text = list[0].fontsize;
+                mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).Text = list[0].fontcolor;
+                mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).Text = list[0].bgcolor;
+            }
+            //mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_size).Click += (s, e) =>
+            //{
+            //    Toast.MakeText(this, "字号", ToastLength.Short).Show();
+            //    //contentView.TextSize = Convert.ToSingle(((EditText)s).Text);
+            //};
 
-            mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).Click += (s, e) =>
-            {
-                Toast.MakeText(this, "背景颜色", ToastLength.Short).Show();
-            };
+            //mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).Click += (s, e) =>
+            //{
+            //    Toast.MakeText(this, "字体色", ToastLength.Short).Show();
+            //    //contentView.SetTextColor(new Color(Convert.ToInt32(((EditText)s).Text)));
+            //};
+
+            //mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).Click += (s, e) =>
+            //{
+            //    Toast.MakeText(this, "背景色", ToastLength.Short).Show();
+            //    //ll.SetBackgroundColor(new Color(Convert.ToInt32(((EditText)s).Text)));
+            //};
 
             mPopupWindow.ContentView.FindViewById<Button>(Resource.Id.positiveButton).Click += (s, e) =>
             {
                 Toast.MakeText(this, "确定", ToastLength.Short).Show();
+                string fontSize = mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_size).Text;
+                string fontColor = mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).Text;
+                string bgColor = mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).Text;
+
+                SetStyle(bgColor, fontColor, fontSize);
+
+                string sql = "SELECT _id FROM CHAPTERSTYLE";
+                string id = LocationSqliteOpenHelper.GetInstance(this).First_id(sql);
+                ContentValues cv = new ContentValues();
+                if (!string.IsNullOrEmpty(id))
+                {
+                    cv.Put("bgcolor", bgColor);
+                    cv.Put("fontcolor", fontColor);
+                    cv.Put("fontsize", fontSize);
+                    LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("CHAPTERSTYLE", cv, " _id = ? ", new string[] { id });
+                    return;
+                }
+                cv.Put("bgcolor", bgColor);
+                cv.Put("fontcolor", fontColor);
+                cv.Put("fontsize", fontSize);
+                LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Insert("CHAPTERSTYLE", null, cv);
             };
 
             mPopupWindow.ContentView.FindViewById<Button>(Resource.Id.negativeButton).Click += (s, e) =>
@@ -197,12 +235,22 @@ namespace NovelAPP
             //这句是为了防止弹出菜单获取焦点之后，点击activity的其他组件没有响应
             mPopupWindow.SetBackgroundDrawable(new Android.Graphics.Drawables.BitmapDrawable());
             mPopupWindow.SoftInputMode = SoftInput.AdjustResize;// (WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
-            mPopupWindow.InputMethodMode = InputMethod.Needed;// (PopupWindow.INPUT_METHOD_NEEDED);
+            mPopupWindow.InputMethodMode = Android.Widget.InputMethod.Needed;// (PopupWindow.INPUT_METHOD_NEEDED);
 
             MyIOnDismissListener dismissListener = new MyIOnDismissListener();
             dismissListener.extentdMethod = () => 
             {
                 Toast.MakeText(this, "PopupWindow消失", ToastLength.Short).Show();
+                InputMethodManager imm = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+                if (imm != null)
+                {
+                    Toast.MakeText(this, "输入法消失", ToastLength.Short).Show();
+                    //imm.HideSoftInputFromWindow(mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_size).WindowToken, 0);
+                    //imm.HideSoftInputFromWindow(mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).WindowToken, 0);
+                    //imm.HideSoftInputFromWindow(mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).WindowToken, 0);
+                    imm.HideSoftInputFromWindow(popupView.WindowToken, 0);
+                    //imm.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
+                }
             };
             mPopupWindow.SetOnDismissListener(dismissListener);
 
@@ -211,6 +259,57 @@ namespace NovelAPP
             //mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
 
             return mPopupWindow;
+        }
+
+        public List<Model.ChapterStyleModel> InitStyle()
+        {
+            List<Model.ChapterStyleModel> list = LocationSqliteOpenHelper.GetInstance(this).GetResultList<Model.ChapterStyleModel>("SELECT * FROM CHAPTERSTYLE ORDER BY _id DESC limit 0,1");//.ReadableDatabase.RawQuery(, null);
+            if (list != null && list.Count > 0)
+            {
+                SetStyle(list[0].bgcolor, list[0].fontcolor, list[0].fontsize);
+                return list;
+            }
+            return null;
+        }
+
+        public void SetStyle(string bgColor,string fontColor,string fontSize)
+        {
+            if (!string.IsNullOrEmpty(fontSize) || !string.IsNullOrWhiteSpace(fontSize))
+            {
+                contentView.TextSize = Convert.ToSingle(fontSize);
+            }
+            if (!string.IsNullOrEmpty(fontColor) || !string.IsNullOrWhiteSpace(fontColor))
+            {
+                if (fontColor.Length == 8)
+                {
+                    contentView.SetTextColor(new Color(Color.ParseColor("#" + fontColor)));
+                }
+                else { }
+            }
+            if (!string.IsNullOrEmpty(bgColor) || !string.IsNullOrWhiteSpace(bgColor))
+            {
+                if (bgColor.Length == 8)
+                {
+                    ll.SetBackgroundColor(new Color(Color.ParseColor("#" + bgColor)));
+                    //toolbar.SetBackgroundColor(new Color(Color.ParseColor("#" + bgColor)));
+                }
+                else { }
+            }
+            //string sql = "SELECT _id FROM CHAPTERSTYLE";
+            //string id = LocationSqliteOpenHelper.GetInstance(this).First_id(sql);
+            //ContentValues cv = new ContentValues();
+            //if (!string.IsNullOrEmpty(id))
+            //{
+            //    cv.Put("bgcolor", bgColor);
+            //    cv.Put("fontcolor", fontColor);
+            //    cv.Put("fontsize", fontSize);
+            //    LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("CHAPTERSTYLE", cv, " _id = ? ", new string[] { id });
+            //    return;
+            //}
+            //cv.Put("bgcolor", bgColor);
+            //cv.Put("fontcolor", fontColor);
+            //cv.Put("fontsize", fontSize);
+            //LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Insert("CHAPTERSTYLE", null, cv);
         }
     }
 }

@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="BookPageModel.cs" />
     <Compile Include="ChapterModel.cs" />
+    <Compile Include="ChapterStyleModel.cs" />
     <Compile Include="KeepModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchModel.cs" />

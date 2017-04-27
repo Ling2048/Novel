@@ -8,7 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#AA000000"
+        android:background="#E6000000"
         android:orientation="vertical">
         <TextView
             android:id="@+id/title"
@@ -34,12 +34,62 @@
                 android:paddingLeft="20.0dip"
                 android:paddingRight="20.0dip"
                 android:paddingTop="15.0dip"
-                android:text="字体色" />
+                android:text="字号" />
             <EditText
-                android:id="@+id/font_color"
+                style="@style/text_18_ffffff"
+                android:id="@+id/font_size"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:numeric="integer" />
+        <!--<TextView
+                android:id="@+id/message"
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="120.0dip"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingTop="15.0dip" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/font_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/text_18_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="60.0dip"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingTop="15.0dip"
+                android:text="字体色" />
+            <TextView
+                style="@style/text_18_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="60.0dip"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="15.0dip"
+                android:text="#" />
+            <EditText
+                style="@style/text_18_ffffff"
+                android:id="@+id/font_color"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:digits="0123456789abcdefABCDEF" />
         <!--<TextView
                 android:id="@+id/message"
                 style="@style/text_16_666666"
@@ -70,11 +120,25 @@
                 android:paddingRight="20.0dip"
                 android:paddingTop="15.0dip"
                 android:text="背景色" />
+            <TextView
+                style="@style/text_18_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="60.0dip"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="15.0dip"
+                android:text="#" />
             <EditText
+                style="@style/text_18_ffffff"
                 android:id="@+id/bg_color"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:numeric="integer" />
+                android:inputType="number"
+                android:digits="0123456789abcdefABCDEF" />
         <!--<TextView
                 android:id="@+id/message"
                 style="@style/text_16_666666"
@@ -104,14 +168,16 @@
                 android:layout_width="114.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center"
+                android:background="?attr/colorAccent"
                 android:text="确定" />
             <Button
                 android:id="@+id/negativeButton"
                 style="@style/text_15_ffffff_sdw"
                 android:layout_width="114.0dip"
                 android:layout_height="40.0dip"
-                android:layout_marginLeft="20.0dip"
+                android:layout_marginLeft="50.0dip"
                 android:gravity="center"
+                android:background="?attr/colorAccent"
                 android:text="取消" />
         </LinearLayout>
     </LinearLayout>

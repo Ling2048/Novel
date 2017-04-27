@@ -87,6 +87,35 @@ namespace NovelAPP
             return list;
         }
 
+        public List<T> GetResultList<T>(string sql)
+        {
+            ICursor icc = helper.WritableDatabase.RawQuery(sql, null);
+            if (icc == null || !icc.MoveToFirst()) return null;
+
+            List<T> list = new List<T>();
+            Type t = typeof(T);
+            object o = t.Assembly.CreateInstance(t.FullName);
+            System.Reflection.PropertyInfo[] propertyInfos = o.GetType().GetProperties();
+            do
+            {
+                object oo = t.Assembly.CreateInstance(t.FullName);
+                for (int i = 0; i < icc.ColumnCount; i++)
+                {
+                    foreach (System.Reflection.PropertyInfo property in propertyInfos)
+                    {
+                        if (icc.GetColumnName(i).Equals(property.Name))
+                        {
+                            property.SetValue(oo, icc.GetString(i), null);
+                            continue;
+                        }
+                    }
+                }
+                list.Add((T)oo);
+            }
+            while (icc.MoveToNext());
+            return list;
+        }
+
         public TResult[] GetKeepListS<T, TResult>(string name, string sql)
         {
             List<T> list = GetKeepList<T>(sql);

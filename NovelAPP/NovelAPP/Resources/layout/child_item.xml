@@ -6,7 +6,6 @@
       android:id="@+id/child_title"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:textSize="18sp"
-      android:text="这是子item"
-      android:layout_margin="5dp"/>
+      android:textColor="#FFFFFF"
+      android:textSize="@dimen/title_size" />
 </LinearLayout>

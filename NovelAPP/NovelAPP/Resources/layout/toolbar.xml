@@ -9,7 +9,6 @@
         android:minHeight="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:layout_scrollFlags="scroll|enterAlways"/>
 
 <!--<?xml version="1.0" encoding="utf-8"?>
@@ -22,4 +21,3 @@
     android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
 android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"-->
-

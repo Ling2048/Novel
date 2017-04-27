@@ -83,6 +83,8 @@ namespace NovelAPP
             };
 
             footBtn = new Button(this);
+            footBtn.SetBackgroundResource(Resource.Color.btn_bg);
+            footBtn.SetTextColor(Color.White);
             footBtn.Text = "查看完整目录";
             footBtn.Click += (sender, e) => {
                 Toast.MakeText(this, "正在加载完整目录！", ToastLength.Long).Show();
@@ -117,7 +119,7 @@ namespace NovelAPP
                     return;
                 }
                 chapterList = model.ChapterList;
-                adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleExpandableListItem1, getData(model.ChapterList));
+                adapter = new ArrayAdapter(this, Resource.Layout.Draw_List_Item, getData(model.ChapterList));
                 chapterListView.Adapter = adapter;
                 chapterListView.AddFooterView(footBtn);
                 TextView tv = null;

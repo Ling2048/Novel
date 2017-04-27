@@ -1097,44 +1097,44 @@ namespace NovelAPP
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_background_cache_hint_selector_material_dark = 2131427408;
-			
-			// aapt resource value: 0x7f0b0051
-			public const int abc_background_cache_hint_selector_material_light = 2131427409;
-			
 			// aapt resource value: 0x7f0b0052
-			public const int abc_btn_colored_borderless_text_material = 2131427410;
+			public const int abc_background_cache_hint_selector_material_dark = 2131427410;
 			
 			// aapt resource value: 0x7f0b0053
-			public const int abc_btn_colored_text_material = 2131427411;
+			public const int abc_background_cache_hint_selector_material_light = 2131427411;
 			
 			// aapt resource value: 0x7f0b0054
-			public const int abc_color_highlight_material = 2131427412;
+			public const int abc_btn_colored_borderless_text_material = 2131427412;
 			
 			// aapt resource value: 0x7f0b0055
-			public const int abc_hint_foreground_material_dark = 2131427413;
+			public const int abc_btn_colored_text_material = 2131427413;
 			
 			// aapt resource value: 0x7f0b0056
-			public const int abc_hint_foreground_material_light = 2131427414;
+			public const int abc_color_highlight_material = 2131427414;
+			
+			// aapt resource value: 0x7f0b0057
+			public const int abc_hint_foreground_material_dark = 2131427415;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int abc_hint_foreground_material_light = 2131427416;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_input_method_navigation_guard = 2131427329;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int abc_primary_text_disable_only_material_dark = 2131427415;
-			
-			// aapt resource value: 0x7f0b0058
-			public const int abc_primary_text_disable_only_material_light = 2131427416;
-			
 			// aapt resource value: 0x7f0b0059
-			public const int abc_primary_text_material_dark = 2131427417;
+			public const int abc_primary_text_disable_only_material_dark = 2131427417;
 			
 			// aapt resource value: 0x7f0b005a
-			public const int abc_primary_text_material_light = 2131427418;
+			public const int abc_primary_text_disable_only_material_light = 2131427418;
 			
 			// aapt resource value: 0x7f0b005b
-			public const int abc_search_url_text = 2131427419;
+			public const int abc_primary_text_material_dark = 2131427419;
+			
+			// aapt resource value: 0x7f0b005c
+			public const int abc_primary_text_material_light = 2131427420;
+			
+			// aapt resource value: 0x7f0b005d
+			public const int abc_search_url_text = 2131427421;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int abc_search_url_text_normal = 2131427330;
@@ -1145,38 +1145,41 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0004
 			public const int abc_search_url_text_selected = 2131427332;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int abc_secondary_text_material_dark = 2131427420;
-			
-			// aapt resource value: 0x7f0b005d
-			public const int abc_secondary_text_material_light = 2131427421;
-			
 			// aapt resource value: 0x7f0b005e
-			public const int abc_tint_btn_checkable = 2131427422;
+			public const int abc_secondary_text_material_dark = 2131427422;
 			
 			// aapt resource value: 0x7f0b005f
-			public const int abc_tint_default = 2131427423;
+			public const int abc_secondary_text_material_light = 2131427423;
 			
 			// aapt resource value: 0x7f0b0060
-			public const int abc_tint_edittext = 2131427424;
+			public const int abc_tint_btn_checkable = 2131427424;
 			
 			// aapt resource value: 0x7f0b0061
-			public const int abc_tint_seek_thumb = 2131427425;
+			public const int abc_tint_default = 2131427425;
 			
 			// aapt resource value: 0x7f0b0062
-			public const int abc_tint_spinner = 2131427426;
+			public const int abc_tint_edittext = 2131427426;
 			
 			// aapt resource value: 0x7f0b0063
-			public const int abc_tint_switch_thumb = 2131427427;
+			public const int abc_tint_seek_thumb = 2131427427;
 			
 			// aapt resource value: 0x7f0b0064
-			public const int abc_tint_switch_track = 2131427428;
+			public const int abc_tint_spinner = 2131427428;
+			
+			// aapt resource value: 0x7f0b0065
+			public const int abc_tint_switch_thumb = 2131427429;
+			
+			// aapt resource value: 0x7f0b0066
+			public const int abc_tint_switch_track = 2131427430;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int accent_material_dark = 2131427333;
 			
 			// aapt resource value: 0x7f0b0006
 			public const int accent_material_light = 2131427334;
+			
+			// aapt resource value: 0x7f0b0051
+			public const int all_bg = 2131427409;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int background_floating_material_dark = 2131427335;
@@ -1220,6 +1223,9 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0010
 			public const int bright_foreground_material_light = 2131427344;
 			
+			// aapt resource value: 0x7f0b0050
+			public const int btn_bg = 2131427408;
+			
 			// aapt resource value: 0x7f0b0011
 			public const int button_material_dark = 2131427345;
 			
@@ -1229,8 +1235,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b003b
 			public const int design_bottom_navigation_shadow_color = 2131427387;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int design_error = 2131427429;
+			// aapt resource value: 0x7f0b0067
+			public const int design_error = 2131427431;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int design_fab_shadow_end_color = 2131427388;
@@ -1262,8 +1268,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0045
 			public const int design_textinput_error_color_light = 2131427397;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int design_tint_password_toggle = 2131427430;
+			// aapt resource value: 0x7f0b0068
+			public const int design_tint_password_toggle = 2131427432;
 			
 			// aapt resource value: 0x7f0b0013
 			public const int dim_foreground_disabled_material_dark = 2131427347;
@@ -1385,11 +1391,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_disabled_material_light = 2131427384;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int switch_thumb_material_dark = 2131427431;
+			// aapt resource value: 0x7f0b0069
+			public const int switch_thumb_material_dark = 2131427433;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int switch_thumb_material_light = 2131427432;
+			// aapt resource value: 0x7f0b006a
+			public const int switch_thumb_material_light = 2131427434;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_dark = 2131427385;
@@ -2240,14 +2246,14 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07007c
 			public const int ChapterList = 2131165308;
 			
-			// aapt resource value: 0x7f07009b
-			public const int Date = 2131165339;
-			
 			// aapt resource value: 0x7f07009c
-			public const int NewChapter = 2131165340;
+			public const int Date = 2131165340;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int action0 = 2131165344;
+			// aapt resource value: 0x7f07009d
+			public const int NewChapter = 2131165341;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int action0 = 2131165345;
 			
 			// aapt resource value: 0x7f070064
 			public const int action_bar = 2131165284;
@@ -2270,17 +2276,17 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070041
 			public const int action_bar_title = 2131165249;
 			
-			// aapt resource value: 0x7f07009d
-			public const int action_container = 2131165341;
+			// aapt resource value: 0x7f07009e
+			public const int action_container = 2131165342;
 			
 			// aapt resource value: 0x7f070065
 			public const int action_context_bar = 2131165285;
 			
-			// aapt resource value: 0x7f0700a4
-			public const int action_divider = 2131165348;
+			// aapt resource value: 0x7f0700a5
+			public const int action_divider = 2131165349;
 			
-			// aapt resource value: 0x7f07009e
-			public const int action_image = 2131165342;
+			// aapt resource value: 0x7f07009f
+			public const int action_image = 2131165343;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2297,11 +2303,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070043
 			public const int action_mode_close_button = 2131165251;
 			
-			// aapt resource value: 0x7f07009f
-			public const int action_text = 2131165343;
+			// aapt resource value: 0x7f0700a0
+			public const int action_text = 2131165344;
 			
-			// aapt resource value: 0x7f0700ac
-			public const int actions = 2131165356;
+			// aapt resource value: 0x7f0700ad
+			public const int actions = 2131165357;
 			
 			// aapt resource value: 0x7f070044
 			public const int activity_chooser_view_content = 2131165252;
@@ -2324,8 +2330,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070020
 			public const int beginning = 2131165216;
 			
-			// aapt resource value: 0x7f070096
-			public const int bg_color = 2131165334;
+			// aapt resource value: 0x7f070097
+			public const int bg_color = 2131165335;
 			
 			// aapt resource value: 0x7f070028
 			public const int bottom = 2131165224;
@@ -2336,8 +2342,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07004b
 			public const int buttonPanel = 2131165259;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int cancel_action = 2131165345;
+			// aapt resource value: 0x7f0700a2
+			public const int cancel_action = 2131165346;
 			
 			// aapt resource value: 0x7f070030
 			public const int center = 2131165232;
@@ -2357,8 +2363,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070082
 			public const int child_title = 2131165314;
 			
-			// aapt resource value: 0x7f0700a9
-			public const int chronometer = 2131165353;
+			// aapt resource value: 0x7f0700aa
+			public const int chronometer = 2131165354;
 			
 			// aapt resource value: 0x7f070039
 			public const int clip_horizontal = 2131165241;
@@ -2429,8 +2435,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070021
 			public const int end = 2131165217;
 			
-			// aapt resource value: 0x7f0700b2
-			public const int end_padder = 2131165362;
+			// aapt resource value: 0x7f0700b3
+			public const int end_padder = 2131165363;
 			
 			// aapt resource value: 0x7f07002a
 			public const int enterAlways = 2131165226;
@@ -2459,11 +2465,14 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07003f
 			public const int @fixed = 2131165247;
 			
-			// aapt resource value: 0x7f070095
-			public const int font_color = 2131165333;
+			// aapt resource value: 0x7f070096
+			public const int font_color = 2131165334;
 			
 			// aapt resource value: 0x7f070094
 			public const int font_content = 2131165332;
+			
+			// aapt resource value: 0x7f070095
+			public const int font_size = 2131165333;
 			
 			// aapt resource value: 0x7f070005
 			public const int home = 2131165189;
@@ -2474,8 +2483,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070049
 			public const int icon = 2131165257;
 			
-			// aapt resource value: 0x7f0700ad
-			public const int icon_group = 2131165357;
+			// aapt resource value: 0x7f0700ae
+			public const int icon_group = 2131165358;
 			
 			// aapt resource value: 0x7f070025
 			public const int ifRoom = 2131165221;
@@ -2483,11 +2492,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070046
 			public const int image = 2131165254;
 			
-			// aapt resource value: 0x7f070099
-			public const int img = 2131165337;
-			
 			// aapt resource value: 0x7f07009a
-			public const int info = 2131165338;
+			public const int img = 2131165338;
+			
+			// aapt resource value: 0x7f07009b
+			public const int info = 2131165339;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
@@ -2498,11 +2507,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070034
 			public const int left = 2131165236;
 			
-			// aapt resource value: 0x7f0700ae
-			public const int line1 = 2131165358;
+			// aapt resource value: 0x7f0700af
+			public const int line1 = 2131165359;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int line3 = 2131165360;
+			// aapt resource value: 0x7f0700b1
+			public const int line3 = 2131165361;
 			
 			// aapt resource value: 0x7f07000f
 			public const int listMode = 2131165199;
@@ -2513,14 +2522,14 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070087
 			public const int lv_left_menu = 2131165319;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int masked = 2131165368;
+			// aapt resource value: 0x7f0700b9
+			public const int masked = 2131165369;
 			
-			// aapt resource value: 0x7f0700a3
-			public const int media_actions = 2131165347;
+			// aapt resource value: 0x7f0700a4
+			public const int media_actions = 2131165348;
 			
-			// aapt resource value: 0x7f0700b6
-			public const int menu_CS = 2131165366;
+			// aapt resource value: 0x7f0700b7
+			public const int menu_CS = 2131165367;
 			
 			// aapt resource value: 0x7f07007e
 			public const int menu_Night = 2131165310;
@@ -2540,8 +2549,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07008e
 			public const int navigation_header_container = 2131165326;
 			
-			// aapt resource value: 0x7f070098
-			public const int negativeButton = 2131165336;
+			// aapt resource value: 0x7f070099
+			public const int negativeButton = 2131165337;
 			
 			// aapt resource value: 0x7f070026
 			public const int never = 2131165222;
@@ -2552,14 +2561,14 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070010
 			public const int normal = 2131165200;
 			
-			// aapt resource value: 0x7f0700ab
-			public const int notification_background = 2131165355;
+			// aapt resource value: 0x7f0700ac
+			public const int notification_background = 2131165356;
+			
+			// aapt resource value: 0x7f0700a7
+			public const int notification_main_column = 2131165351;
 			
 			// aapt resource value: 0x7f0700a6
-			public const int notification_main_column = 2131165350;
-			
-			// aapt resource value: 0x7f0700a5
-			public const int notification_main_column_container = 2131165349;
+			public const int notification_main_column_container = 2131165350;
 			
 			// aapt resource value: 0x7f070037
 			public const int parallax = 2131165239;
@@ -2567,14 +2576,14 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07004d
 			public const int parentPanel = 2131165261;
 			
-			// aapt resource value: 0x7f0700b3
-			public const int parent_title = 2131165363;
+			// aapt resource value: 0x7f0700b4
+			public const int parent_title = 2131165364;
 			
 			// aapt resource value: 0x7f070038
 			public const int pin = 2131165240;
 			
-			// aapt resource value: 0x7f070097
-			public const int positiveButton = 2131165335;
+			// aapt resource value: 0x7f070098
+			public const int positiveButton = 2131165336;
 			
 			// aapt resource value: 0x7f070084
 			public const int progressBar1 = 2131165316;
@@ -2597,11 +2606,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070035
 			public const int right = 2131165237;
 			
-			// aapt resource value: 0x7f0700aa
-			public const int right_icon = 2131165354;
+			// aapt resource value: 0x7f0700ab
+			public const int right_icon = 2131165355;
 			
-			// aapt resource value: 0x7f0700a7
-			public const int right_side = 2131165351;
+			// aapt resource value: 0x7f0700a8
+			public const int right_side = 2131165352;
 			
 			// aapt resource value: 0x7f07001b
 			public const int screen = 2131165211;
@@ -2621,8 +2630,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070040
 			public const int scrollable = 2131165248;
 			
-			// aapt resource value: 0x7f0700b5
-			public const int search = 2131165365;
+			// aapt resource value: 0x7f0700b6
+			public const int search = 2131165366;
 			
 			// aapt resource value: 0x7f070068
 			public const int search_badge = 2131165288;
@@ -2699,8 +2708,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070036
 			public const int start = 2131165238;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int status_bar_latest_event_content = 2131165346;
+			// aapt resource value: 0x7f0700a3
+			public const int status_bar_latest_event_content = 2131165347;
 			
 			// aapt resource value: 0x7f07005e
 			public const int submenuarrow = 2131165278;
@@ -2708,8 +2717,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07006f
 			public const int submit_area = 2131165295;
 			
-			// aapt resource value: 0x7f0700b4
-			public const int suggestion_tview = 2131165364;
+			// aapt resource value: 0x7f0700b5
+			public const int suggestion_tview = 2131165365;
 			
 			// aapt resource value: 0x7f07007b
 			public const int swipeRefreshLayout = 2131165307;
@@ -2717,11 +2726,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070011
 			public const int tabMode = 2131165201;
 			
-			// aapt resource value: 0x7f0700b1
-			public const int text = 2131165361;
+			// aapt resource value: 0x7f0700b2
+			public const int text = 2131165362;
 			
-			// aapt resource value: 0x7f0700af
-			public const int text2 = 2131165359;
+			// aapt resource value: 0x7f0700b0
+			public const int text2 = 2131165360;
 			
 			// aapt resource value: 0x7f070052
 			public const int textSpacerNoButtons = 2131165266;
@@ -2738,8 +2747,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07000d
 			public const int textinput_error = 2131165197;
 			
-			// aapt resource value: 0x7f0700a8
-			public const int time = 2131165352;
+			// aapt resource value: 0x7f0700a9
+			public const int time = 2131165353;
 			
 			// aapt resource value: 0x7f07004a
 			public const int title = 2131165258;
@@ -2777,8 +2786,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07000e
 			public const int view_offset_helper = 2131165198;
 			
-			// aapt resource value: 0x7f0700b7
-			public const int visible = 2131165367;
+			// aapt resource value: 0x7f0700b8
+			public const int visible = 2131165368;
 			
 			// aapt resource value: 0x7f070027
 			public const int withText = 2131165223;
@@ -2984,79 +2993,82 @@ namespace NovelAPP
 			public const int dialog_normal_layout = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int ListItem = 2130903088;
+			public const int Draw_List_Item = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int Main = 2130903089;
+			public const int ListItem = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_action = 2130903090;
+			public const int Main = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_action_tombstone = 2130903091;
+			public const int notification_action = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_media_action = 2130903092;
+			public const int notification_action_tombstone = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_media_cancel_action = 2130903093;
+			public const int notification_media_action = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media = 2130903094;
+			public const int notification_media_cancel_action = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media_custom = 2130903095;
+			public const int notification_template_big_media = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_big_media_narrow = 2130903096;
+			public const int notification_template_big_media_custom = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_big_media_narrow_custom = 2130903097;
+			public const int notification_template_big_media_narrow = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_custom_big = 2130903098;
+			public const int notification_template_big_media_narrow_custom = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_icon_group = 2130903099;
+			public const int notification_template_custom_big = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_lines_media = 2130903100;
+			public const int notification_template_icon_group = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_media = 2130903101;
+			public const int notification_template_lines_media = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_media_custom = 2130903102;
+			public const int notification_template_media = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_part_chronometer = 2130903103;
+			public const int notification_template_media_custom = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_part_time = 2130903104;
+			public const int notification_template_part_chronometer = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int parent_item = 2130903105;
+			public const int notification_template_part_time = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int SearchView_Suggestions_ItemView = 2130903106;
+			public const int parent_item = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_item_material = 2130903107;
+			public const int SearchView_Suggestions_ItemView = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int select_dialog_multichoice_material = 2130903108;
+			public const int select_dialog_item_material = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int select_dialog_singlechoice_material = 2130903109;
+			public const int select_dialog_multichoice_material = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int support_simple_spinner_dropdown_item = 2130903110;
+			public const int select_dialog_singlechoice_material = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int toolbar = 2130903111;
+			public const int support_simple_spinner_dropdown_item = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int top_menus = 2130903112;
+			public const int toolbar = 2130903112;
+			
+			// aapt resource value: 0x7f030049
+			public const int top_menus = 2130903113;
 			
 			static Layout()
 			{

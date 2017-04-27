@@ -12,4 +12,6 @@
     <color name="text_topbar">#694E42</color>
     <color name="div_white">#E5E5E5</color>
 
+    <color name="btn_bg">#010c14</color>
+    <color name="all_bg">#032139</color>
 </resources>

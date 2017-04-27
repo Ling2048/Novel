@@ -156,7 +156,7 @@ namespace NovelAPP
             mDrawerToggle.SyncState();
             mDrawerLayout.AddDrawerListener(mDrawerToggle);
 
-            mDrawList.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleExpandableListItem1, Helper.GetDrawListData());
+            mDrawList.Adapter = new ArrayAdapter(this, Resource.Layout.Draw_List_Item, Helper.GetDrawListData());
             mDrawList.ItemClick += MDrawList_ItemClick;
 
             listview.ItemClick += new EventHandler<AdapterView.ItemClickEventArgs>(ListView_ItemClick);
@@ -210,6 +210,8 @@ namespace NovelAPP
             listview.Adapter = adapter;
 
             footBtn = new Button(this);
+            footBtn.SetBackgroundResource(Resource.Color.btn_bg);// = new 
+            footBtn.SetTextColor(Color.White);
             footBtn.Text = "加载更多";
             footBtn.Click += (sender, e) => {
                 if (listview.Adapter.Count <= 0) { return; }
@@ -259,14 +261,14 @@ namespace NovelAPP
                             b.PutString("title", list[which].BookName);
                             Helper.IntentActivity(this, typeof(BookPageActivity), b);
                         };
-                        View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
+                        //View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
 
-                        PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
-                        mPopupWindow.Touchable = true;
-                        mPopupWindow.OutsideTouchable = true;
-                        mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
+                        //PopupWindow mPopupWindow = new PopupWindow(popupView, WindowManagerLayoutParams.MatchParent, WindowManagerLayoutParams.WrapContent);
+                        //mPopupWindow.Touchable = true;
+                        //mPopupWindow.OutsideTouchable = true;
+                        //mPopupWindow.ShowAsDropDown((Android.Views.View)sender);
                         //mPopupWindow.ShowAtLocation(FindViewById(Resource.Layout.Main), GravityFlags.Bottom, 0, 0);
-                        //new Android.App.AlertDialog.Builder(this).SetTitle("收藏列表").SetItems(source, dialogInterface).Show();
+                        new Android.App.AlertDialog.Builder(this).SetTitle("收藏列表").SetItems(source, dialogInterface).Show();
                     }
                     catch (System.Exception ex)
                     {
