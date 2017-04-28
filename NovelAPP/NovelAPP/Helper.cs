@@ -15,6 +15,10 @@ namespace NovelAPP
 {
     public class Helper
     {
+        //缓存路径
+        //this.CacheDir.Path;
+        public static string sdPath = Android.OS.Environment.ExternalStorageDirectory.Path;
+
         public static async void WriteCacheFile(Context context,string content,string cachePath,string fileName)
         {
             //string read = ReadCacheFile(context, cachePath, fileName);
@@ -51,6 +55,13 @@ namespace NovelAPP
         {
             List<string> list = new List<string>();
             list.Add("收藏列表");
+            list.Add("书签");
+            list.Add("换源");
+            list.Add("设置");
+            list.Add("测试Notification");
+            list.Add("启动Service");
+            list.Add("停止Service");
+            list.Add("检测Service是否启动");
             return list;
         }
 

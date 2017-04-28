@@ -2522,14 +2522,11 @@ namespace NovelAPP
 			// aapt resource value: 0x7f070087
 			public const int lv_left_menu = 2131165319;
 			
-			// aapt resource value: 0x7f0700b9
-			public const int masked = 2131165369;
+			// aapt resource value: 0x7f0700b8
+			public const int masked = 2131165368;
 			
 			// aapt resource value: 0x7f0700a4
 			public const int media_actions = 2131165348;
-			
-			// aapt resource value: 0x7f0700b7
-			public const int menu_CS = 2131165367;
 			
 			// aapt resource value: 0x7f07007e
 			public const int menu_Night = 2131165310;
@@ -2786,8 +2783,8 @@ namespace NovelAPP
 			// aapt resource value: 0x7f07000e
 			public const int view_offset_helper = 2131165198;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int visible = 2131165368;
+			// aapt resource value: 0x7f0700b7
+			public const int visible = 2131165367;
 			
 			// aapt resource value: 0x7f070027
 			public const int withText = 2131165223;

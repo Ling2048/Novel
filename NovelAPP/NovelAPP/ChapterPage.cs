@@ -151,12 +151,12 @@ namespace NovelAPP
             return base.OnOptionsItemSelected(item);
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            MenuInflater.Inflate(Resource.Layout.Chapter_top_menus, menu);
-            themeBtn = menu.FindItem(Resource.Id.menu_Night);
-            return base.OnCreateOptionsMenu(menu);
-        }
+        //public override bool OnCreateOptionsMenu(IMenu menu)
+        //{
+        //    MenuInflater.Inflate(Resource.Layout.Chapter_top_menus, menu);
+        //    themeBtn = menu.FindItem(Resource.Id.menu_Night);
+        //    return base.OnCreateOptionsMenu(menu);
+        //}
 
         public override bool DispatchTouchEvent(MotionEvent ev)
         {
@@ -311,5 +311,6 @@ namespace NovelAPP
             //cv.Put("fontsize", fontSize);
             //LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Insert("CHAPTERSTYLE", null, cv);
         }
+
     }
 }

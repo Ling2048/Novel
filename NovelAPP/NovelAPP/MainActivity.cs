@@ -16,10 +16,12 @@ using NovelWebSite;
 using Android.Database;
 using Android.Support.V7.App;
 using V7Widget = Android.Support.V7.Widget;
+using Android.Media;
+using Android.Content.PM;
 
 namespace NovelAPP
 {
-    [Activity(Label = "NovelAPP", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "NovelAPP", Icon = "@drawable/icon")]
     public class MainActivity : AppCompatActivity, V7Widget.SearchView.IOnQueryTextListener
     {
         int count = 1;
@@ -37,6 +39,7 @@ namespace NovelAPP
         private DrawerLayout mDrawerLayout;
         Android.Support.V7.Widget.Toolbar toolbar;
         ProgressBar progressbar;
+        private NotificationManager notificationManager;
 
         public bool OnQueryTextChange(string newText)
         {
@@ -151,7 +154,7 @@ namespace NovelAPP
             //    Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
             //}
 
-
+            notificationManager = (NotificationManager)GetSystemService(NotificationService);
 
             mDrawerToggle.SyncState();
             mDrawerLayout.AddDrawerListener(mDrawerToggle);
@@ -245,6 +248,7 @@ namespace NovelAPP
 
         private void MDrawList_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
+            NovelAPP.InterfaceInit.MyDialogInterface dialogInterface;
             switch (e.Position)
             {
                 case 0:
@@ -252,7 +256,7 @@ namespace NovelAPP
                     {
                         string[] source = LocationSqliteOpenHelper.GetInstance(this).GetKeepListS<Model.KeepModel, string>("BookName");
                         List<Model.KeepModel> list = LocationSqliteOpenHelper.GetInstance(this).GetKeepList<Model.KeepModel>();
-                        NovelAPP.InterfaceInit.MyDialogInterface dialogInterface = new NovelAPP.InterfaceInit.MyDialogInterface(this, list);
+                        dialogInterface = new NovelAPP.InterfaceInit.MyDialogInterface(this, list);
                         dialogInterface.Click = (dialog, which) =>
                         {
                             Bundle b = new Bundle();
@@ -276,10 +280,106 @@ namespace NovelAPP
                         Toast.MakeText(this, ex.Message + "|" + ex.GetType().FullName, ToastLength.Long).Show();
                     }
                     break;
+                case 1:
+                    dialogInterface = new InterfaceInit.MyDialogInterface();
+                    dialogInterface.Click = (dialog, which) =>
+                    {
+                        Toast.MakeText(this, BookHelper.GetCSTypeList()[which], ToastLength.Short).Show();
+                        if (typeName == BookHelper.GetCSTypeList()[which]) return;
+                        typeName = BookHelper.GetCSTypeList()[which];
+                        this.OnQueryTextSubmit(searchView.Query);
+                    };
+                    new Android.App.AlertDialog.Builder(this).SetTitle("选择源").SetItems(BookHelper.GetCSNameList().ToArray(), dialogInterface).Show();
+                    break;
+                case 4:
+                    /*弃用
+                    Notification notify = new Notification(Resource.Drawable.Icon, "普通通知");
+                    //初始化点击通知后打开的活动，我们点击通知之后都会打开对应的活动，所以我们需要初始化一个延迟意图，以便通知可以打开  
+                    PendingIntent pintent = PendingIntent.GetActivity(this, 0, new Intent(this, typeof(MainActivity)), PendingIntentFlags.UpdateCurrent);
+                    //设置通知的主体  
+                    notify.SetLatestEventInfo(this, "通知李白", "你二级没过", pintent);
+                    //发送通知  
+                    notification.Notify(0, notify);//0为该通知的ID，方便后面接收该通知
+                    */
+                    //API level 11
+                    Notification.Builder builder = new Notification.Builder(this);//新建Notification.Builder对象
+                    PendingIntent intent = PendingIntent.GetActivity(this, 0, new Intent(this, typeof(MainActivity)), 0);
+                    //PendingIntent点击通知后所跳转的页面
+                    builder.SetContentTitle("标题"); //ContentTitle("Bmob Test");
+                    builder.SetContentText("内容");
+                    builder.SetSmallIcon(Resource.Drawable.Icon);
+                    builder.SetContentIntent(intent);//执行intent
+                    Notification notification = builder.Build();//将builder对象转换为普通的notification
+                    notification.Flags |= NotificationFlags.AutoCancel;//点击通知后通知消失
+                    //获取系统默认的通知声音  
+                    Android.Net.Uri ringUri = RingtoneManager.GetDefaultUri(RingtoneType.Notification);
+                    notification.Sound = ringUri;
+                    notificationManager.Notify(0, notification);
+                    break;
+                case 5:
+                    try
+                    {
+                        //Toast.MakeText(this, "启动Service", ToastLength.Long).Show();
+                        Intent mIntent = new Intent("NotifycationNewChapterService");
+                        mIntent.SetAction("NotifycationNewChapterService");
+                        ComponentName cn = StartService(new Intent(GetExplicitIntent(this,mIntent)));
+                        Toast.MakeText(this, this.PackageName, ToastLength.Long).Show();
+                    }
+                    catch (System.Exception ex)
+                    {
+                        //string path = Android.OS.Environment.ExternalStorageDirectory.Path;
+                        Helper.WriteCacheFile(this, "StackTrace" + ex.Message + "\n", this.CacheDir.Path, "debug.log");
+                        Toast.MakeText(this, this.CacheDir.Path, ToastLength.Long).Show();
+                        //try
+                        //{
+                        //    //Helper.WriteCacheFile(this, "StackTrace" + ex.StackTrace + "\n", Helper.sdPath, "debug.log");
+                        //}
+                        //catch (System.Exception exx)
+                        //{
+                        //    Toast.MakeText(this, exx.StackTrace, ToastLength.Long).Show();
+                        //}
+                    }
+                    break;
+                case 6:
+                    StopService(new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService)));
+                    //StopService(new Intent("NotifycationNewChapterService"));
+                    break;
+                case 7:
+                    try
+                    {
+                        //Toast.MakeText(this, IsServiceRunning(this, "NotifycationNewChapterService").ToString(), ToastLength.Short).Show();
+                    }
+                    catch (System.Exception ex)
+                    {
+                        Toast.MakeText(this, ex.StackTrace, ToastLength.Short).Show();
+                    }
+                    //StopService(new Intent("NotifycationNewChapterService"));
+                    break;
                 default:break;
             }
         }
 
+        public static Intent GetExplicitIntent(Context context, Intent implicitIntent)
+        {
+            // Retrieve all services that can match the given intent
+            PackageManager pm = context.PackageManager;
+            IList<ResolveInfo> resolveInfo = pm.QueryIntentServices(implicitIntent, 0);
+            // Make sure only one match was found
+            if (resolveInfo == null || resolveInfo.Count != 1)
+            {
+                return null;
+            }
+            // Get component info and create ComponentName
+            ResolveInfo serviceInfo = resolveInfo[0];
+            string packageName = serviceInfo.ServiceInfo.PackageName;
+            string className = serviceInfo.ServiceInfo.Name;
+            ComponentName component = new ComponentName(packageName, className);
+            // Create a new intent. Use the old one for extras and such reuse
+            Intent explicitIntent = new Intent(implicitIntent);
+            // Set the component to be explicit
+            explicitIntent.SetComponent(component);
+            return explicitIntent;
+        }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
@@ -318,21 +418,21 @@ namespace NovelAPP
                 case Android.Resource.Id.Home:
                     this.Finish();
                     break;
-                case Resource.Id.menu_CS:
-                    Toast.MakeText(this, "换源", ToastLength.Short).Show();
-                    NovelAPP.InterfaceInit.MyDialogInterface dialogInterface = new InterfaceInit.MyDialogInterface();
-                    dialogInterface.Click = (dialog, which) =>
-                    {
-                        Toast.MakeText(this, BookHelper.GetCSTypeList()[which], ToastLength.Short).Show();
-                        if (typeName == BookHelper.GetCSTypeList()[which]) return;
-                        typeName = BookHelper.GetCSTypeList()[which];
-                        this.OnQueryTextSubmit(searchView.Query);
-                    };
-                    new Android.App.AlertDialog.Builder(this).SetTitle("选择源").SetItems(BookHelper.GetCSNameList().ToArray(), dialogInterface).Show();
-                    //new MyDialog.Builder(this).create().Show();
-                    //mPopupWindow.ShowAtLocation(FindViewById(Resource.Layout.Main), GravityFlags.Bottom, 0, 0);
-                    //new Android.App.AlertDialog.Builder(this).SetView(this.FindViewById<LinearLayout>(Resource.Layout.))
-                    break;
+                //case Resource.Id.menu_CS:
+                //    Toast.MakeText(this, "换源", ToastLength.Short).Show();
+                //    NovelAPP.InterfaceInit.MyDialogInterface dialogInterface = new InterfaceInit.MyDialogInterface();
+                //    dialogInterface.Click = (dialog, which) =>
+                //    {
+                //        Toast.MakeText(this, BookHelper.GetCSTypeList()[which], ToastLength.Short).Show();
+                //        if (typeName == BookHelper.GetCSTypeList()[which]) return;
+                //        typeName = BookHelper.GetCSTypeList()[which];
+                //        this.OnQueryTextSubmit(searchView.Query);
+                //    };
+                //    new Android.App.AlertDialog.Builder(this).SetTitle("选择源").SetItems(BookHelper.GetCSNameList().ToArray(), dialogInterface).Show();
+                //    //new MyDialog.Builder(this).create().Show();
+                //    //mPopupWindow.ShowAtLocation(FindViewById(Resource.Layout.Main), GravityFlags.Bottom, 0, 0);
+                //    //new Android.App.AlertDialog.Builder(this).SetView(this.FindViewById<LinearLayout>(Resource.Layout.))
+                //    break;
                 case Resource.Id.search:
                     Toast.MakeText(this, "查询", ToastLength.Short).Show();
                     break;

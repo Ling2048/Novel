@@ -88,13 +88,13 @@
         <android.support.v4.widget.SwipeRefreshLayout
             android:id="@+id/swipeRefreshLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
             <ListView
                 android:id="@+id/ChapterList"
                 android:layout_width="match_parent"
                 android:background="@color/all_bg"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content" />
         </android.support.v4.widget.SwipeRefreshLayout>
     </android.support.design.widget.CoordinatorLayout>
 </LinearLayout>
