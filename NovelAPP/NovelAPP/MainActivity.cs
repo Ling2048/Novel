@@ -21,7 +21,7 @@ using Android.Content.PM;
 
 namespace NovelAPP
 {
-    [Activity(Label = "NovelAPP", Icon = "@drawable/icon")]
+    [Activity(MainLauncher = true, Label = "NovelAPP", Icon = "@drawable/icon")]
     public class MainActivity : AppCompatActivity, V7Widget.SearchView.IOnQueryTextListener
     {
         int count = 1;
@@ -112,13 +112,15 @@ namespace NovelAPP
 
             foreach (Model.SearchModel m in list)
             {
-                JavaDictionary<string, object> d = new JavaDictionary<string, object>();
-                d.Add("title", m.Title);
-                d.Add("info", m.Profiles);
-                d.Add("img", m.PicHref);
-                d.Add("Date", m.Date);
-                d.Add("NewChapter", m.NewChapter);
-                d.Add("BookLink", m.BookLink);
+                JavaDictionary<string, object> d = new JavaDictionary<string, object>
+                {
+                    { "title", m.Title },
+                    { "info", m.Profiles },
+                    { "img", m.PicHref },
+                    { "Date", m.Date },
+                    { "NewChapter", m.NewChapter },
+                    { "BookLink", m.BookLink }
+                };
                 l.Add(d);
             }
             return l;
@@ -256,14 +258,16 @@ namespace NovelAPP
                     {
                         string[] source = LocationSqliteOpenHelper.GetInstance(this).GetKeepListS<Model.KeepModel, string>("BookName");
                         List<Model.KeepModel> list = LocationSqliteOpenHelper.GetInstance(this).GetKeepList<Model.KeepModel>();
-                        dialogInterface = new NovelAPP.InterfaceInit.MyDialogInterface(this, list);
-                        dialogInterface.Click = (dialog, which) =>
+                        dialogInterface = new NovelAPP.InterfaceInit.MyDialogInterface(this, list)
                         {
-                            Bundle b = new Bundle();
-                            BookHelper.NovelInstance = Factory.GetWebInterface(list[which].WebSite);
-                            b.PutString("href", list[which].BookUrl);
-                            b.PutString("title", list[which].BookName);
-                            Helper.IntentActivity(this, typeof(BookPageActivity), b);
+                            Click = (dialog, which) =>
+                            {
+                                Bundle b = new Bundle();
+                                BookHelper.NovelInstance = Factory.GetWebInterface(list[which].WebSite);
+                                b.PutString("href", list[which].BookUrl);
+                                b.PutString("title", list[which].BookName);
+                                Helper.IntentActivity(this, typeof(BookPageActivity), b);
+                            }
                         };
                         //View popupView = this.LayoutInflater.Inflate(Resource.Layout.dialog_normal_layout, null);
 
@@ -281,15 +285,28 @@ namespace NovelAPP
                     }
                     break;
                 case 1:
-                    dialogInterface = new InterfaceInit.MyDialogInterface();
-                    dialogInterface.Click = (dialog, which) =>
+                    //书签
+                    break;
+                case 2:
+                    dialogInterface = new InterfaceInit.MyDialogInterface()
                     {
-                        Toast.MakeText(this, BookHelper.GetCSTypeList()[which], ToastLength.Short).Show();
-                        if (typeName == BookHelper.GetCSTypeList()[which]) return;
-                        typeName = BookHelper.GetCSTypeList()[which];
-                        this.OnQueryTextSubmit(searchView.Query);
+                        Click = (dialog, which) =>
+                        {
+                            Toast.MakeText(this, BookHelper.GetCSTypeList()[which], ToastLength.Short).Show();
+                            if (typeName == BookHelper.GetCSTypeList()[which]) return;
+                            typeName = BookHelper.GetCSTypeList()[which];
+                            this.OnQueryTextSubmit(searchView.Query);
+                        }
                     };
                     new Android.App.AlertDialog.Builder(this).SetTitle("选择源").SetItems(BookHelper.GetCSNameList().ToArray(), dialogInterface).Show();
+                    break;
+                case 3:
+                    //设置
+                    //Intent settingIntent = new Intent();
+                    //settingIntent.SetClass(this, typeof(SettingActivity));
+                    ////settingIntent.PutExtra("href", new Bundle());
+                    //this.StartActivity(settingIntent);
+                    Helper.IntentActivity(this, typeof(SettingActivity), new Bundle());
                     break;
                 case 4:
                     /*弃用
@@ -320,9 +337,10 @@ namespace NovelAPP
                     try
                     {
                         //Toast.MakeText(this, "启动Service", ToastLength.Long).Show();
-                        Intent mIntent = new Intent("NotifycationNewChapterService");
-                        mIntent.SetAction("NotifycationNewChapterService");
-                        ComponentName cn = StartService(new Intent(GetExplicitIntent(this,mIntent)));
+                        Intent mIntent = new Intent(this,typeof(NovelAPP.Service.NotifycationNewChapterService));
+                        mIntent.PutExtra("Time", 1000 * 1);
+                        //mIntent.SetAction("NotifycationNewChapterService");
+                        ComponentName cn = StartService(new Intent(GetExplicitIntent(this, mIntent)));
                         Toast.MakeText(this, this.PackageName, ToastLength.Long).Show();
                     }
                     catch (System.Exception ex)
@@ -342,19 +360,22 @@ namespace NovelAPP
                     break;
                 case 6:
                     StopService(new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService)));
-                    //StopService(new Intent("NotifycationNewChapterService"));
+                    /* 隐式在5.0以上不可使用
+                     * StopService(new Intent("NotifycationNewChapterService"));*/
                     break;
                 case 7:
-                    try
-                    {
-                        //Toast.MakeText(this, IsServiceRunning(this, "NotifycationNewChapterService").ToString(), ToastLength.Short).Show();
-                    }
-                    catch (System.Exception ex)
-                    {
-                        Toast.MakeText(this, ex.StackTrace, ToastLength.Short).Show();
-                    }
+                    //try
+                    //{
+                    //    //Toast.MakeText(this, IsServiceRunning(this, "NotifycationNewChapterService").ToString(), ToastLength.Short).Show();
+                    //}
+                    //catch (System.Exception ex)
+                    //{
+                    //    Toast.MakeText(this, ex.StackTrace, ToastLength.Short).Show();
+                    //}
                     //StopService(new Intent("NotifycationNewChapterService"));
                     break;
+                case 8:
+                    throw new System.Exception("结束调试");
                 default:break;
             }
         }
@@ -467,11 +488,6 @@ namespace NovelAPP
                 }
             }
             return false;
-        }
-
-        private void Bw_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
-        {
-            throw new NotImplementedException();
         }
 
         private void Init()

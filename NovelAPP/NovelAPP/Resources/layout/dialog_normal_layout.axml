@@ -168,7 +168,7 @@
                 android:layout_width="114.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center"
-                android:background="?attr/colorAccent"
+                android:background="@color/btn_bg"
                 android:text="确定" />
             <Button
                 android:id="@+id/negativeButton"
@@ -177,7 +177,7 @@
                 android:layout_height="40.0dip"
                 android:layout_marginLeft="50.0dip"
                 android:gravity="center"
-                android:background="?attr/colorAccent"
+                android:background="@color/btn_bg"
                 android:text="取消" />
         </LinearLayout>
     </LinearLayout>

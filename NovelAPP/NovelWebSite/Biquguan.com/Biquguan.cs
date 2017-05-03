@@ -40,14 +40,16 @@ namespace NovelWebSite.Biquguan.com
             {
                 foreach (string i in item)
                 {
-                    SearchModel model = new SearchModel();
-                    model.Title = NSoup2.Helper.GetClassName("result-game-item-title-link", "title", i).Count > 0 ? NSoup2.Helper.GetClassName("result-game-item-title-link", "title", i)[0] : "";
-                    model.Profiles = NSoup2.Helper.SelectHtml("div.result-game-item-detail > p", i).Count > 0 ? NSoup2.Helper.SelectHtml("div.result-game-item-detail > p", i)[0] : "";
-                    model.Date = NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p > span + span", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p > span + span", i)[0] : "";
-                    model.NewChapter = NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", i)[0] : "";
-                    model.NewChapterHref = NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", "href", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", "href", i)[0] : "";
-                    model.BookLink = NSoup2.Helper.Select("div.result-game-item-pic > a", "href", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-pic > a", "href", i)[0] : "";
-                    model.PicHref = NSoup2.Helper.Select("div.result-game-item-pic > a > img", "src", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-pic > a > img", "src", i)[0] : "";
+                    SearchModel model = new SearchModel()
+                    {
+                        Title = NSoup2.Helper.GetClassName("result-game-item-title-link", "title", i).Count > 0 ? NSoup2.Helper.GetClassName("result-game-item-title-link", "title", i)[0] : "",
+                        Profiles = NSoup2.Helper.SelectHtml("div.result-game-item-detail > p", i).Count > 0 ? NSoup2.Helper.SelectHtml("div.result-game-item-detail > p", i)[0] : "",
+                        Date = NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p > span + span", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p > span + span", i)[0] : "",
+                        NewChapter = NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", i)[0] : "",
+                        NewChapterHref = NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", "href", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-detail > div > p + p + p + p > a", "href", i)[0] : "",
+                        BookLink = NSoup2.Helper.Select("div.result-game-item-pic > a", "href", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-pic > a", "href", i)[0] : "",
+                        PicHref = NSoup2.Helper.Select("div.result-game-item-pic > a > img", "src", i).Count > 0 ? NSoup2.Helper.Select("div.result-game-item-pic > a > img", "src", i)[0] : ""
+                    };
                     SearchList.Add(model);
                 }
             }

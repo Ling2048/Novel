@@ -17,14 +17,14 @@
     <item name="android:windowTranslucentStatus">true</item>
     <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
     <!-- colorPrimary is used for the default action bar background -->
-    <item name="colorPrimary">#010c14</item>
+    <item name="colorPrimary">#2d2d30</item>
     <!-- colorPrimaryDark is used for the status bar -->
-    <item name="colorPrimaryDark">#010c14</item>
+    <item name="colorPrimaryDark">#2d2d30</item>
     <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
-    <item name="colorAccent">#064271</item>
+    <item name="colorAccent">#007acc</item>
 
-    <item name="colorControlHighlight">#085796</item>
+    <item name="colorControlHighlight">#3e3e42</item>
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
   </style>
@@ -92,7 +92,6 @@
 
   <style name="Theme.Splash"
     parent="android:Theme.Holo.Light">
-    <item name="android:windowBackground">#085796</item>
     <item name="android:windowNoTitle">true</item>
     <item name="android:windowIsTranslucent">false</item>
     <item name="android:windowIsFloating">false</item>

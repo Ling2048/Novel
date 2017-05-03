@@ -35,6 +35,7 @@ namespace NovelAPP
             SetContentView(Resource.Layout.BookPage);
 
             var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            toolbar.SetPadding(0, Helper.GetStatusBarHeight(this), 0, 0);
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
@@ -72,7 +73,7 @@ namespace NovelAPP
                     }
                     adapter.Clear();
                     chapterList = model.ChapterList;
-                    foreach(string m in getData(model.ChapterList))
+                    foreach(string m in GetData(model.ChapterList))
                     {
                         adapter.Add(m);
                     }
@@ -99,7 +100,7 @@ namespace NovelAPP
                     }
                     chapterList = model.ChapterList;
                     adapter.Clear();
-                    foreach (string m in getData(model.ChapterList))
+                    foreach (string m in GetData(model.ChapterList))
                     {
                         adapter.Add(m);
                     }
@@ -119,7 +120,7 @@ namespace NovelAPP
                     return;
                 }
                 chapterList = model.ChapterList;
-                adapter = new ArrayAdapter(this, Resource.Layout.Draw_List_Item, getData(model.ChapterList));
+                adapter = new ArrayAdapter(this, Resource.Layout.Draw_List_Item, GetData(model.ChapterList));
                 chapterListView.Adapter = adapter;
                 chapterListView.AddFooterView(footBtn);
                 TextView tv = null;
@@ -176,6 +177,7 @@ namespace NovelAPP
                     cv.Put("website", BookHelper.NovelInstance.CurrentTypeName);
                     cv.Put("bookurl", BookLink);
                     cv.Put("bookname", SupportActionBar.Title);
+                    cv.Put("updatetime", this.FindViewById<TextView>(Resource.Id.cover_newDate).Text);
                     LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Insert("KEEPBOOK", null, cv);
                     keepItem.SetTitle("“— ’≤ÿ");
                     break;
@@ -188,7 +190,7 @@ namespace NovelAPP
             return base.OnOptionsItemSelected(item);
         }
 
-        private List<String> getData(IList<Model.ChapterLink> list)
+        private List<String> GetData(IList<Model.ChapterLink> list)
         {
 
             List<String> data = new List<string>();

@@ -3059,13 +3059,16 @@ namespace NovelAPP
 			public const int select_dialog_singlechoice_material = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int support_simple_spinner_dropdown_item = 2130903111;
+			public const int Setting = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int toolbar = 2130903112;
+			public const int support_simple_spinner_dropdown_item = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int top_menus = 2130903113;
+			public const int toolbar = 2130903113;
+			
+			// aapt resource value: 0x7f03004a
+			public const int top_menus = 2130903114;
 			
 			static Layout()
 			{
@@ -4115,6 +4118,9 @@ namespace NovelAPP
 			
 			// aapt resource value: 0x7f09016e
 			public const int Theme_Design_NoActionBar = 2131296622;
+			
+			// aapt resource value: 0x7f090187
+			public const int Theme_Splash = 2131296647;
 			
 			// aapt resource value: 0x7f09010e
 			public const int ThemeOverlay_AppCompat = 2131296526;

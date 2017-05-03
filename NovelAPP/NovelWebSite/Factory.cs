@@ -37,7 +37,7 @@ namespace NovelWebSite
                 di.Add(typeName, instance);
                 return instance;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }

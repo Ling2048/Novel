@@ -28,8 +28,8 @@ namespace NovelAPP
             private Context context;
             private String title;
             private String message;
-            private String positiveButtonText;
-            private String negativeButtonText;
+            //private String positiveButtonText;
+            //private String negativeButtonText;
             private View contentView;
             //private DialogInterface.OnClickListener positiveButtonClickListener;
             //private DialogInterface.OnClickListener negativeButtonClickListener;
@@ -67,11 +67,11 @@ namespace NovelAPP
             {
                 int DialogId = Resource.Style.Dialog;
                 int dialog_normal_layoutId = Resource.Layout.dialog_normal_layout;
-                int titleId = Resource.Id.title;
-                int positiveButtonId = 0;
-                int negativeButtonId = 0;
-                int messageId = 0;
-                int contentId = 0;
+                //int titleId = Resource.Id.title;
+                //int positiveButtonId = 0;
+                //int negativeButtonId = 0;
+                //int messageId = 0;
+                //int contentId = 0;
 
                 LayoutInflater inflater = (LayoutInflater)context
                     .GetSystemService(Context.LayoutInflaterService);
@@ -79,7 +79,7 @@ namespace NovelAPP
                 MyDialog dialog = new MyDialog(context, DialogId);
                 View layout = inflater.Inflate(dialog_normal_layoutId, null);
                 dialog.AddContentView(layout, new LayoutParams(
-                        LayoutParams.FillParent, LayoutParams.WrapContent));
+                        LayoutParams.MatchParent, LayoutParams.WrapContent));
                 // set the dialog title  
                 //((TextView)layout.FindViewById(titleId)).Text = title;
                 //if (positiveButtonText != null)

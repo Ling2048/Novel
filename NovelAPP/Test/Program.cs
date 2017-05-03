@@ -12,12 +12,13 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            string intStr = "ffffffff";
+            string intStr = "更新：2017-05-03 12:26:56";
+            string s1 = intStr.Split('：')[1].ToString();
             int i = intStr.Length;
             //NSoup2.Helper.RemoveElement("p", content);
 
             //Helper.Get();
-            string url = "http://m.biquguan.com/bqg806/";
+            //string url = "http://m.biquguan.com/bqg806/";
             //string url = "http://m.biquguan.com/bqg806/2349080.html";
             NovelWebSite.Biquguan.com.Biquguan novel = new NovelWebSite.Biquguan.com.Biquguan();
 

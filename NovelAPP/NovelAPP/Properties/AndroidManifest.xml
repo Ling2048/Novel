@@ -6,7 +6,5 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-configuration android:reqTouchScreen="finger" />
 	<application android:theme="@style/MyTheme" android:logo="@drawable/Icon" android:label="NovelAPP">
-    <service android:name="NovelAPP.Service.NotifycationNewChapterService">
-    </service>
-  </application>
+	</application>
 </manifest>

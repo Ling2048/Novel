@@ -13,7 +13,7 @@ using Android.Content.PM;
 
 namespace NovelAPP
 {
-    [Activity(MainLauncher = true, NoHistory = true, Theme = "@style/Theme.Splash",
+    [Activity(NoHistory = true, Theme = "@style/Theme.Splash",
        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class SplashScreen : Activity
     {

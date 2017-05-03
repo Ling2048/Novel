@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Java.Lang;
+using Android.Media;
 
 namespace NovelAPP
 {
@@ -53,22 +54,25 @@ namespace NovelAPP
 
         public static List<string> GetDrawListData()
         {
-            List<string> list = new List<string>();
-            list.Add("收藏列表");
-            list.Add("书签");
-            list.Add("换源");
-            list.Add("设置");
-            list.Add("测试Notification");
-            list.Add("启动Service");
-            list.Add("停止Service");
-            list.Add("检测Service是否启动");
+            List<string> list = new List<string>
+            {
+                "收藏列表",
+                "书签",
+                "换源",
+                "设置",
+                "测试Notification",
+                "启动Service",
+                "停止Service",
+                "检测Service是否启动",
+                "抛异常"
+            };
             return list;
         }
 
         public static void IntentActivity(Context context, Type type, Bundle bundle)
         {
             Intent intent = new Intent();
-            intent.SetClass(context, typeof(BookPageActivity));
+            intent.SetClass(context, type);
             intent.PutExtra("href", bundle);
             context.StartActivity(intent);
         }
@@ -76,10 +80,12 @@ namespace NovelAPP
         public static void Include()
         {
             NovelWebSite.Biquguan.com.Biquguan b = new NovelWebSite.Biquguan.com.Biquguan();
-            Model.KeepModel k = new Model.KeepModel();
-            k.BookName = "";
-            k.BookUrl = "";
-            k.WebSite = "";
+            Model.KeepModel k = new Model.KeepModel()
+            {
+                BookName = "",
+                BookUrl = "",
+                WebSite = ""
+            };
         }
 
         public static void SetBlack(Android.Support.V7.Widget.Toolbar toolbar, LinearLayout ll, TextView contentView)
@@ -110,7 +116,7 @@ namespace NovelAPP
                         .Get(ob).ToString());
                 statusBarHeight = context.Resources.GetDimensionPixelSize(height);
             }
-            catch (System.Exception e)
+            catch (System.Exception)
             {
                 //e.StackTrace;
             }
@@ -122,6 +128,23 @@ namespace NovelAPP
         {
             float scale = context.Resources.DisplayMetrics.Density;
             return (int)(dpValue * scale + 0.5f);
+        }
+
+        public static void SendNotification(NotificationManager notificationManager,Context context,string title,string content)
+        {
+            Notification.Builder builder = new Notification.Builder(context);//新建Notification.Builder对象
+            PendingIntent intent1 = PendingIntent.GetActivity(context, 0, new Intent(context, typeof(MainActivity)), 0);
+            //PendingIntent点击通知后所跳转的页面
+            builder.SetContentTitle(title); //ContentTitle("Bmob Test");
+            builder.SetContentText(content);
+            builder.SetSmallIcon(Resource.Drawable.Icon);
+            builder.SetContentIntent(intent1);//执行intent
+            Notification notification = builder.Build();//将builder对象转换为普通的notification
+            notification.Flags |= NotificationFlags.AutoCancel;//点击通知后通知消失
+                                                               //获取系统默认的通知声音  
+            Android.Net.Uri ringUri = RingtoneManager.GetDefaultUri(RingtoneType.Notification);
+            notification.Sound = ringUri;
+            notificationManager.Notify(0, notification);
         }
     }
 }

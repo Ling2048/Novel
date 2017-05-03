@@ -33,7 +33,7 @@ namespace NovelAPP
             //查询缓存表
             db.ExecSQL("CREATE TABLE SEARCHCACHE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,content TEXT NOT NULL)");
             //收藏表
-            db.ExecSQL("CREATE TABLE KEEPBOOK(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,website TEXT NOT NULL,bookurl TEXT NOT NULL,bookname TEXT NOT NULL)");
+            db.ExecSQL("CREATE TABLE KEEPBOOK(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,website TEXT NOT NULL,bookurl TEXT NOT NULL,bookname TEXT NOT NULL,updatetime TEXT NOT NULL)");
             //章节样式表
             db.ExecSQL("CREATE TABLE CHAPTERSTYLE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,bgcolor TEXT NOT NULL,fontcolor TEXT NOT NULL,fontsize TEXT NOT NULL)");
             //throw new NotImplementedException();
@@ -192,7 +192,7 @@ namespace NovelAPP
                         {
                             string value = icc.GetString(i);
                             s += property.Name + "=" + value + "|" + property.ToString() + "|" + property.Name + "|读" + property.CanRead + "|写" + property.CanWrite + "\n";
-                            continue;
+                            //continue;
                             property.SetValue(oo, value);
                             continue;
                         }

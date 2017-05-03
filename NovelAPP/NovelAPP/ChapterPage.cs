@@ -26,7 +26,7 @@ namespace NovelAPP
     public class ChapterPage : AppCompatActivity
     {
         TextView contentView;
-        IMenuItem themeBtn;
+        //IMenuItem themeBtn;
         Toolbar toolbar;
         LinearLayout ll;
         bool IsBlack = false;
@@ -136,12 +136,12 @@ namespace NovelAPP
                     {
                         Helper.SetWhite(toolbar, ll, contentView);
                         IsBlack = false;
-                        themeBtn.SetTitle("黑");
+                        //themeBtn.SetTitle("黑");
                         break;
                     }
                     Helper.SetBlack(toolbar, ll, contentView);
                     IsBlack = true;
-                    themeBtn.SetTitle("白");
+                    //themeBtn.SetTitle("白");
                     break;
                 default:
                     Toast.MakeText(this, "Action selected: " + item.TitleFormatted,
@@ -237,19 +237,21 @@ namespace NovelAPP
             mPopupWindow.SoftInputMode = SoftInput.AdjustResize;// (WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
             mPopupWindow.InputMethodMode = Android.Widget.InputMethod.Needed;// (PopupWindow.INPUT_METHOD_NEEDED);
 
-            MyIOnDismissListener dismissListener = new MyIOnDismissListener();
-            dismissListener.extentdMethod = () => 
+            MyIOnDismissListener dismissListener = new MyIOnDismissListener()
             {
-                Toast.MakeText(this, "PopupWindow消失", ToastLength.Short).Show();
-                InputMethodManager imm = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
-                if (imm != null)
+                extentdMethod = () =>
                 {
-                    Toast.MakeText(this, "输入法消失", ToastLength.Short).Show();
+                    Toast.MakeText(this, "PopupWindow消失", ToastLength.Short).Show();
+                    InputMethodManager imm = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+                    if (imm != null)
+                    {
+                        Toast.MakeText(this, "输入法消失", ToastLength.Short).Show();
                     //imm.HideSoftInputFromWindow(mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_size).WindowToken, 0);
                     //imm.HideSoftInputFromWindow(mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.font_color).WindowToken, 0);
                     //imm.HideSoftInputFromWindow(mPopupWindow.ContentView.FindViewById<EditText>(Resource.Id.bg_color).WindowToken, 0);
                     imm.HideSoftInputFromWindow(popupView.WindowToken, 0);
                     //imm.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
+                }
                 }
             };
             mPopupWindow.SetOnDismissListener(dismissListener);
