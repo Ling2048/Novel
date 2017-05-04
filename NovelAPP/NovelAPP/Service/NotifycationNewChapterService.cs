@@ -43,14 +43,14 @@ namespace NovelAPP.Service
         public override StartCommandResult OnStartCommand(Intent intent, [GeneratedEnum] StartCommandFlags flags, int startId)
         {
             Handler handler = new Handler();
-            new Thread(new Action(() => 
+            Thread thread = new Thread(new Action(() => 
             {
-                
-                while(true)
+                do
                 {
                     Thread.Sleep(intent.GetIntExtra("Time", Arguments.Argument.NewChapterServiceUpdateTime));
                     //获取本地最新章节时间
                     List<Model.KeepModel> list = LocationSqliteOpenHelper.GetInstance(this).GetKeepList<Model.KeepModel>();
+                    if (list == null) return;
                     //获取网络最新章节时间
                     foreach (Model.KeepModel keepModel in list)
                     {
@@ -62,13 +62,16 @@ namespace NovelAPP.Service
                                 return;
                             }
                             //对比最新章节时间
-                            DateTime newDate = Convert.ToDateTime(model.NewDateTime.Split('：')[1].ToString().Trim());
-                            DateTime oldDate = Convert.ToDateTime(keepModel.UpdateTime.Split('：')[1].ToString().Trim());
-                            if (newDate > oldDate)
+                            DateTime newDate = Convert.ToDateTime(model.NewDateTime);
+                            DateTime oldDate = Convert.ToDateTime(keepModel.UpdateTime);
+                            if (newDate >= oldDate)
                             {
                                 handler.Post(() =>
                                 {
-                                    Helper.SendNotification(notificationManager,this, model.Title, model.NewChapterName + "|" + model.NewDateTime);
+                                    Bundle b = new Bundle();
+                                    b.PutString("href", keepModel.BookUrl);
+                                    b.PutString("title", keepModel.BookName);
+                                    Helper.SendNotification(notificationManager, this, model.Title, model.NewChapterName + "|" + model.NewDateTime, b);
                                     Toast.MakeText(this, model.NewDateTime + "|" + keepModel.UpdateTime, ToastLength.Long).Show();
                                 });
                                 //更新最新章节时间
@@ -79,9 +82,10 @@ namespace NovelAPP.Service
                             //throw new System.Exception("for debug");
                         }, 0);
                     }
-                    
                 }
-            })).Start();
+                while (true);
+            }));
+            thread.Start();
 
             /*不执行
             //System.ComponentModel.BackgroundWorker bw = new System.ComponentModel.BackgroundWorker();

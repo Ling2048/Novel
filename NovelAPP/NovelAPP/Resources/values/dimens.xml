@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
   <dimen name="title_size">15dp</dimen>
+  <dimen name="setting_size">25dp</dimen>
   <dimen name="profiles_size">7dp</dimen>
   <dimen name="newchapter_size">7dp</dimen>
 </resources>

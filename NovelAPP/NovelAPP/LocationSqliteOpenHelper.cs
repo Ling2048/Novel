@@ -36,6 +36,11 @@ namespace NovelAPP
             db.ExecSQL("CREATE TABLE KEEPBOOK(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,website TEXT NOT NULL,bookurl TEXT NOT NULL,bookname TEXT NOT NULL,updatetime TEXT NOT NULL)");
             //章节样式表
             db.ExecSQL("CREATE TABLE CHAPTERSTYLE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,bgcolor TEXT NOT NULL,fontcolor TEXT NOT NULL,fontsize TEXT NOT NULL)");
+            //设置信息表
+            db.ExecSQL("CREATE TABLE SETTINGINFO(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,isnotify TEXT NOT NULL)");
+            ContentValues cv = new ContentValues();
+            cv.Put("isnotify", "0");
+            db.Insert("SETTINGINFO", null, cv);
             //throw new NotImplementedException();
         }
 

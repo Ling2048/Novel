@@ -98,7 +98,7 @@ namespace NovelWebSite.Biquguan.com
                 ChapterLink link = new ChapterLink() { Name = chapterNameList[i], URL = chapterHrefList[i] };
                 chapterList.Add(link);
             }
-            BookPageModel model = new BookPageModel() { Author = authorList[0], NewDateTime = synopsisArea_detailList[2], NewChapterName = synopsisArea_detailList[3], PicHref = picHrefList[0], Review = reviewList[0], ChapterList = chapterList, Title = titleList[0] };
+            BookPageModel model = new BookPageModel() { Author = authorList[0].Split('：')[1].ToString().Trim(), NewDateTime = synopsisArea_detailList[2].Split('：')[1].ToString().Trim(), NewChapterName = synopsisArea_detailList[3].Split('：')[1].ToString().Trim(), PicHref = picHrefList[0], Review = reviewList[0], ChapterList = chapterList, Title = titleList[0] };
             CallBack(model,null);
             //throw new NotImplementedException();
         }

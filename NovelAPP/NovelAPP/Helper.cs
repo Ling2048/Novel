@@ -130,10 +130,12 @@ namespace NovelAPP
             return (int)(dpValue * scale + 0.5f);
         }
 
-        public static void SendNotification(NotificationManager notificationManager,Context context,string title,string content)
+        public static void SendNotification(NotificationManager notificationManager,Context context,string title,string content, Bundle bundle)
         {
             Notification.Builder builder = new Notification.Builder(context);//新建Notification.Builder对象
-            PendingIntent intent1 = PendingIntent.GetActivity(context, 0, new Intent(context, typeof(MainActivity)), 0);
+            Intent intent = new Intent(context, typeof(BookPageActivity));
+            intent.PutExtra("href", bundle);
+            PendingIntent intent1 = PendingIntent.GetActivity(context, 0, intent, 0);
             //PendingIntent点击通知后所跳转的页面
             builder.SetContentTitle(title); //ContentTitle("Bmob Test");
             builder.SetContentText(content);

@@ -125,11 +125,11 @@ namespace NovelAPP
                 chapterListView.AddFooterView(footBtn);
                 TextView tv = null;
                 tv = this.FindViewById<TextView>(Resource.Id.cover_author);
-                tv.Text = model.Author;
+                tv.Text = "作者:" + model.Author;
                 tv = this.FindViewById<TextView>(Resource.Id.cover_newDate);
-                tv.Text = model.NewDateTime;
+                tv.Text = "更新时间:" + model.NewDateTime;
                 tv = this.FindViewById<TextView>(Resource.Id.cover_newChepter);
-                tv.Text = model.NewChapterName;
+                tv.Text = "最新章节:" + model.NewChapterName;
                 progressbar.Visibility = ViewStates.Gone;
 
                 NovelWebSite.BookHelper.GetImageBitmapFromUrl(model.PicHref, imageBytes =>

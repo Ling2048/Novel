@@ -8,7 +8,14 @@
 	<include
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
-	<LinearLayout
+	<ListView
+        android:id="@+id/setting_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:background="@color/all_bg"/>
+	<!--<LinearLayout
+		android:padding="10dp"
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content">
@@ -18,15 +25,24 @@
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_gravity="left|center_vertical"
-			android:textColor="@color/text_gray"
-			android:textSize="@dimen/title_size" />
-		<ToggleButton   
+			android:textColor="@color/text_white"
+			android:textSize="@dimen/setting_size" />
+		<Switch
+			android:id="@+id/isSendUpdate"
+			android:layout_gravity="right|center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textOff="蓝牙关闭中"
+			android:textOn="蓝牙开启中"
+			android:track="@drawable/track"
+			android:thumb="@drawable/thumb"/>
+		--><!--<ToggleButton   
 			android:layout_gravity="right|center_vertical"
             android:layout_width="wrap_content" 
 			android:layout_height="wrap_content"  
             android:checked="true" 
 			android:textOn="开" 
 			android:textOff="关"
-			android:text="更新"/>  
-	</LinearLayout>
+			android:text="更新"/>--><!--  
+	</LinearLayout>-->
 </LinearLayout>
