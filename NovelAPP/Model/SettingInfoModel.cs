@@ -8,7 +8,7 @@ namespace Model
 {
     public class SettingInfoModel
     {
-        public string _Id { get; set; }
-        public string IsNotify { get; set; }
+        public string _id { get; set; }
+        public string isnotify { get; set; }
     }
 }

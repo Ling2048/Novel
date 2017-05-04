@@ -83,7 +83,7 @@ namespace NovelAPP.Service
                         }, 0);
                     }
                 }
-                while (true);
+                while (false);
             }));
             thread.Start();
 

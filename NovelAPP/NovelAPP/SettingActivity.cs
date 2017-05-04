@@ -40,7 +40,7 @@ namespace NovelAPP
                 Switch btnSwitch = convertView.FindViewById<Switch>(Resource.Id.isSendUpdate);
                 if (title.Text.Equals("推送更新"))
                 {
-                    btnSwitch.Checked = settingInfoModel.IsNotify.Equals("1");
+                    btnSwitch.Checked = settingInfoModel.isnotify.Equals("1");
                 }
                 btnSwitch.Tag = title.Text;
                 btnSwitch.SetOnCheckedChangeListener(this);
