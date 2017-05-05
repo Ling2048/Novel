@@ -5,6 +5,5 @@
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-configuration android:reqTouchScreen="finger" />
-	<application android:theme="@style/MyTheme" android:logo="@drawable/Icon" android:label="NovelAPP">
-	</application>
+	<application android:theme="@style/MyTheme" android:logo="@drawable/Icon" android:label="NovelAPP"></application>
 </manifest>

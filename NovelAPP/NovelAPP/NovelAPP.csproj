@@ -127,6 +127,7 @@
     <Compile Include="Helper.cs" />
     <Compile Include="InterfaceInit\MyDialogInterface.cs" />
     <Compile Include="Interface\MyIOnDismissListener.cs" />
+    <Compile Include="Interface\MyOnCheckedChangeListener.cs" />
     <Compile Include="Interface\MyOnTouchListener.cs" />
     <Compile Include="LocationSqliteOpenHelper.cs" />
     <Compile Include="MainActivity.cs" />
@@ -156,6 +157,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Setting.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SplashScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -330,6 +334,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\setting_listitem.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bg_splash.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

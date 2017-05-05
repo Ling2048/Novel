@@ -28,6 +28,7 @@ namespace NovelAPP
         string BookLink = "";
         IMenuItem keepItem;
         ImageView Cover = null;
+        string Date = "";
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -128,6 +129,7 @@ namespace NovelAPP
                 tv.Text = "作者:" + model.Author;
                 tv = this.FindViewById<TextView>(Resource.Id.cover_newDate);
                 tv.Text = "更新时间:" + model.NewDateTime;
+                Date = model.NewDateTime;
                 tv = this.FindViewById<TextView>(Resource.Id.cover_newChepter);
                 tv.Text = "最新章节:" + model.NewChapterName;
                 progressbar.Visibility = ViewStates.Gone;
@@ -177,7 +179,7 @@ namespace NovelAPP
                     cv.Put("website", BookHelper.NovelInstance.CurrentTypeName);
                     cv.Put("bookurl", BookLink);
                     cv.Put("bookname", SupportActionBar.Title);
-                    cv.Put("updatetime", this.FindViewById<TextView>(Resource.Id.cover_newDate).Text);
+                    cv.Put("updatetime", Date);
                     LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Insert("KEEPBOOK", null, cv);
                     keepItem.SetTitle("已收藏");
                     break;

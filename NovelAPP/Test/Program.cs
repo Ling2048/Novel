@@ -10,8 +10,28 @@ namespace Test
 {
     class Program
     {
+        delegate void TestRef(ref int a);
+        static TestRef tr;
+
+        public static void TestRefMethod(ref int a)
+        {
+            a++;
+        }
+
         static void Main(string[] args)
         {
+            //1
+            tr = TestRefMethod;
+            int a = 0;
+            tr.Invoke(ref a);
+
+
+
+
+
+
+
+
             string intStr = "更新：2017-05-03 12:26:56";
             string s1 = intStr.Split('：')[1].ToString();
             int i = intStr.Length;

@@ -15,7 +15,7 @@ namespace NovelAPP
 {
     public class MyAdapter<T> : BaseAdapter
     {
-        public delegate void InitListItem(int position, View listItem, ViewGroup parent, IList<T> list);
+        public delegate View InitListItem(int position,View listItem, ViewGroup parent, IList<T> list);
         public InitListItem InitDelegate;
         private IList<T> list = new List<T>();
         private Context context;
@@ -83,11 +83,7 @@ namespace NovelAPP
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            if (convertView == null)
-            {
-                convertView = LayoutInflater.From(context).Inflate(Convert.ToInt32(resId), null);
-            }
-            InitDelegate.Invoke(position, convertView, parent, list);
+            convertView = InitDelegate.Invoke(position, convertView, parent, list);
             return convertView;
             //return null;
         }

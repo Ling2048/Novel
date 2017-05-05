@@ -11,11 +11,12 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V7.App;
 using Android.Content.PM;
+using NovelAPP.Interface;
 
 namespace NovelAPP
 {
     [Activity(Label = "SettingActivity")]
-    public class SettingActivity : AppCompatActivity,CompoundButton.IOnCheckedChangeListener
+    public class SettingActivity : AppCompatActivity//,CompoundButton.IOnCheckedChangeListener
     {
         Android.Support.V7.Widget.Toolbar toolbar;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -34,16 +35,20 @@ namespace NovelAPP
 
             var listview = FindViewById<ListView>(Resource.Id.setting_list);
             MyAdapter<IDictionary<string, object>> adapter = new MyAdapter<IDictionary<string, object>>(this, GetDictionary(), Resource.Layout.setting_listitem);
-            adapter.InitDelegate += new MyAdapter<IDictionary<string, object>>.InitListItem((position, convertView, parent, list) => {
-                TextView title = (TextView)convertView.FindViewById(Resource.Id.title);
-                title.Text = (list[position] as JavaDictionary<string, object>)["title"].ToString();
-                Switch btnSwitch = convertView.FindViewById<Switch>(Resource.Id.isSendUpdate);
-                if (title.Text.Equals("推送更新"))
-                {
-                    btnSwitch.Checked = settingInfoModel.isnotify.Equals("1");
-                }
-                btnSwitch.Tag = title.Text;
-                btnSwitch.SetOnCheckedChangeListener(this);
+            adapter.InitDelegate += new MyAdapter<IDictionary<string, object>>.InitListItem((position,convertView, parent, list) => {
+                convertView = ((list[position] as JavaDictionary<string, object>)["InitListItem"] 
+                                as Func<int, Android.Views.View, Android.Views.ViewGroup, IList<IDictionary<string, object>>, Android.Views.View>)
+                                .Invoke(position, convertView, parent, list);
+                //TextView title = (TextView)convertView.FindViewById(Resource.Id.title);
+                //title.Text = (list[position] as JavaDictionary<string, object>)["title"].ToString();
+                //Switch btnSwitch = convertView.FindViewById<Switch>(Resource.Id.isSendUpdate);
+                //if (title.Text.Equals("推送更新"))
+                //{
+                //    btnSwitch.Checked = settingInfoModel.isnotify.Equals("1");
+                //}
+                //btnSwitch.Tag = title.Text;
+                //btnSwitch.SetOnCheckedChangeListener(this);
+                return convertView;
             });
             listview.Adapter = adapter;
 
@@ -63,11 +68,57 @@ namespace NovelAPP
         {
             IList<IDictionary<string, object>> l = new List<IDictionary<string, object>>();
 
-            JavaDictionary<string, object> d = new JavaDictionary<string, object>
+            //推送设置
+            JavaDictionary<string, object> NotifyNewChapter = new JavaDictionary<string, object>
             {
-                { "title", "推送更新" }
+                { "InitListItem", new Func<int,Android.Views.View,Android.Views.ViewGroup,IList<IDictionary<string, object>>,Android.Views.View>((position, convertView, parent, list)=>{
+
+                    string title = "推送更新";
+                    if (convertView == null)
+                    {
+                        convertView = LayoutInflater.From(this).Inflate(Convert.ToInt32(Resource.Layout.setting_listitem), null);
+                        Toast.MakeText(this,"convertView",ToastLength.Short).Show();
+                    }
+
+                    
+                    TextView titleView = (TextView)convertView.FindViewById(Resource.Id.title);
+                    titleView.Text = title;
+                    Switch btnSwitch = convertView.FindViewById<Switch>(Resource.Id.isSendUpdate);
+                    //读取推送设置
+                    Model.SettingInfoModel settingInfoModel = LocationSqliteOpenHelper.GetInstance(this).GetResultList<Model.SettingInfoModel>("SELECT isnotify FROM SETTINGINFO")[0];
+                    //设置推送按钮
+                    btnSwitch.Checked = settingInfoModel.isnotify.Equals("1");
+
+                    btnSwitch.SetOnCheckedChangeListener(new MyOnCheckedChangeListener((buttonView,isChecked)=>{
+                        string id = LocationSqliteOpenHelper.GetInstance(this).First_id("SELECT _id FROM SETTINGINFO");
+                        if (isChecked)
+                        {
+                            //推送
+                            Intent mIntent = new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService));
+                            mIntent.PutExtra("Time", 1000 * 1);
+                            ComponentName cn = StartService(new Intent(GetExplicitIntent(this, mIntent)));
+                            Toast.MakeText(this, this.PackageName, ToastLength.Long).Show();
+                            //更新数据库
+                            ContentValues cv = new ContentValues();
+                            cv.Put("isnotify", "1");
+                            LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("SETTINGINFO", cv, "_id = ?", new string[] { id });
+                            Toast.MakeText(this, "推送", ToastLength.Short).Show();
+                        }
+                        else
+                        {
+                            //销毁推送
+                            StopService(new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService)));
+                            //更新数据库
+                            ContentValues cv = new ContentValues();
+                            cv.Put("isnotify", "0");
+                            LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("SETTINGINFO", cv, "_id = ?", new string[] { id });
+                            Toast.MakeText(this, "不推送", ToastLength.Short).Show();
+                        }
+                    }) );
+                    return convertView;
+                }) }
             };
-            l.Add(d);
+            l.Add(NotifyNewChapter);
 
             return l;
         }
@@ -88,39 +139,39 @@ namespace NovelAPP
             return base.OnOptionsItemSelected(item);
         }
 
-        public void OnCheckedChanged(CompoundButton buttonView, bool isChecked)
-        {
-            string id = LocationSqliteOpenHelper.GetInstance(this).First_id("SELECT _id FROM SETTINGINFO");
-            switch (buttonView.Tag.ToString())
-            {
-                case "推送更新":
-                    if (isChecked)
-                    {
-                        //推送
-                        Intent mIntent = new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService));
-                        mIntent.PutExtra("Time", 1000 * 1);
-                        ComponentName cn = StartService(new Intent(GetExplicitIntent(this, mIntent)));
-                        Toast.MakeText(this, this.PackageName, ToastLength.Long).Show();
-                        //更新数据库
-                        ContentValues cv = new ContentValues();
-                        cv.Put("isnotify", "1");
-                        LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("SETTINGINFO", cv, "_id = ?", new string[] { id });
-                        Toast.MakeText(this, "推送", ToastLength.Short).Show();
-                    }
-                    else
-                    {
-                        //销毁推送
-                        StopService(new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService)));
-                        //更新数据库
-                        ContentValues cv = new ContentValues();
-                        cv.Put("isnotify", "0");
-                        LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("SETTINGINFO", cv, "_id = ?", new string[] { id });
-                        Toast.MakeText(this, "不推送", ToastLength.Short).Show();
-                    }
-                    break;
-            }
-            //throw new NotImplementedException();
-        }
+        //public void OnCheckedChanged(CompoundButton buttonView, bool isChecked)
+        //{
+        //    string id = LocationSqliteOpenHelper.GetInstance(this).First_id("SELECT _id FROM SETTINGINFO");
+        //    switch (buttonView.Tag.ToString())
+        //    {
+        //        case "推送更新":
+        //            if (isChecked)
+        //            {
+        //                //推送
+        //                Intent mIntent = new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService));
+        //                mIntent.PutExtra("Time", 1000 * 1);
+        //                ComponentName cn = StartService(new Intent(GetExplicitIntent(this, mIntent)));
+        //                Toast.MakeText(this, this.PackageName, ToastLength.Long).Show();
+        //                //更新数据库
+        //                ContentValues cv = new ContentValues();
+        //                cv.Put("isnotify", "1");
+        //                LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("SETTINGINFO", cv, "_id = ?", new string[] { id });
+        //                Toast.MakeText(this, "推送", ToastLength.Short).Show();
+        //            }
+        //            else
+        //            {
+        //                //销毁推送
+        //                StopService(new Intent(this, typeof(NovelAPP.Service.NotifycationNewChapterService)));
+        //                //更新数据库
+        //                ContentValues cv = new ContentValues();
+        //                cv.Put("isnotify", "0");
+        //                LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("SETTINGINFO", cv, "_id = ?", new string[] { id });
+        //                Toast.MakeText(this, "不推送", ToastLength.Short).Show();
+        //            }
+        //            break;
+        //    }
+        //    //throw new NotImplementedException();
+        //}
 
         public static Intent GetExplicitIntent(Context context, Intent implicitIntent)
         {

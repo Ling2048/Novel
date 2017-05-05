@@ -30,15 +30,21 @@ namespace NovelAPP
         }
         public override void OnCreate(SQLiteDatabase db)
         {
+            ContentValues cv;
             //查询缓存表
             db.ExecSQL("CREATE TABLE SEARCHCACHE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,content TEXT NOT NULL)");
             //收藏表
             db.ExecSQL("CREATE TABLE KEEPBOOK(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,website TEXT NOT NULL,bookurl TEXT NOT NULL,bookname TEXT NOT NULL,updatetime TEXT NOT NULL)");
             //章节样式表
             db.ExecSQL("CREATE TABLE CHAPTERSTYLE(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,bgcolor TEXT NOT NULL,fontcolor TEXT NOT NULL,fontsize TEXT NOT NULL)");
+            cv = new ContentValues();
+            cv.Put("bgcolor", "FF1E1E1E");
+            cv.Put("fontcolor", "FFDCDCDC");
+            cv.Put("fontsize", "20");
+            db.Insert("CHAPTERSTYLE", null, cv);
             //设置信息表
             db.ExecSQL("CREATE TABLE SETTINGINFO(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,isnotify TEXT NOT NULL)");
-            ContentValues cv = new ContentValues();
+            cv = new ContentValues();
             cv.Put("isnotify", "0");
             db.Insert("SETTINGINFO", null, cv);
             //throw new NotImplementedException();

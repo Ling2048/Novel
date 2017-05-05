@@ -21,7 +21,7 @@ using Android.Content.PM;
 
 namespace NovelAPP
 {
-    [Activity(MainLauncher = true, Label = "NovelAPP", Icon = "@drawable/icon")]
+    [Activity(Label = "NovelAPP", Icon = "@drawable/icon")]
     public class MainActivity : AppCompatActivity, V7Widget.SearchView.IOnQueryTextListener
     {
         int count = 1;
@@ -201,6 +201,11 @@ namespace NovelAPP
 
             adapter = new MyAdapter<IDictionary<string, object>>(this, SearchResultList,Resource.Layout.ListItem);
             adapter.InitDelegate += new InitListItem((position, convertView, parent, list) => {
+                if (convertView == null)
+                {
+                    convertView = LayoutInflater.From(this).Inflate(Convert.ToInt32(Resource.Layout.ListItem), null);
+                }
+
                 ImageView img = (ImageView)convertView.FindViewById(Resource.Id.img);
                 TextView title = (TextView)convertView.FindViewById(Resource.Id.title);
                 TextView info = (TextView)convertView.FindViewById(Resource.Id.info);
@@ -211,6 +216,7 @@ namespace NovelAPP
                 info.Text = Android.Text.Html.FromHtml((list[position] as JavaDictionary<string, object>)["info"].ToString(),Android.Text.FromHtmlOptions.OptionUseCssColors).ToString();
                 Date.Text = (list[position] as JavaDictionary<string, object>)["Date"].ToString();
                 NewChapter.Text = (list[position] as JavaDictionary<string, object>)["NewChapter"].ToString();
+                return convertView;
             });
             listview.Adapter = adapter;
 

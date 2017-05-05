@@ -50,7 +50,14 @@ namespace NovelAPP.Service
                     Thread.Sleep(intent.GetIntExtra("Time", Arguments.Argument.NewChapterServiceUpdateTime));
                     //获取本地最新章节时间
                     List<Model.KeepModel> list = LocationSqliteOpenHelper.GetInstance(this).GetKeepList<Model.KeepModel>();
-                    if (list == null) return;
+                    if (list == null)
+                    {
+                        handler.Post(() =>
+                        {
+                            Toast.MakeText(this, "没有收藏", ToastLength.Long).Show();
+                        });
+                        return;
+                    }
                     //获取网络最新章节时间
                     foreach (Model.KeepModel keepModel in list)
                     {
@@ -58,7 +65,6 @@ namespace NovelAPP.Service
                         {
                             if (ex != null)
                             {
-                                //Toast.MakeText(this, ex.Message, ToastLength.Long).Show();
                                 return;
                             }
                             //对比最新章节时间
@@ -79,7 +85,6 @@ namespace NovelAPP.Service
                                 cv.Put("updatetime", model.NewDateTime);
                                 LocationSqliteOpenHelper.GetInstance(this).WritableDatabase.Update("KEEPBOOK", cv, " _id = ? ", new string[] { keepModel._Id.ToString() });
                             }
-                            //throw new System.Exception("for debug");
                         }, 0);
                     }
                 }
