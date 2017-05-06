@@ -3,8 +3,8 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <ProjectView>ShowAllFiles</ProjectView>
-    <SelectedDevice>Xiaomi MI 4S</SelectedDevice>
-    <DefaultDevice>Androi6.0</DefaultDevice>
+    <SelectedDevice>Phone_armeabi-v7a_ToolsForApacheCordova</SelectedDevice>
+    <DefaultDevice>Phone_armeabi-v7a_ToolsForApacheCordova</DefaultDevice>
     <AndroidDesignerPreferredTheme>ThemeSplash</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

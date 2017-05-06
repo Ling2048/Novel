@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelAPP", "NovelAPP\NovelAPP.csproj", "{E828DE3B-A1D0-4985-9A0B-66FD7D5FC880}"
 EndProject
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelWebSite", "NovelWebSite\NovelWebSite.csproj", "{F13AA9AD-9461-4ED5-81AB-57BB3F9C9721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSoup", "F:\xamarin\NSoup-master\NSoup\NSoup.csproj", "{EA189DC2-2C8D-4B50-BEE8-8964D6BEDF33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSoup", "NSoup\NSoup.csproj", "{EA189DC2-2C8D-4B50-BEE8-8964D6BEDF33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
